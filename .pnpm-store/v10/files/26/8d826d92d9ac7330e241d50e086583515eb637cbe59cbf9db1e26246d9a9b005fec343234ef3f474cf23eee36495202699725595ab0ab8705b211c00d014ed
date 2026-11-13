@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const TrunkLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const TrunkFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=trunk.d.ts.map

@@ -1,0 +1,4 @@
+import React from "react";
+import type { IconWeight } from '../../lib';
+declare const _default: Map<IconWeight, React.ReactElement<unknown, string | React.JSXElementConstructor<any>>>;
+export default _default;

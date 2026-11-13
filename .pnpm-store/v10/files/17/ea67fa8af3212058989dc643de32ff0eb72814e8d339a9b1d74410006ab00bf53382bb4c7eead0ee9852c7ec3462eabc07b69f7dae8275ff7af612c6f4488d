@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const PhoneOffLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const PhoneOffFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=phone-off.d.ts.map

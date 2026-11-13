@@ -1,0 +1,102 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./ChatDots.mjs";
+import n from "./ChatLine.mjs";
+import r from "./ChatRoundCall.mjs";
+import i from "./ChatRoundCheck.mjs";
+import a from "./ChatRoundDots.mjs";
+import o from "./ChatRoundLike.mjs";
+import s from "./ChatRoundLine.mjs";
+import c from "./ChatRoundMoney.mjs";
+import l from "./ChatRoundUnread.mjs";
+import u from "./ChatRoundVideo.mjs";
+import d from "./ChatRound.mjs";
+import f from "./ChatSquareArrow.mjs";
+import p from "./ChatSquareCall.mjs";
+import m from "./ChatSquareCheck.mjs";
+import h from "./ChatSquareCode.mjs";
+import g from "./ChatSquareLike.mjs";
+import _ from "./ChatSquare.mjs";
+import v from "./ChatUnread.mjs";
+import y from "./CheckRead.mjs";
+import b from "./Dialog2.mjs";
+import x from "./Dialog.mjs";
+import S from "./ForwardRight.mjs";
+import C from "./InboxArchive.mjs";
+import w from "./InboxIn.mjs";
+import T from "./InboxLine.mjs";
+import E from "./InboxOut.mjs";
+import D from "./InboxUnread.mjs";
+import O from "./Inbox.mjs";
+import k from "./LetterOpened.mjs";
+import A from "./LetterUnread.mjs";
+import j from "./Letter.mjs";
+import M from "./Mailbox.mjs";
+import N from "./MultipleForwardLeft.mjs";
+import P from "./MultipleForwardRight.mjs";
+import F from "./Paperclip2.mjs";
+import I from "./PaperclipRounded2.mjs";
+import L from "./PaperclipRounded.mjs";
+import R from "./Paperclip.mjs";
+import z from "./Pen2.mjs";
+import B from "./PenNewRound.mjs";
+import V from "./PenNewSquare.mjs";
+import H from "./Pen.mjs";
+import U from "./Plain2.mjs";
+import W from "./Plain3.mjs";
+import G from "./Plain.mjs";
+import K from "./SquareForward.mjs";
+import q from "./SquareShareLine.mjs";
+import J from "./Unread.mjs";
+//#region src/ssr/messages/index.ts
+var Y = /* @__PURE__ */ e({
+	ChatDots: () => t,
+	ChatLine: () => n,
+	ChatRound: () => d,
+	ChatRoundCall: () => r,
+	ChatRoundCheck: () => i,
+	ChatRoundDots: () => a,
+	ChatRoundLike: () => o,
+	ChatRoundLine: () => s,
+	ChatRoundMoney: () => c,
+	ChatRoundUnread: () => l,
+	ChatRoundVideo: () => u,
+	ChatSquare: () => _,
+	ChatSquareArrow: () => f,
+	ChatSquareCall: () => p,
+	ChatSquareCheck: () => m,
+	ChatSquareCode: () => h,
+	ChatSquareLike: () => g,
+	ChatUnread: () => v,
+	CheckRead: () => y,
+	Dialog: () => x,
+	Dialog2: () => b,
+	ForwardRight: () => S,
+	Inbox: () => O,
+	InboxArchive: () => C,
+	InboxIn: () => w,
+	InboxLine: () => T,
+	InboxOut: () => E,
+	InboxUnread: () => D,
+	Letter: () => j,
+	LetterOpened: () => k,
+	LetterUnread: () => A,
+	Mailbox: () => M,
+	MultipleForwardLeft: () => N,
+	MultipleForwardRight: () => P,
+	Paperclip: () => R,
+	Paperclip2: () => F,
+	PaperclipRounded: () => L,
+	PaperclipRounded2: () => I,
+	Pen: () => H,
+	Pen2: () => z,
+	PenNewRound: () => B,
+	PenNewSquare: () => V,
+	Plain: () => G,
+	Plain2: () => U,
+	Plain3: () => W,
+	SquareForward: () => K,
+	SquareShareLine: () => q,
+	Unread: () => J
+});
+//#endregion
+export { Y as messages_exports };

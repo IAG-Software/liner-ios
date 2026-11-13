@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudRain instead
+ */
+declare const CloundRain: import("../../lib").Icon;
+export default CloundRain;

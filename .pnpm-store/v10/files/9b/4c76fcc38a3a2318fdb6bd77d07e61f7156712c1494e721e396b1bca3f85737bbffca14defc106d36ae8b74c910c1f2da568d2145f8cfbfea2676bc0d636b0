@@ -1,0 +1,5 @@
+import e from "./TrashBinMinimalistic2.mjs";
+//#region src/csr/ui/TrashBinMinimlistic2.ts
+var t = e;
+//#endregion
+export { t as default };

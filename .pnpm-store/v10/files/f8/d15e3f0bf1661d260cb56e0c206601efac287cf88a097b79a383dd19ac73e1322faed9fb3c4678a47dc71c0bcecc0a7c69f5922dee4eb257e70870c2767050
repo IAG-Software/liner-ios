@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Building4Line: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Building4Fill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=building-4.d.ts.map

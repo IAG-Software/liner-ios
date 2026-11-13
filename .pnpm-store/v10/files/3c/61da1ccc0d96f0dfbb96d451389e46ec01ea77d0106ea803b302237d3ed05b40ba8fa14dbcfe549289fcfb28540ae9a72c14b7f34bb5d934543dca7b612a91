@@ -1,0 +1,5 @@
+import e from "./SettingsMinimalistic.mjs";
+//#region src/ssr/settings/SettingsMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

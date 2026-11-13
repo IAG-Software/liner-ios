@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AspectRatioLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AspectRatioFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=aspect-ratio.d.ts.map

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Conditioner instead
+ */
+declare const Condicioner: import("../../lib").Icon;
+export default Condicioner;

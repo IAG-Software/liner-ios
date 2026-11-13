@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ZazenLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ZazenFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=zazen.d.ts.map

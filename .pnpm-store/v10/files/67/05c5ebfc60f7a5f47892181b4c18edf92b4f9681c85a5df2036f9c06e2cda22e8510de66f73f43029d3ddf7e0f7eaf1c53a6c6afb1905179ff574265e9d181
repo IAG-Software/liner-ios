@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ShieldMinimalistic instead
+ */
+declare const ShieldMinimlistic: import("../../lib").Icon;
+export default ShieldMinimlistic;

@@ -1,0 +1,5 @@
+import e from "./ListCrossMinimalistic.mjs";
+//#region src/csr/list/ListCrossMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

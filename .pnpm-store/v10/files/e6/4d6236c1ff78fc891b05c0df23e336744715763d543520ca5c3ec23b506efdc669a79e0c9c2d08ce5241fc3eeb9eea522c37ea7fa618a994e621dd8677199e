@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const WashMachineLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const WashMachineFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=wash-machine.d.ts.map

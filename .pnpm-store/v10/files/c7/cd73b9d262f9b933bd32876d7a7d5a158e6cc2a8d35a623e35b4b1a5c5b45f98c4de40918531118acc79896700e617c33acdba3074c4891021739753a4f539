@@ -1,0 +1,5 @@
+import e from "./TurntableMinimalistic.mjs";
+//#region src/ssr/devices/TurntableMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

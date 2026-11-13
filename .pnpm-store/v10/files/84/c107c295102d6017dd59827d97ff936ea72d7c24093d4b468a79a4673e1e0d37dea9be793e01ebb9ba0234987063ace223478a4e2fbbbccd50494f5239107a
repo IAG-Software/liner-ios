@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Cellphone2HorizontalLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Cellphone2HorizontalFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=cellphone-2-horizontal.d.ts.map

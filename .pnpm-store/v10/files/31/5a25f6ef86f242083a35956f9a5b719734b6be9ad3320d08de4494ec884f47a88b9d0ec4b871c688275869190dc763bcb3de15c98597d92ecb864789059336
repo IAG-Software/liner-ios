@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use MaskHappy instead
+ */
+declare const MaskHapply: import("../../lib").Icon;
+export default MaskHapply;

@@ -1,0 +1,12 @@
+//#region \0@oxc-project+runtime@0.130.0/helpers/objectWithoutPropertiesLoose.js
+function e(e, t) {
+	if (e == null) return {};
+	var n = {};
+	for (var r in e) if ({}.hasOwnProperty.call(e, r)) {
+		if (t.includes(r)) continue;
+		n[r] = e[r];
+	}
+	return n;
+}
+//#endregion
+export { e as _objectWithoutPropertiesLoose };

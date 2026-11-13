@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const RectangleLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const RectangleFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=rectangle.d.ts.map

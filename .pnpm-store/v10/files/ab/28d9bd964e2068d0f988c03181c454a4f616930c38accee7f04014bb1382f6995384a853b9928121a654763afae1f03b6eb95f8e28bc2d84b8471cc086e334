@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const CardboardVrLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const CardboardVrFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=cardboard-vr.d.ts.map

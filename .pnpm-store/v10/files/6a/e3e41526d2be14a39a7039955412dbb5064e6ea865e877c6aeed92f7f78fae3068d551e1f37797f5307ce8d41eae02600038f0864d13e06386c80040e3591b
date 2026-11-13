@@ -1,0 +1,13 @@
+'use strict';
+
+var jsxRuntime = require('react/jsx-runtime');
+var react = require('react');
+var Icon = require('../Icon.js');
+
+const BabyCarriageLine = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036q-.016-.004-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.016-.018m.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092q.019.005.029-.008l.004-.014-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M7.746 2.609a1.476 1.476 0 0 1 1.817.656l.06.117L12.643 10H18V8.5a2.5 2.5 0 0 1 2.336-2.495L20.5 6h.5a1 1 0 0 1 .117 1.993L21 8h-.5a.5.5 0 0 0-.492.41L20 8.5V11a9 9 0 0 1-2.489 6.213 2.5 2.5 0 1 1-3.506 2.451L14 19.485a9 9 0 0 1-5.629.123L8 19.485v.015a2.5 2.5 0 1 1-3.511-2.287A9 9 0 0 1 7.746 2.61ZM5.5 19a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m11 0a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1m1.428-7H4.072a7 7 0 0 0 13.856 0M8.012 4.67a7 7 0 0 0-3.89 5.03l-.05.3h6.372z" })] }) })));
+BabyCarriageLine.displayName = 'BabyCarriageLine';
+const BabyCarriageFill = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M7.746 2.609c.764-.296 1.566.093 1.877.773L12.643 10H18V8.5A2.5 2.5 0 0 1 20.5 6h.5a1 1 0 1 1 0 2h-.5a.5.5 0 0 0-.5.5V11a9 9 0 0 1-2.489 6.213A2.5 2.5 0 1 1 14 19.5v-.015a9 9 0 0 1-6 0v.015a2.5 2.5 0 1 1-3.511-2.287A9 9 0 0 1 7.746 2.609m.266 2.06A7 7 0 0 0 4.072 10h6.372L8.012 4.67Z" })] }) })));
+BabyCarriageFill.displayName = 'BabyCarriageFill';
+
+exports.BabyCarriageFill = BabyCarriageFill;
+exports.BabyCarriageLine = BabyCarriageLine;

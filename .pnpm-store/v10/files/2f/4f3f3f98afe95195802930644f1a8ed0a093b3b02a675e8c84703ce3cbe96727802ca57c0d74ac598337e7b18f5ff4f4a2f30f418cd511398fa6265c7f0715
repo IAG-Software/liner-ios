@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Edit3Line: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Edit3Fill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=edit-3.d.ts.map

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use NotebookMinimalistic instead
+ */
+declare const NotebookMinimlistic: import("../../lib").Icon;
+export default NotebookMinimlistic;

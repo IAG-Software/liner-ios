@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudBoltMinimalistic instead
+ */
+declare const CloudBoltMinimlistic: import("../../lib").Icon;
+export default CloudBoltMinimlistic;

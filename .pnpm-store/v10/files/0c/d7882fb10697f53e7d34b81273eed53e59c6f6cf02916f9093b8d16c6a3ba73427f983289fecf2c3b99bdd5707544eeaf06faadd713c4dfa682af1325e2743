@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BookmarkSquareMinimalistic instead
+ */
+declare const BookmarkSquareMinimlistic: import("../../lib").Icon;
+export default BookmarkSquareMinimlistic;

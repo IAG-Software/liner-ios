@@ -1,0 +1,5 @@
+import e from "./CrownMinimalistic.mjs";
+//#region src/ssr/ui/CrownMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

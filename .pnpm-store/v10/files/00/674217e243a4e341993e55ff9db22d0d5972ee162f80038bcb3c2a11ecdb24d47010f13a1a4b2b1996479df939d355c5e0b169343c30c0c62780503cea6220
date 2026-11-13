@@ -1,0 +1,18 @@
+import type { AnimationEngineInstance } from "./instance.js";
+import { type EasingLookup, type MotionCurve } from "./motionCurves.js";
+export type MotionKind = "scroll" | "slide";
+export interface ElementCurve extends MotionCurve {
+    kind: MotionKind;
+    onEnd?: () => void;
+}
+export interface ElementMotion {
+    animation: Animation;
+    curves: ElementCurve[];
+}
+export declare function timelineNow(engine: AnimationEngineInstance): number;
+export declare function addElementCurve(engine: AnimationEngineInstance, element: HTMLElement, curve: ElementCurve): void;
+export declare function removeElementCurves(engine: AnimationEngineInstance, element: HTMLElement, kind: MotionKind): void;
+export declare function stopElementMotion(engine: AnimationEngineInstance, element: HTMLElement): void;
+export declare function stopAllElementMotion(engine: AnimationEngineInstance): void;
+export declare function elementMotionOffsetPx(engine: AnimationEngineInstance, element: HTMLElement): number;
+export declare function easingLookup(engine: AnimationEngineInstance): EasingLookup;

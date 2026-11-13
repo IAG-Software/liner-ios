@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use TestTubeMinimalistic instead
+ */
+declare const TestTubeMinimlistic: import("../../lib").Icon;
+export default TestTubeMinimlistic;

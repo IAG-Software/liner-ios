@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Compass3Line: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Compass3Fill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=compass-3.d.ts.map

@@ -1,0 +1,5 @@
+import e from "./UploadMinimalistic.mjs";
+//#region src/ssr/arrows-action/UploadMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

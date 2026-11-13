@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use FireMinimalistic instead
+ */
+declare const FireMinimlistic: import("../../lib").Icon;
+export default FireMinimlistic;

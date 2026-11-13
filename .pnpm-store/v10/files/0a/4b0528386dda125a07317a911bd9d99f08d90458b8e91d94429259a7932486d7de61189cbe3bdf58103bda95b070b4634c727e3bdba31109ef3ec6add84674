@@ -1,0 +1,50 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Accumulator.mjs";
+import n from "./Bus.mjs";
+import r from "./ElectricRefueling.mjs";
+import i from "./GasStation.mjs";
+import a from "./KickScooter.mjs";
+import o from "./Scooter.mjs";
+import s from "./ShockAbsorber.mjs";
+import c from "./SpeedometerLow.mjs";
+import l from "./SpedometerLow.mjs";
+import u from "./SpeedometerMax.mjs";
+import d from "./SpedometerMax.mjs";
+import f from "./SpeedometerMiddle.mjs";
+import p from "./SpedometerMiddle.mjs";
+import m from "./SuspensionBolt.mjs";
+import h from "./SuspensionCross.mjs";
+import g from "./Suspension.mjs";
+import _ from "./Tram.mjs";
+import v from "./TransmissionCircle.mjs";
+import y from "./TransmissionSquare.mjs";
+import b from "./Transmission.mjs";
+import x from "./WheelAngle.mjs";
+import S from "./Wheel.mjs";
+//#region src/ssr/parts/index.ts
+var C = /* @__PURE__ */ e({
+	Accumulator: () => t,
+	Bus: () => n,
+	ElectricRefueling: () => r,
+	GasStation: () => i,
+	KickScooter: () => a,
+	Scooter: () => o,
+	ShockAbsorber: () => s,
+	SpedometerLow: () => l,
+	SpedometerMax: () => d,
+	SpedometerMiddle: () => p,
+	SpeedometerLow: () => c,
+	SpeedometerMax: () => u,
+	SpeedometerMiddle: () => f,
+	Suspension: () => g,
+	SuspensionBolt: () => m,
+	SuspensionCross: () => h,
+	Tram: () => _,
+	Transmission: () => b,
+	TransmissionCircle: () => v,
+	TransmissionSquare: () => y,
+	Wheel: () => S,
+	WheelAngle: () => x
+});
+//#endregion
+export { C as parts_exports };

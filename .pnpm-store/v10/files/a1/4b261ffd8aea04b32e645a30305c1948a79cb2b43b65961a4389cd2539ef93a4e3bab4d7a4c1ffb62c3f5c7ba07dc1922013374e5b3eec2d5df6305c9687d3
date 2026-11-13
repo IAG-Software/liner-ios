@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RadioMinimalistic instead
+ */
+declare const RadioMinimlistic: import("../../lib").Icon;
+export default RadioMinimlistic;

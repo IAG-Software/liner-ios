@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SidebarCode instead
+ */
+declare const SiderbarCode: import("../../lib").Icon;
+export default SiderbarCode;

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FanDirectionFrontLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FanDirectionFrontFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=fan-direction-front.d.ts.map

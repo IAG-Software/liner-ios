@@ -1,0 +1,5 @@
+import e from "./MagnifierZoomOut.mjs";
+//#region src/csr/search/MagniferZoomOut.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Liner</string>
+	<key>CFBundleExecutable</key>
+	<string>LinerMusic</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.iagsoftware.linermusic</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<!-- Required for installation on device; Xcode normally injects these. -->
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>16.5</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>CFBundleName</key>
+	<string>Liner Music</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2.12</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.iagsoftware.linermusic</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>liner</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.music</string>
+
+	<!-- Background audio: without this the process is suspended on lock even
+	     though AVAudioSessionCategoryPlayback is active. -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+		<string>metal</string>
+	</array>
+
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+
+	<!-- The player owns its own status bar styling (transparent, light content
+	     over the artwork gradient). -->
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+
+	<!-- Loose-file app icons (no asset catalogue, no Xcode actool). iOS resolves
+	     AppIcon60x60 + @2x/@3x from the bundle root. -->
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
+				<string>AppIcon83.5x83.5</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+
+	<!-- iOS 14+ launch screen: an empty dictionary yields the system
+	     background, which matches the app's black first paint. No storyboard is
+	     shipped, so `UILaunchStoryboardName` is intentionally absent. -->
+	<key>UILaunchScreen</key>
+	<dict/>
+
+	<!-- Files app integration: users can drop audio into Liner's Documents
+	     folder and import it from the local library. -->
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+
+	<!-- Exempt encryption: the app only uses HTTPS via rustls. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+
+	<!-- Liner streams from third-party CDNs (googlevideo, sndcdn, ytimg) whose
+	     TLS configuration is outside our control. ATS only governs URLSession;
+	     the Rust client uses rustls, and WKWebView media loads are exempt, but
+	     the exceptions below keep any WebKit resource load working too. -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsForMedia</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+
+	<!-- Playback is the only background mode; no location/mic/etc. -->
+	<key>NSHumanReadableCopyright</key>
+	<string>Liner — GPL-3.0</string>
+</dict>
+</plist>

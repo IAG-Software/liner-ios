@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const SunriseLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const SunriseFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=sunrise.d.ts.map

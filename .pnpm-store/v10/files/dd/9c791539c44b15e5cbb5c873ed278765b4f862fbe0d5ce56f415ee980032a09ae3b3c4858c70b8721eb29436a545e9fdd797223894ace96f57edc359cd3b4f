@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const PinwheelLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const PinwheelFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=pinwheel.d.ts.map

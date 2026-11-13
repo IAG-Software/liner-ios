@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ClassifyLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ClassifyFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=classify.d.ts.map

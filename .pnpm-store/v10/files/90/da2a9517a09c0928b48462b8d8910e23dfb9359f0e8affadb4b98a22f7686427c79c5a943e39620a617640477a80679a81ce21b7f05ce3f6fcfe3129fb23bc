@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AlignJustifyLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AlignJustifyFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=align-justify.d.ts.map

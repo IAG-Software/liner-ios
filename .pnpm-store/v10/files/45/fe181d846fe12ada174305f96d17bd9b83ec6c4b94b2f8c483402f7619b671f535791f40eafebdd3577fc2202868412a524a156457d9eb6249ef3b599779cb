@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ScorpioLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ScorpioFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=scorpio.d.ts.map

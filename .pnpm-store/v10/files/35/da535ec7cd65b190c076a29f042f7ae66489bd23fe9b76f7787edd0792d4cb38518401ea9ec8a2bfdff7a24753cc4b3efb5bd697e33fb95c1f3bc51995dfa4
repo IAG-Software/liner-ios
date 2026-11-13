@@ -1,0 +1,5 @@
+import e from "./BatteryLowMinimalistic.mjs";
+//#region src/csr/ui/BatteryLowMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

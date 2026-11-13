@@ -1,0 +1,10 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export declare function hasNoLyricsPlaceholder(engine: AnimationEngineInstance): boolean;
+export declare function hasUnsyncedLyrics(engine: AnimationEngineInstance): boolean;
+export declare function startPassiveScrollLoop(engine: AnimationEngineInstance): void;
+export declare function stopPassiveScrollLoop(engine: AnimationEngineInstance): void;
+/**
+ * The drift writes the scroll every frame, and a browser folds that scroll and the reader's into one
+ * event, so the drift's own scrolls are told apart by where they land rather than by counting them.
+ */
+export declare function isPassiveDriftScroll(engine: AnimationEngineInstance): boolean;

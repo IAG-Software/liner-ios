@@ -1,0 +1,1 @@
+var e=require(`./RemoteControllerMinimalistic.cjs`).default;exports.default=e;

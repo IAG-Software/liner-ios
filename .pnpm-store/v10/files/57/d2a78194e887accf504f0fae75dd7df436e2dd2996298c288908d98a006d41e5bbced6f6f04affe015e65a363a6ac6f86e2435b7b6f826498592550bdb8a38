@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ShopMinimalistic instead
+ */
+declare const ShopMinimlistic: import("../../lib").Icon;
+export default ShopMinimlistic;

@@ -1,0 +1,10 @@
+import type { AnimationData, LineData, PartData } from "../inject.js";
+export declare function releasePart(part: PartData): void;
+export declare function resetPartAnimations(part: AnimationData): void;
+export declare function hasLineAnimations(lineData: LineData): boolean;
+export declare function markLineAnimationsStopped(lineData: LineData): void;
+export declare function resetLineAnimationState(lineData: LineData): void;
+export declare function togglePartClass(part: LineData | PartData, className: string, force: boolean): void;
+export declare function setAnimationsPlayState(lineData: LineData, isPlaying: boolean): void;
+export declare function clearLineStateClasses(lineData: LineData): void;
+export declare function updateWordStates(lineData: LineData, currentTime: number): void;

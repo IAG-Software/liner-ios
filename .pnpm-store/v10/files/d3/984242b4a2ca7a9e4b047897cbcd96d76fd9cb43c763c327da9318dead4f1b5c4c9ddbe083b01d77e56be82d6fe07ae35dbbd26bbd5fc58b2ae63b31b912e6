@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const TunnelLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const TunnelFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=tunnel.d.ts.map

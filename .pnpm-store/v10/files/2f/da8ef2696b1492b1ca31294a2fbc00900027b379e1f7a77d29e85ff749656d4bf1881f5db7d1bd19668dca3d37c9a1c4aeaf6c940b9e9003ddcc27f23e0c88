@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ArcBrowserLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ArcBrowserFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=arc-browser.d.ts.map

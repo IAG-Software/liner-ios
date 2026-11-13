@@ -1,0 +1,106 @@
+import { type WordState } from "./constants.js";
+import type { Lyric, LyricPart, LyricSyncType } from "./types.js";
+export declare let disableRichsync: import("./themeSettings.js").Setting;
+export declare const hideCredits: import("./themeSettings.js").Setting;
+export declare function findNearestAgent(lyrics: Lyric[], fromIndex: number): string | undefined;
+export declare function isNearestLyricRtl(lyrics: Lyric[], fromIndex: number): boolean;
+export declare function deriveSyncType(lyrics: Lyric[]): LyricSyncType;
+export interface AnimationData {
+    /**
+     * Time of this part in seconds
+     */
+    time: number;
+    /**
+     * Duration of this part in seconds
+     */
+    duration: number;
+    lyricElement: HTMLElement;
+    animations: Animation[];
+}
+/** A copy of the word under a text shadow that never changes, faded in and out by opacity. */
+export interface SweepGlow {
+    glow: HTMLElement;
+    letters?: HTMLElement[];
+}
+/**
+ * One box of a word's sweep, run by the compositor: the whole word when it is its own inline-block
+ * box, or one letter of a word that flows inline. Its mask holds a static soft edge and slides one way
+ * while the text inside it slides the other, so the glyphs hold still and only the edge crosses them.
+ * The glow is a pair of halos at two radii inside the same text, so the edge reveals them with it,
+ * crossfaded so the glow tightens as it fades. With nothing animating, the mask rests with the cell
+ * fully lit.
+ */
+export interface SweepCell {
+    mask: HTMLElement;
+    text: HTMLElement;
+    letters?: HTMLElement[];
+    glows: SweepGlow[];
+    /** Where the cell sits along the word, as fractions of the word's width; equal shares if unset. */
+    span?: {
+        start: number;
+        width: number;
+    };
+}
+/**
+ * The sweep of a word that flows inline without letters: a word in a bidi-sensitive row or a long
+ * group whose script joins or whose letters are not split. Such a word can break across lines and
+ * shape with its neighbours, so no box of its own can hold the sweep. The engine places a cell over
+ * each box the word breaks into, drawing the word from a copy of its line, once the line is laid out.
+ */
+export interface SweepContext {
+    host?: HTMLElement;
+    placedAt?: string;
+    unplaced?: boolean;
+}
+export interface PartData extends AnimationData {
+    highlightElement: HTMLElement;
+    /** The sweep's cells in reading order. */
+    sweep?: SweepCell[];
+    sweepContext?: SweepContext;
+    letterElements?: HTMLElement[];
+    highlightLetterElements?: HTMLElement[];
+    wobbleElements: HTMLElement[];
+    glowSuppressed?: boolean;
+    wordState: WordState;
+}
+export type LineData = {
+    parts: PartData[];
+    isScrolled: boolean;
+    isAnimationPlayStatePlaying: boolean;
+    accumulatedOffsetMs: number;
+    isAnimating: boolean;
+    lastAnimSetupAt: number;
+    isSelected: boolean;
+    height: number;
+    position: number;
+    decorations: Map<HTMLElement, number>;
+} & AnimationData;
+export declare function newLineData(lyricElement: HTMLElement, startTimeMs: number, durationMs: number): LineData;
+export declare function applyDirection(element: HTMLElement, text: string): void;
+/** Puts a copy of the cell's text into an element, returning its letters if the word is split. */
+export type FillSweepText = (into: HTMLElement) => HTMLElement[] | undefined;
+export declare function createSweepCell(doc: Document, host: HTMLElement, fill: FillSweepText): SweepCell;
+export declare function createLyricsLine(doc: Document, parts: LyricPart[], line: LineData, lyricElement: HTMLElement, options?: {
+    splitBackgroundLine: boolean;
+}): HTMLElement;
+export declare function buildLineSyncedParts(item: Lyric): LyricPart[];
+export declare function addSeekHandler(seek: (timeS: number) => void, lyricElement: HTMLElement, allZero: boolean): void;
+/**
+ * Takes the romanization off a line, along with any timed parts it brought. A line a swap kept goes on
+ * carrying what was hung on it, so this is how a consumer drops one it no longer wants. Answers
+ * whether there was one to take off.
+ */
+export declare function removeRomanization(lyricElement: HTMLElement, lineData: LineData): boolean;
+/**
+ * Takes the translation off a line. A line a swap kept goes on carrying what was hung on it, so this is
+ * how a consumer drops one it no longer wants. Answers whether there was one to take off.
+ */
+export declare function removeTranslation(lyricElement: HTMLElement): boolean;
+/**
+ * Moves the translation and romanization hung on one line onto the line built in its place, with any
+ * timed parts they brought, so a line rebuilt for its timing keeps what the consumer hung on it. The
+ * parts are let go of whatever the old line was showing; the new line sets them up again with its own.
+ */
+export declare function moveDecorations(from: LineData, to: LineData): void;
+export declare function injectRomanization(doc: Document, lyricElement: HTMLElement, lineData: LineData, text: string, timedRomanization?: LyricPart[] | null): void;
+export declare function injectTranslation(doc: Document, lyricElement: HTMLElement, text: string, language?: string | null): void;

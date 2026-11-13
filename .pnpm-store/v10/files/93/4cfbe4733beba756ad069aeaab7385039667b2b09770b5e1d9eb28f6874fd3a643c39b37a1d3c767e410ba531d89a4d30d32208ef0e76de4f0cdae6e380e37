@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AirConditionLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AirConditionFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=air-condition.d.ts.map

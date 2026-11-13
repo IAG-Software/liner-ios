@@ -1,0 +1,5 @@
+import e from "./DumbbellLargeMinimalistic.mjs";
+//#region src/ssr/sports/DumbbellLargeMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

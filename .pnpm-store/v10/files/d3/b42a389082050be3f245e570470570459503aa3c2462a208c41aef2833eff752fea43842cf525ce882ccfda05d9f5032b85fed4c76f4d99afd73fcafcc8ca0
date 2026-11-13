@@ -1,0 +1,133 @@
+{
+  "name": "@solar-icons/react",
+  "version": "1.1.1",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Solar Icons for React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saoudi-h/solar-icons.git",
+    "directory": "packages/react"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "LICENSE-THIRD-PARTY"
+  ],
+  "module": "./dist/esm/index.mjs",
+  "main": "./dist/cjs/index.cjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./category": {
+      "import": "./dist/esm/csr/category.mjs",
+      "require": "./dist/cjs/csr/category.cjs",
+      "types": "./dist/types/csr/category.d.ts"
+    },
+    "./ssr/category": {
+      "import": "./dist/esm/ssr/category.mjs",
+      "require": "./dist/cjs/ssr/category.cjs",
+      "types": "./dist/types/ssr/category.d.ts"
+    },
+    "./icons/*": {
+      "import": "./dist/esm/csr/*.mjs",
+      "require": "./dist/cjs/csr/*.cjs",
+      "types": "./dist/types/csr/*.d.ts"
+    },
+    "./csr/*": {
+      "import": "./dist/esm/csr/*.mjs",
+      "require": "./dist/cjs/csr/*.cjs",
+      "types": "./dist/types/csr/*.d.ts"
+    },
+    "./lib/*": {
+      "import": "./dist/esm/lib/*.mjs",
+      "require": "./dist/cjs/lib/*.cjs",
+      "types": "./dist/types/lib/*.d.ts"
+    },
+    "./ssr": {
+      "import": "./dist/esm/ssr/index.mjs",
+      "require": "./dist/cjs/ssr/index.cjs",
+      "types": "./dist/types/ssr/index.d.ts"
+    },
+    "./ssr/*": {
+      "import": "./dist/esm/ssr/*.mjs",
+      "require": "./dist/cjs/ssr/*.cjs",
+      "types": "./dist/types/ssr/*.d.ts"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./*": {
+      "import": "./dist/esm/csr/*.mjs",
+      "require": "./dist/cjs/csr/*.cjs",
+      "types": "./dist/types/csr/*.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@tala-tools/eslint": "0.1.1",
+    "@tala-tools/prettier": "0.0.3",
+    "@tala-tools/tsconfig": "0.0.1",
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "dotenv": "^17.4.2",
+    "picocolors": "^1.1.1",
+    "prettier": "^3.8.3",
+    "react": "19.2.6",
+    "react-dom": "^19.2.6",
+    "rimraf": "^6.1.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13",
+    "vitest": "^4.1.6",
+    "@solar-icons/core": "1.1.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8",
+    "react-dom": ">= 16.8"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "solar",
+    "design",
+    "interface",
+    "phosphor",
+    "UI",
+    "UX"
+  ],
+  "author": {
+    "name": "Saoudi Hakim",
+    "url": "https://hakimsaoudi.dev",
+    "email": "saoudihakim@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saoudi-h/solar-icons/issues"
+  },
+  "scripts": {
+    "build": "pnpm generate:assets && pnpm copy:licenses && vite build && tsc --build tsconfig.build.json",
+    "copy:licenses": "cp ../../LICENSE ./LICENSE && cp ../../LICENSE-THIRD-PARTY ./LICENSE-THIRD-PARTY",
+    "generate:assets": "tsx scripts/generate-assets.ts",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier \"**/*\" --ignore-unknown --list-different",
+    "format:fix": "prettier \"**/*\" --ignore-unknown --write",
+    "clean": "rimraf *.tsbuildinfo node_modules build dist",
+    "typecheck": "tsc",
+    "test": "vitest run"
+  }
+}

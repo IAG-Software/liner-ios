@@ -1,0 +1,13 @@
+'use strict';
+
+var jsxRuntime = require('react/jsx-runtime');
+var react = require('react');
+var Icon = require('../Icon.js');
+
+const FormulaLine = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M5 4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V5a1 1 0 1 1-2 0H7v.54l6.562 5.625a1.1 1.1 0 0 1 0 1.67L7 18.46V19h10a1 1 0 1 1 2 0v.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 19.5v-1.27a1.5 1.5 0 0 1 .524-1.139L11.464 12l-5.94-5.091A1.5 1.5 0 0 1 5 5.77z" })] }) })));
+FormulaLine.displayName = 'FormulaLine';
+const FormulaFill = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M4.5 4.5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2V5a1.5 1.5 0 0 1-2.915.5H7.722l6.166 5.285a1.6 1.6 0 0 1 0 2.43L7.722 18.5h8.863a1.5 1.5 0 0 1 2.915.5v.5a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-1.27a2 2 0 0 1 .698-1.518L10.695 12 5.198 7.289A2 2 0 0 1 4.5 5.77z" })] }) })));
+FormulaFill.displayName = 'FormulaFill';
+
+exports.FormulaFill = FormulaFill;
+exports.FormulaLine = FormulaLine;

@@ -1,0 +1,5 @@
+import e from "./KeyMinimalisticSquare.mjs";
+//#region src/csr/security/KeyMinimlisticSquare.ts
+var t = e;
+//#endregion
+export { t as default };

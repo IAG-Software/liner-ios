@@ -1,0 +1,16 @@
+import type { LineData } from "../inject.js";
+import type { LyricSyncType } from "../types.js";
+import type { AnimationEngineInstance } from "./instance.js";
+type LinePlacement = {
+    position: number;
+    height: number;
+    motionOffset: number;
+};
+export declare function clearOnScreenLyrics(engine: AnimationEngineInstance): boolean;
+export declare function hasRenderedLines(engine: AnimationEngineInstance): boolean;
+export declare function getRenderedLines(engine: AnimationEngineInstance): LineData[];
+export declare function getRenderedSyncType(engine: AnimationEngineInstance): LyricSyncType;
+export declare function clearLyrics(engine: AnimationEngineInstance): void;
+export declare function replaceRenderedLines(engine: AnimationEngineInstance, lines: LineData[], dropped: readonly LineData[], previousOf: ReadonlyMap<LineData, LineData>): void;
+export declare function settleSwappedLines(engine: AnimationEngineInstance, before: ReadonlyMap<LineData, LinePlacement>, scrollTopBefore: number): void;
+export {};

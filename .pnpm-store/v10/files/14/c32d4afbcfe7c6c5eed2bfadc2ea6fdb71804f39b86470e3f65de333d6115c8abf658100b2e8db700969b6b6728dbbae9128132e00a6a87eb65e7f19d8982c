@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ListCheckMinimalistic instead
+ */
+declare const ListCheckMinimlistic: import("../../lib").Icon;
+export default ListCheckMinimlistic;

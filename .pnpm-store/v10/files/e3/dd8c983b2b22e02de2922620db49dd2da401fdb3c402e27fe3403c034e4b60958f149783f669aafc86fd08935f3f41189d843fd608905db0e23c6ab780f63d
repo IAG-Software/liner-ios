@@ -1,0 +1,5 @@
+import e from "./RecordMinimalistic.mjs";
+//#region src/csr/call/RecordMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

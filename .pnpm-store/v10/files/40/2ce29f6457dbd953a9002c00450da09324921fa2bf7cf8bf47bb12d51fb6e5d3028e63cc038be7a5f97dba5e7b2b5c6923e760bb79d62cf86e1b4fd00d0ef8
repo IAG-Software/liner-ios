@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudSnowfall instead
+ */
+declare const CloundSnowfall: import("../../lib").Icon;
+export default CloundSnowfall;

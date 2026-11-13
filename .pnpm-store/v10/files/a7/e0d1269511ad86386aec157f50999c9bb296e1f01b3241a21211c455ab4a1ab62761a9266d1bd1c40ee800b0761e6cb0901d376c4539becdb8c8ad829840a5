@@ -1,0 +1,5 @@
+import e from "./AirbudsCaseMinimalistic.mjs";
+//#region src/ssr/devices/AirbudsCaseMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

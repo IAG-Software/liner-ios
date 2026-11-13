@@ -1,0 +1,5 @@
+import e from "./SidebarMinimalistic.mjs";
+//#region src/csr/it/SiderbarMinimalistic.ts
+var t = e;
+//#endregion
+export { t as default };

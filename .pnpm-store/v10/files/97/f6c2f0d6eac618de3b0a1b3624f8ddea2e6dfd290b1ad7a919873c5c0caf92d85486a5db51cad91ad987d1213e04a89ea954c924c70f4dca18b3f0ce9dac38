@@ -1,0 +1,5 @@
+import e from "./OvenMittsMinimalistic.mjs";
+//#region src/ssr/food/OvenMittsMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

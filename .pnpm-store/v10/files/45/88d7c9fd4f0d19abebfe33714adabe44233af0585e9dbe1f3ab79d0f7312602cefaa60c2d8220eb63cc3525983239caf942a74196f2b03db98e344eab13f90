@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SmartSpeakerMinimalistic instead
+ */
+declare const SmartSpeakerMinimlistic: import("../../lib").Icon;
+export default SmartSpeakerMinimlistic;

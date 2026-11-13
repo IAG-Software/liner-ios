@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const SnowflakeLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const SnowflakeFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=snowflake.d.ts.map

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ClipboardLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ClipboardFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=clipboard.d.ts.map

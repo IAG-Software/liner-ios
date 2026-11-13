@@ -1,0 +1,5 @@
+import e from "./PlaylistMinimalistic2.mjs";
+//#region src/csr/list/PlaylistMinimlistic2.ts
+var t = e;
+//#endregion
+export { t as default };

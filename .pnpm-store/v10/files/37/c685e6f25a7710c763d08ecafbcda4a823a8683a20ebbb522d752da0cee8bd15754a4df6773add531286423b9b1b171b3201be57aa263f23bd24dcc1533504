@@ -1,0 +1,5 @@
+import e from "./Clouds.mjs";
+//#region src/csr/weather/Clounds.ts
+var t = e;
+//#endregion
+export { t as default };

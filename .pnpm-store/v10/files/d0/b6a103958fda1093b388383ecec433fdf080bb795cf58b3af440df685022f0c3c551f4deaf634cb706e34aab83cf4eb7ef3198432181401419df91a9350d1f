@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use LightbulbMinimalistic instead
+ */
+declare const LightbulbMinimlistic: import("../../lib").Icon;
+export default LightbulbMinimlistic;

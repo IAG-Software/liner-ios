@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use MouseMinimalistic instead
+ */
+declare const MouseMinimlistic: import("../../lib").Icon;
+export default MouseMinimlistic;

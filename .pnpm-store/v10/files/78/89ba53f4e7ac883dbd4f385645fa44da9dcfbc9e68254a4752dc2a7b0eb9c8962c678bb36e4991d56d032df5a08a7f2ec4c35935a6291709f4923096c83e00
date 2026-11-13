@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const HamburgerLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const HamburgerFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=hamburger.d.ts.map

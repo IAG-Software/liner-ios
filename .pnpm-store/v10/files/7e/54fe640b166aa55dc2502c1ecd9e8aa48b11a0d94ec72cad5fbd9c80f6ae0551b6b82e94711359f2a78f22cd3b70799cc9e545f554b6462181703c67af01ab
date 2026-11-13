@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ShieldKeyholeMinimalistic instead
+ */
+declare const ShieldKeyholeMinimlistic: import("../../lib").Icon;
+export default ShieldKeyholeMinimlistic;

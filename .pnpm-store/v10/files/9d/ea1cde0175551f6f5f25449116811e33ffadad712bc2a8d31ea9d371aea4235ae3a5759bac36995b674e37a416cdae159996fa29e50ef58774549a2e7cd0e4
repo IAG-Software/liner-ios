@@ -1,0 +1,5 @@
+import e from "./Playlist2.mjs";
+//#region src/csr/list/Plaaylist2.ts
+var t = e;
+//#endregion
+export { t as default };

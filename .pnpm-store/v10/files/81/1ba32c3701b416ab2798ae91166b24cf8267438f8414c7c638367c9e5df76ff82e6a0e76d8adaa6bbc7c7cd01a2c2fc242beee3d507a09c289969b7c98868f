@@ -1,0 +1,5 @@
+import e from "./RadioMinimalistic.mjs";
+//#region src/ssr/devices/RadioMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Palette instead
+ */
+declare const Pallete: import("../../lib").Icon;
+export default Pallete;

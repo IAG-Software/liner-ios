@@ -1,0 +1,88 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Armchair2.mjs";
+import n from "./Armchair.mjs";
+import r from "./BarChair.mjs";
+import i from "./Bath.mjs";
+import a from "./Bed.mjs";
+import o from "./BedsideTable2.mjs";
+import s from "./BedsideTable3.mjs";
+import c from "./BedsideTable4.mjs";
+import l from "./BedsideTable.mjs";
+import u from "./Chair2.mjs";
+import d from "./Chair.mjs";
+import f from "./Chandelier.mjs";
+import p from "./Closet2.mjs";
+import m from "./Closet.mjs";
+import h from "./Conditioner2.mjs";
+import g from "./Condicioner2.mjs";
+import _ from "./Conditioner.mjs";
+import v from "./Condicioner.mjs";
+import y from "./FloorLampMinimalistic.mjs";
+import b from "./FloorLampMinimlistic.mjs";
+import x from "./FloorLamp.mjs";
+import S from "./Fridge.mjs";
+import C from "./Lamp.mjs";
+import w from "./Mirror.mjs";
+import T from "./RemoteController2.mjs";
+import E from "./RemoteControllerMinimalistic.mjs";
+import D from "./RemoteControllerMinimlistic.mjs";
+import O from "./RemoteController.mjs";
+import k from "./SmartVacuumCleaner2.mjs";
+import A from "./SmartVacuumCleaner.mjs";
+import j from "./Sofa2.mjs";
+import M from "./Sofa3.mjs";
+import N from "./Sofa.mjs";
+import P from "./SpeakerMinimalistic.mjs";
+import F from "./SpeakerMinimlistic.mjs";
+import I from "./Speaker.mjs";
+import L from "./Trellis.mjs";
+import R from "./VolumeKnob.mjs";
+import z from "./WashingMachineMinimalistic.mjs";
+import B from "./WashingMachineMinimlistic.mjs";
+import V from "./WashingMachine.mjs";
+//#region src/csr/home/index.ts
+var H = /* @__PURE__ */ e({
+	Armchair: () => n,
+	Armchair2: () => t,
+	BarChair: () => r,
+	Bath: () => i,
+	Bed: () => a,
+	BedsideTable: () => l,
+	BedsideTable2: () => o,
+	BedsideTable3: () => s,
+	BedsideTable4: () => c,
+	Chair: () => d,
+	Chair2: () => u,
+	Chandelier: () => f,
+	Closet: () => m,
+	Closet2: () => p,
+	Condicioner: () => v,
+	Condicioner2: () => g,
+	Conditioner: () => _,
+	Conditioner2: () => h,
+	FloorLamp: () => x,
+	FloorLampMinimalistic: () => y,
+	FloorLampMinimlistic: () => b,
+	Fridge: () => S,
+	Lamp: () => C,
+	Mirror: () => w,
+	RemoteController: () => O,
+	RemoteController2: () => T,
+	RemoteControllerMinimalistic: () => E,
+	RemoteControllerMinimlistic: () => D,
+	SmartVacuumCleaner: () => A,
+	SmartVacuumCleaner2: () => k,
+	Sofa: () => N,
+	Sofa2: () => j,
+	Sofa3: () => M,
+	Speaker: () => I,
+	SpeakerMinimalistic: () => P,
+	SpeakerMinimlistic: () => F,
+	Trellis: () => L,
+	VolumeKnob: () => R,
+	WashingMachine: () => V,
+	WashingMachineMinimalistic: () => z,
+	WashingMachineMinimlistic: () => B
+});
+//#endregion
+export { H as home_exports };

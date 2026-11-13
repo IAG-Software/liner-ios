@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const PhoneIncomingLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const PhoneIncomingFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=phone-incoming.d.ts.map

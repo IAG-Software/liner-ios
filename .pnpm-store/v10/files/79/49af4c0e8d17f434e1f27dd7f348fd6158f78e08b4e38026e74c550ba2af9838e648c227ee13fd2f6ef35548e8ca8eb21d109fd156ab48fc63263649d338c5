@@ -1,0 +1,13 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export interface ThemeReader {
+    string(property: string, fallback: string): string;
+    durationMs(property: string, fallback: string): number;
+    number(property: string, fallback: number): number;
+    fraction(property: string, fallback: number): number;
+    flag(property: string, fallback: boolean): boolean;
+}
+export declare function clearStyleCaches(engine: AnimationEngineInstance): void;
+export declare function getCSSValue(engine: AnimationEngineInstance, lyricsElement: HTMLElement, property: string, fallback: string): string;
+export declare function getCSSDurationInMs(engine: AnimationEngineInstance, lyricsElement: HTMLElement, property: string): number;
+export declare function getCSSNumber(engine: AnimationEngineInstance, lyricsElement: HTMLElement, property: string, fallback: number): number;
+export declare function createThemeReader(engine: AnimationEngineInstance, lyricsElement: HTMLElement): ThemeReader;

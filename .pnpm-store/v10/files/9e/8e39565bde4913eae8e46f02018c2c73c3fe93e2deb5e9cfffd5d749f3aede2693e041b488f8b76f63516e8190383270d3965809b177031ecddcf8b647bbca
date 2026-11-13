@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const LayoutTopLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const LayoutTopFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=layout-top.d.ts.map

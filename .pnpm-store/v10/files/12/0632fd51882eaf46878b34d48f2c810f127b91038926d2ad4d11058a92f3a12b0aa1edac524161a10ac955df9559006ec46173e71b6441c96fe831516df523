@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudCross instead
+ */
+declare const CloundCross: import("../../lib").Icon;
+export default CloundCross;

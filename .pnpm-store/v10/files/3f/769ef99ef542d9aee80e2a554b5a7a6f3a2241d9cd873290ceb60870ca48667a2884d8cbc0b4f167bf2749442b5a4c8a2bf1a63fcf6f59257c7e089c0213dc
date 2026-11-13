@@ -1,0 +1,5 @@
+import e from "./CloudyMoon.mjs";
+//#region src/csr/weather/CloundyMoon.ts
+var t = e;
+//#endregion
+export { t as default };

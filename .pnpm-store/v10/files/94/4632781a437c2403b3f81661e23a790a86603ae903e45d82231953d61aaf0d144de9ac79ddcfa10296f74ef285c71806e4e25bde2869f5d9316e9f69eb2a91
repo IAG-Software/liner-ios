@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use TurntableMinimalistic instead
+ */
+declare const TurntableMinimlistic: import("../../lib").Icon;
+export default TurntableMinimlistic;

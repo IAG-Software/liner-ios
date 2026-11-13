@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const KakaoTalkLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const KakaoTalkFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=kakao-talk.d.ts.map

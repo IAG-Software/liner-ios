@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RemoteControllerMinimalistic instead
+ */
+declare const RemoteControllerMinimlistic: import("../../lib").Icon;
+export default RemoteControllerMinimlistic;

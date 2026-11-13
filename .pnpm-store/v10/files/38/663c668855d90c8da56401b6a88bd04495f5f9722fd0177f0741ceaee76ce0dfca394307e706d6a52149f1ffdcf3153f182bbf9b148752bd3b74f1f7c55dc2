@@ -1,0 +1,5 @@
+import e from "./CartLargeMinimalistic.mjs";
+//#region src/csr/shopping/CartLargeMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

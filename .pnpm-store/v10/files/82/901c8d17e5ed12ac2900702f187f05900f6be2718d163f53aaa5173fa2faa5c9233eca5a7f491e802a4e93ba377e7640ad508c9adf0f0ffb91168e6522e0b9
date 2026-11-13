@@ -1,0 +1,16 @@
+import type { ResolvedTickOptions, TickOptions } from "../types.js";
+import type { AnimationEngineInstance } from "./instance.js";
+/**
+ * "lyrics-missing" means this instance has nothing left to render. Whether that ends ticking is the
+ * driver's call, not the instance's: one instance running dry must not silence another.
+ */
+export type AnimationTickStatus = "ok" | "lyrics-missing";
+export declare function resolveTickOptions(options: TickOptions): ResolvedTickOptions;
+export declare function tickView(engine: AnimationEngineInstance, reportedTimeS: number, options: ResolvedTickOptions): AnimationTickStatus;
+/** Returns whether it stopped lines that only a tick starts again; see `restartContextSweeps`. */
+export declare function relayout(engine: AnimationEngineInstance, linesAreRendered: boolean): boolean;
+export declare function cancelLyricPositionUpdate(engine: AnimationEngineInstance): void;
+export declare function retickFromPlaybackClock(engine: AnimationEngineInstance, buildTickOptions: (eventCreationTime: number, isPlaying: boolean) => TickOptions): AnimationTickStatus;
+/** Ticks again at the time and with the options of the last tick, for a view that is not ticking itself. */
+export declare function retickAtLastTime(engine: AnimationEngineInstance): void;
+export declare function scheduleLyricPositionUpdate(engine: AnimationEngineInstance, isViewRendering: () => boolean, retick: () => void): void;

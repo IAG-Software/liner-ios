@@ -1,0 +1,1 @@
+var e=require(`./PasswordMinimalistic.cjs`).default;exports.default=e;

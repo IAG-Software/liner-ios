@@ -1,0 +1,50 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./CallCancelRounded.mjs";
+import n from "./CallCancel.mjs";
+import r from "./CallChatRounded.mjs";
+import i from "./CallChat.mjs";
+import a from "./CallDroppedRounded.mjs";
+import o from "./CallDropped.mjs";
+import s from "./CallMedicineRounded.mjs";
+import c from "./CallMedicine.mjs";
+import l from "./EndCallRounded.mjs";
+import u from "./EndCall.mjs";
+import d from "./IncomingCallRounded.mjs";
+import f from "./IncomingCall.mjs";
+import p from "./OutgoingCallRounded.mjs";
+import m from "./OutgoingCall.mjs";
+import h from "./PhoneCallingRounded.mjs";
+import g from "./PhoneCalling.mjs";
+import _ from "./PhoneRounded.mjs";
+import v from "./Phone.mjs";
+import y from "./RecordCircle.mjs";
+import b from "./RecordMinimalistic.mjs";
+import x from "./RecordMinimlistic.mjs";
+import S from "./RecordSquare.mjs";
+//#region src/csr/call/index.ts
+var C = /* @__PURE__ */ e({
+	CallCancel: () => n,
+	CallCancelRounded: () => t,
+	CallChat: () => i,
+	CallChatRounded: () => r,
+	CallDropped: () => o,
+	CallDroppedRounded: () => a,
+	CallMedicine: () => c,
+	CallMedicineRounded: () => s,
+	EndCall: () => u,
+	EndCallRounded: () => l,
+	IncomingCall: () => f,
+	IncomingCallRounded: () => d,
+	OutgoingCall: () => m,
+	OutgoingCallRounded: () => p,
+	Phone: () => v,
+	PhoneCalling: () => g,
+	PhoneCallingRounded: () => h,
+	PhoneRounded: () => _,
+	RecordCircle: () => y,
+	RecordMinimalistic: () => b,
+	RecordMinimlistic: () => x,
+	RecordSquare: () => S
+});
+//#endregion
+export { C as call_exports };

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AlignBottomLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AlignBottomFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=align-bottom.d.ts.map

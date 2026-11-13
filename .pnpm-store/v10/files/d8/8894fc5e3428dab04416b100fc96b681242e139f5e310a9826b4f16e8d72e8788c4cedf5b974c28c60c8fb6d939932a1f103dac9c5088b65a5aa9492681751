@@ -1,0 +1,10 @@
+import { jsx, jsxs } from 'react/jsx-runtime';
+import { forwardRef } from 'react';
+import { Icon } from '../Icon.js';
+
+const CurrencyDollar2Line = forwardRef((props, ref) => (jsx(Icon, { ref: ref, ...props, children: jsxs("g", { fill: "none", children: [jsx("path", { d: "M0 0h24v24H0z" }), jsx("path", { fill: "currentColor", d: "M13 4a1 1 0 1 0-2 0v1H9.5a4 4 0 1 0 0 8h5a2 2 0 1 1 0 4H7a1 1 0 1 0 0 2h4v1a1 1 0 1 0 2 0v-1h1.5a4 4 0 0 0 0-8h-5a2 2 0 1 1 0-4H17a1 1 0 1 0 0-2h-4z" })] }) })));
+CurrencyDollar2Line.displayName = 'CurrencyDollar2Line';
+const CurrencyDollar2Fill = forwardRef((props, ref) => (jsx(Icon, { ref: ref, ...props, children: jsxs("g", { fill: "none", children: [jsx("path", { d: "M0 0h24v24H0z" }), jsx("path", { fill: "currentColor", d: "M13.5 4a1.5 1.5 0 0 0-3 0v.5h-1a4.5 4.5 0 0 0 0 9h5a1.5 1.5 0 0 1 0 3H7a1.5 1.5 0 0 0 0 3h3.5v.5a1.5 1.5 0 0 0 3 0v-.5h1a4.5 4.5 0 1 0 0-9h-5a1.5 1.5 0 1 1 0-3H17a1.5 1.5 0 0 0 0-3h-3.5z" })] }) })));
+CurrencyDollar2Fill.displayName = 'CurrencyDollar2Fill';
+
+export { CurrencyDollar2Fill, CurrencyDollar2Line };

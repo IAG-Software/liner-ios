@@ -1,0 +1,5 @@
+import e from "./RoundedMagnifierZoomOut.mjs";
+//#region src/csr/search/RoundedMagniferZoomOut.ts
+var t = e;
+//#endregion
+export { t as default };

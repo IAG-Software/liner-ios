@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const SteeringWheelLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const SteeringWheelFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=steering-wheel.d.ts.map

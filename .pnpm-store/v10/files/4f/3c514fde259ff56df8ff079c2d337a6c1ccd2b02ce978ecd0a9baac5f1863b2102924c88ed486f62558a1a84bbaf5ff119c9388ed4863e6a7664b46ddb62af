@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const RearWindshieldDefrosterLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const RearWindshieldDefrosterFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=rear-windshield-defroster.d.ts.map

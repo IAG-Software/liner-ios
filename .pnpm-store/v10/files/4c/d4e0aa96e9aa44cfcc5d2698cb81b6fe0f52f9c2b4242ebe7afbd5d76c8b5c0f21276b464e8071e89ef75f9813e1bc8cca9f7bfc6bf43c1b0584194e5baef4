@@ -1,0 +1,11 @@
+'use strict';
+
+var jsxRuntime = require('react/jsx-runtime');
+var react = require('react');
+
+const Icon = react.forwardRef(({ size = 24, color = 'currentColor', children, ...props }, ref) => {
+    return (jsxRuntime.jsx("svg", { ref: ref, xmlns: "http://www.w3.org/2000/svg", width: size, height: size, viewBox: "0 0 24 24", style: { color, ...props.style }, ...props, children: children }));
+});
+Icon.displayName = 'Icon';
+
+exports.Icon = Icon;

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudUpload instead
+ */
+declare const CloundUpload: import("../../lib").Icon;
+export default CloundUpload;

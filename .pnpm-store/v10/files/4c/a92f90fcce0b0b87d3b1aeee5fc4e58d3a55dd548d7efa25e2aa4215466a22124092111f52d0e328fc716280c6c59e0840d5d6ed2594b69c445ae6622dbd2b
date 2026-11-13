@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const NotificationOffLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const NotificationOffFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=notification-off.d.ts.map

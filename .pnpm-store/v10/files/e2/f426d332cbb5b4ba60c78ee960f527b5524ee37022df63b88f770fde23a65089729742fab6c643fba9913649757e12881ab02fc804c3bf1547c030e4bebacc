@@ -1,0 +1,5 @@
+import e from "./ReceiveSquare.mjs";
+//#region src/csr/arrows-action/ReciveSquare.ts
+var t = e;
+//#endregion
+export { t as default };

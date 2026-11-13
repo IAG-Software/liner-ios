@@ -1,0 +1,31 @@
+import type { AnimationConfig } from "./animationConfig.js";
+export interface SwipeRamp {
+    easing: string;
+    startFrom: string;
+    startTo: string;
+    endFrom: string;
+    endTo: string;
+}
+export interface LetterSwipeWindow {
+    delayMs: number;
+    durationMs: number;
+    from: {
+        start: number;
+        end: number;
+    };
+    to: {
+        start: number;
+        end: number;
+    };
+}
+export interface LetterWaveTiming {
+    delayMs: number;
+    durationMs: number;
+}
+export declare const LETTER_WAVE_CREST_OFFSET = 0.4;
+export declare const GECKO_REDRAW: boolean;
+export declare const GECKO_REDRAW_KEYFRAMES: Keyframe[];
+export declare const GECKO_REDRAW_PERIOD_MS = 200;
+export declare function swipeRamp({ highlight }: AnimationConfig): SwipeRamp;
+export declare function linearForwardSwipeWindows(swipe: SwipeRamp, letterCount: number, swipeDurationMs: number): LetterSwipeWindow[] | null;
+export declare function planLetterWave(swipe: SwipeRamp, letterCount: number, wordDurationMs: number, swipeDurationMs: number, swipeLeadMs: number, floatDurationMs: number): LetterWaveTiming[];

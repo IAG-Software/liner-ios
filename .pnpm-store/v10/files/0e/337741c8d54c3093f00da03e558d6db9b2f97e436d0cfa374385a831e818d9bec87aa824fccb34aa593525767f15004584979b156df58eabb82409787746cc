@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Tuning2 instead
+ */
+declare const Tuneing2: import("../../lib").Icon;
+export default Tuneing2;

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use PrinterMinimalistic instead
+ */
+declare const PrinterMinimlistic: import("../../lib").Icon;
+export default PrinterMinimlistic;

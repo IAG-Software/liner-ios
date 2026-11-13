@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const DogecoinDOGELine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const DogecoinDOGEFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=dogecoin-doge.d.ts.map

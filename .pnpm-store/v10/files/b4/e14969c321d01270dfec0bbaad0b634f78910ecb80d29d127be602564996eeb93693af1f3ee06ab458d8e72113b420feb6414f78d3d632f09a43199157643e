@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const PumpkinLanternLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const PumpkinLanternFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=pumpkin-lantern.d.ts.map

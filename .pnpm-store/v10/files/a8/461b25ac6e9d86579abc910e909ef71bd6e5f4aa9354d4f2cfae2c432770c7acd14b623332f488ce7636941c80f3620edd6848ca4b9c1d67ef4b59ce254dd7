@@ -1,0 +1,12 @@
+export { default as MagnifierBug } from './MagnifierBug';
+export { default as MagnifierZoomIn } from './MagnifierZoomIn';
+export { default as MagnifierZoomOut } from './MagnifierZoomOut';
+export { default as Magnifier } from './Magnifier';
+export { default as MinimalisticMagnifierBug } from './MinimalisticMagnifierBug';
+export { default as MinimalisticMagnifierZoomIn } from './MinimalisticMagnifierZoomIn';
+export { default as MinimalisticMagnifierZoomOut } from './MinimalisticMagnifierZoomOut';
+export { default as MinimalisticMagnifier } from './MinimalisticMagnifier';
+export { default as RoundedMagnifierBug } from './RoundedMagnifierBug';
+export { default as RoundedMagnifierZoomIn } from './RoundedMagnifierZoomIn';
+export { default as RoundedMagnifierZoomOut } from './RoundedMagnifierZoomOut';
+export { default as RoundedMagnifier } from './RoundedMagnifier';

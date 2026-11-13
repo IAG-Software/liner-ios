@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Sidebar instead
+ */
+declare const Siderbar: import("../../lib").Icon;
+export default Siderbar;

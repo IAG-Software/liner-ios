@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use StationMinimalistic instead
+ */
+declare const StationMinimlistic: import("../../lib").Icon;
+export default StationMinimlistic;

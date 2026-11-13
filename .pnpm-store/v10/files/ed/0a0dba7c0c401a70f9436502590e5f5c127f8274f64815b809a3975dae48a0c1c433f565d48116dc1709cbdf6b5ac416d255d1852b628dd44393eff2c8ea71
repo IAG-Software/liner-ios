@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RecordMinimalistic instead
+ */
+declare const RecordMinimlistic: import("../../lib").Icon;
+export default RecordMinimlistic;

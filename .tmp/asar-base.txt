@@ -1,0 +1,7 @@
+/dsh/node_modules/@deepseek-ai/dsh-base/LICENSE	1065
+/dsh/node_modules/@deepseek-ai/dsh-base/README.i18n.yaml	2068
+/dsh/node_modules/@deepseek-ai/dsh-base/README.md	9923
+/dsh/node_modules/@deepseek-ai/dsh-base/README.zh.md	9532
+/dsh/node_modules/@deepseek-ai/dsh-base/cordis.patch.yml	20932
+/dsh/node_modules/@deepseek-ai/dsh-base/lib/index.js	11
+/dsh/node_modules/@deepseek-ai/dsh-base/package.json	6127

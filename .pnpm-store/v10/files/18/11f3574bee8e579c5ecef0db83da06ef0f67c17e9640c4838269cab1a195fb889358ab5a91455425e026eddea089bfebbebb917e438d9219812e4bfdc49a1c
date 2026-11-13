@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const TagChevronLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const TagChevronFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=tag-chevron.d.ts.map

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudSun instead
+ */
+declare const CloundSun: import("../../lib").Icon;
+export default CloundSun;

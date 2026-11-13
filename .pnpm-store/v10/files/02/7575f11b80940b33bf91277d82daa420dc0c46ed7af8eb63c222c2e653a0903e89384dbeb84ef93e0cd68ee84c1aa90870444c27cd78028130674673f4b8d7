@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BorderRightLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BorderRightFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=border-right.d.ts.map

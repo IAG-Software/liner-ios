@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ChefHatMinimalistic instead
+ */
+declare const ChefHatMinimlistic: import("../../lib").Icon;
+export default ChefHatMinimlistic;

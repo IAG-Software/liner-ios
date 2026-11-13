@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const SelectorVerticalLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const SelectorVerticalFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=selector-vertical.d.ts.map

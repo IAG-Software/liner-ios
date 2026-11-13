@@ -1,0 +1,5 @@
+import e from "./ReceiveTwiceSquare.mjs";
+//#region src/csr/arrows-action/ReciveTwiceSquare.ts
+var t = e;
+//#endregion
+export { t as default };

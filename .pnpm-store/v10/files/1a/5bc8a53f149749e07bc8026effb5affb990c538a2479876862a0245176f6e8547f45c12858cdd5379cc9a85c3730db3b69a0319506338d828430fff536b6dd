@@ -1,0 +1,5 @@
+import e from "./LightbulbMinimalistic.mjs";
+//#region src/ssr/devices/LightbulbMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

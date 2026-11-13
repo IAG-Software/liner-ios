@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const UsbFlashDiskLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const UsbFlashDiskFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=usb-flash-disk.d.ts.map

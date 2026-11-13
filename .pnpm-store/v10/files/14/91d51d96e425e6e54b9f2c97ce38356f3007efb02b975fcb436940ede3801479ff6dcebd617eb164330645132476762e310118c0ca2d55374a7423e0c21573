@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const VectorBezierLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const VectorBezierFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=vector-bezier.d.ts.map

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ShareForwardLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ShareForwardFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=share-forward.d.ts.map

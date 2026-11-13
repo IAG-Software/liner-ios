@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const MisskeyLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const MisskeyFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=misskey.d.ts.map

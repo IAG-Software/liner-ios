@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RoundedMagnifier instead
+ */
+declare const RoundedMagnifer: import("../../lib").Icon;
+export default RoundedMagnifer;

@@ -1,0 +1,10 @@
+import { type LineData } from "../inject.js";
+import type { AnimationConfig } from "./animationConfig.js";
+/**
+ * Places the sweep cells of a line's inline words over the boxes those words are laid out in. Runs
+ * when the line starts animating and reads layout first, so the reads land before the line's writes;
+ * a word laid out as it was last time keeps its cells.
+ */
+export declare function placeContextSweeps(line: LineData, config: AnimationConfig): void;
+/** Whether a line started before its inline words could be placed, and has to start over to show them. */
+export declare function hasUnplacedContextSweeps(line: LineData): boolean;

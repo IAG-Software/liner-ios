@@ -1,0 +1,1 @@
+var e=require(`./GamepadMinimalistic.cjs`).default;exports.default=e;

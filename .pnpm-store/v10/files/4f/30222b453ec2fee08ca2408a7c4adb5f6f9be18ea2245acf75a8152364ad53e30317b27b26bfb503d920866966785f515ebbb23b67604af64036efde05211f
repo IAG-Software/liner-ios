@@ -1,0 +1,5 @@
+import e from "./GalleryMinimalistic.mjs";
+//#region src/ssr/video/GalleryMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

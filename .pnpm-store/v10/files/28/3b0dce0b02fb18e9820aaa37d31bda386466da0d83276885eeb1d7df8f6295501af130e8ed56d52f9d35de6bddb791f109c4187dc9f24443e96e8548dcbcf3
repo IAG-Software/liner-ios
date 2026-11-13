@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const RadioboxLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const RadioboxFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=radiobox.d.ts.map

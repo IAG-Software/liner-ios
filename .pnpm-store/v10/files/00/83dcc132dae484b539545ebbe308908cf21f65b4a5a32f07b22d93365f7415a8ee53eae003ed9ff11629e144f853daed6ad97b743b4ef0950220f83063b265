@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Pencil2AiLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Pencil2AiFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=pencil-2-ai.d.ts.map

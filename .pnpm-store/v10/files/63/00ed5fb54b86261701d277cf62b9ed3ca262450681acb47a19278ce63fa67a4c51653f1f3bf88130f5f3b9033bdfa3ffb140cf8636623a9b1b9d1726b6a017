@@ -1,0 +1,1 @@
+var e=require(`./MaximizeSquareMinimalistic.cjs`).default;exports.default=e;

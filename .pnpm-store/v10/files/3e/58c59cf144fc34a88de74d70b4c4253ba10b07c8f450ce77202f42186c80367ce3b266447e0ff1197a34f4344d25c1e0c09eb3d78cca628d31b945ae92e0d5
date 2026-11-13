@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SidebarMinimalistic instead
+ */
+declare const SiderbarMinimalistic: import("../../lib").Icon;
+export default SiderbarMinimalistic;

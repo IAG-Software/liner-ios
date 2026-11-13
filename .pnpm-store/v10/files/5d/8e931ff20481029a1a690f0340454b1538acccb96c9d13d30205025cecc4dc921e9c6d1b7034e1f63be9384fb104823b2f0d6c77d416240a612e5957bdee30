@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const IndentDecreaseLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IndentDecreaseFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=indent-decrease.d.ts.map

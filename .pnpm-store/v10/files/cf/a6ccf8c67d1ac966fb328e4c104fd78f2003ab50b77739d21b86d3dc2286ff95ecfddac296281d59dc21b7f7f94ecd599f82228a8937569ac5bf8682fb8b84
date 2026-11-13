@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RoundedMagnifierBug instead
+ */
+declare const RoundedMagniferBug: import("../../lib").Icon;
+export default RoundedMagniferBug;

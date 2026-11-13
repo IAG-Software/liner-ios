@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SliderMinimalisticHorizontal instead
+ */
+declare const SliderMinimlisticHorizontal: import("../../lib").Icon;
+export default SliderMinimlisticHorizontal;

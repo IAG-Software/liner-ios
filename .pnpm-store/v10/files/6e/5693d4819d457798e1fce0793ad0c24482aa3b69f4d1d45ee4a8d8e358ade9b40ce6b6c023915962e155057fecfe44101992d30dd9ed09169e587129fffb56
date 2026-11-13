@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const GitCompareLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const GitCompareFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=git-compare.d.ts.map

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const NeteaseMusicLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const NeteaseMusicFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=netease-music.d.ts.map

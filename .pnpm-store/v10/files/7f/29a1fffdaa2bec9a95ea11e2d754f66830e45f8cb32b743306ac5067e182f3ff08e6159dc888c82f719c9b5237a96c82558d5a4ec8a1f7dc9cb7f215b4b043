@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use PaletteRound instead
+ */
+declare const PalleteRound: import("../../lib").Icon;
+export default PalleteRound;

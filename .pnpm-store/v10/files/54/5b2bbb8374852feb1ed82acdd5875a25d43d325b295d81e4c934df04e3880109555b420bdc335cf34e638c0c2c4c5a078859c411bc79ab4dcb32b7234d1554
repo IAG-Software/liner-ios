@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ArchiveDownMinimalistic instead
+ */
+declare const ArchiveDownMinimlistic: import("../../lib").Icon;
+export default ArchiveDownMinimlistic;

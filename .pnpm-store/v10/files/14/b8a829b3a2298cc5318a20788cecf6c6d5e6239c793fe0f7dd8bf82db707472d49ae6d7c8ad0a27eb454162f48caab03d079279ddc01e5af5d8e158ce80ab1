@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FileCertificateLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FileCertificateFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=file-certificate.d.ts.map

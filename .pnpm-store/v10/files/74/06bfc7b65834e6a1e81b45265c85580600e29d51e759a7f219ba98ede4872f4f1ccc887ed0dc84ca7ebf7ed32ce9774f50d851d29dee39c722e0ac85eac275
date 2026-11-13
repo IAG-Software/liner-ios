@@ -1,0 +1,5 @@
+import e from "./SliderVerticalMinimalistic.mjs";
+//#region src/ssr/ui/SliderVerticalMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

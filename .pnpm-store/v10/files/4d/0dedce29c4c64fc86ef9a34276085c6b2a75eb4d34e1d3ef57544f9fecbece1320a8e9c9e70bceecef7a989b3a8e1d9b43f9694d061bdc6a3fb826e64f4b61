@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BlueskySocialLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BlueskySocialFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=bluesky-social.d.ts.map

@@ -1,0 +1,5 @@
+import e from "./LayersMinimalistic.mjs";
+//#region src/ssr/tools/LayersMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

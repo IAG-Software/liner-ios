@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const IndoorRowingLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IndoorRowingFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=indoor-rowing.d.ts.map

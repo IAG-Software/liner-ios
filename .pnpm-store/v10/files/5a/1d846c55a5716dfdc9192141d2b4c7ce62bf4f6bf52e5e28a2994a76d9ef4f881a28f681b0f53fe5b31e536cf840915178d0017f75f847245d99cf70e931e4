@@ -1,0 +1,5 @@
+import e from "./ConfettiMinimalistic.mjs";
+//#region src/csr/ui/ConfettiMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

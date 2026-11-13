@@ -1,0 +1,26 @@
+import type { LineData, PartData } from "../inject.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export interface SongClockTrack {
+    offsetMs: number;
+    appliedTimingOffsetMs: number;
+    skipDriftSample?: boolean;
+    wrapDurationMs?: number;
+}
+export interface DriftSample {
+    actualTimeMs: number;
+    appliedTimingOffsetMs: number;
+    biasOffsetMs: number;
+    expectedTimeMs: number;
+    offsetMs: number;
+    playState: AnimationPlayState;
+}
+export declare function followSongClock(engine: AnimationEngineInstance, animation: Animation, track: Omit<SongClockTrack, "appliedTimingOffsetMs"> & {
+    appliedTimingOffsetMs?: number;
+}): Animation;
+/** Repeats a word's own animations on the cells of a sweep drawn for it from copies of its line. */
+export declare function mirrorHighlightAnimations(part: PartData, animations: Animation[]): Animation[];
+export declare function applyPlaybackRateToRunningAnimations(engine: AnimationEngineInstance): void;
+export declare function correctedAnimationTimeMs(targetTimeMs: number, appliedTimingOffsetMs: number, maxTimeMs?: number): number;
+export declare function correctedWrappedAnimationTimeMs(targetTimeMs: number, appliedTimingOffsetMs: number, wrapDurationMs: number): number;
+export declare function correctedScrollTimeS(engine: AnimationEngineInstance, lyricTimeS: number): number;
+export declare function largestDriftSample(line: LineData, lyricTimeS: number): DriftSample | null;

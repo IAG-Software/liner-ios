@@ -1,0 +1,5 @@
+import e from "./ListHeartMinimalistic.mjs";
+//#region src/ssr/list/ListHeartMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

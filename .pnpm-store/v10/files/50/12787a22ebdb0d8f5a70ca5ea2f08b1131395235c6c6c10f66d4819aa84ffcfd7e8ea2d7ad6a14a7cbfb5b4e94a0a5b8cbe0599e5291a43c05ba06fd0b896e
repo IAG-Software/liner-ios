@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const VibeCodingLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const VibeCodingFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=vibe-coding.d.ts.map

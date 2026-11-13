@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const WateringCanLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const WateringCanFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=watering-can.d.ts.map

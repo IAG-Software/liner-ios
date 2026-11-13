@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ListExpansionLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ListExpansionFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=list-expansion.d.ts.map

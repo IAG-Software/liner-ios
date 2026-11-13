@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use WatchSquareMinimalistic instead
+ */
+declare const WatchSquareMinimlistic: import("../../lib").Icon;
+export default WatchSquareMinimlistic;

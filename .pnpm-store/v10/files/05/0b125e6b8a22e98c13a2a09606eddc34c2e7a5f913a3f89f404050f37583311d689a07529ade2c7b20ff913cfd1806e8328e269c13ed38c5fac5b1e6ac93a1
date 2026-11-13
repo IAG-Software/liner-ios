@@ -1,0 +1,5 @@
+import e from "./PasswordMinimalisticInput.mjs";
+//#region src/csr/security/PasswordMinimlisticInput.ts
+var t = e;
+//#endregion
+export { t as default };

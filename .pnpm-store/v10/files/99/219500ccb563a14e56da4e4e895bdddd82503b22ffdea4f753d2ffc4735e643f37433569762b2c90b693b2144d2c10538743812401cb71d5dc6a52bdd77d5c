@@ -1,0 +1,1 @@
+var e=require(`./DropperMinimalistic.cjs`).default;exports.default=e;

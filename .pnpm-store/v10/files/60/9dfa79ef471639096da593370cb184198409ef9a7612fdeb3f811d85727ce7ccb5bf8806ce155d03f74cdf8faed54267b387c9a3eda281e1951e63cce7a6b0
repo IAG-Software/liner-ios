@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const KeyboardLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const KeyboardFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=keyboard.d.ts.map

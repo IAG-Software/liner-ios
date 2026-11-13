@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BodyShapeMinimalistic instead
+ */
+declare const BodyShapeMinimlistic: import("../../lib").Icon;
+export default BodyShapeMinimlistic;

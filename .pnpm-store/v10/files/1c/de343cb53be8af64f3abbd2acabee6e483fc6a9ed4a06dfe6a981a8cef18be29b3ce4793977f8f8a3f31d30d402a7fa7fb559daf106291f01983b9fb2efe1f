@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FileForbidLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FileForbidFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=file-forbid.d.ts.map

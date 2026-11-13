@@ -1,0 +1,5 @@
+import e from "./SimCardMinimalistic.mjs";
+//#region src/ssr/devices/SimCardMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

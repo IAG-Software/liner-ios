@@ -1,0 +1,7 @@
+import { PropsWithChildren } from 'react';
+import type { EmojiData } from './types';
+type EmojiProviderProps = PropsWithChildren<{
+    data: EmojiData;
+}>;
+declare function EmojiProvider({ data, children }: EmojiProviderProps): import("react/jsx-runtime").JSX.Element;
+export default EmojiProvider;

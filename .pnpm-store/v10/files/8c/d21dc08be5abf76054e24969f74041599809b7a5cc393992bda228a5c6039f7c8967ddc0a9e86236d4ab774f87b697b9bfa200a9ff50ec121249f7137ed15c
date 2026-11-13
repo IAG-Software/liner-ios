@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use PasswordMinimalisticInput instead
+ */
+declare const PasswordMinimlisticInput: import("../../lib").Icon;
+export default PasswordMinimlisticInput;

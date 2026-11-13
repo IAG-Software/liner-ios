@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use DropperMinimalistic instead
+ */
+declare const DropperMinimlistic: import("../../lib").Icon;
+export default DropperMinimlistic;

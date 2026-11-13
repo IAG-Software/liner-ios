@@ -1,0 +1,78 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Asteroid.mjs";
+import n from "./Atom.mjs";
+import r from "./BlackHole2.mjs";
+import i from "./BlackHole3.mjs";
+import a from "./BlackHole.mjs";
+import o from "./Earth.mjs";
+import s from "./Infinite.mjs";
+import c from "./Infinity.mjs";
+import l from "./Men.mjs";
+import u from "./Planet2.mjs";
+import d from "./Planet3.mjs";
+import f from "./Planet4.mjs";
+import p from "./Planet.mjs";
+import m from "./Rocket2.mjs";
+import h from "./Rocket.mjs";
+import g from "./Satellite.mjs";
+import _ from "./Star2.mjs";
+import v from "./StarAngle.mjs";
+import y from "./StarCircle.mjs";
+import b from "./StarFall2.mjs";
+import x from "./StarFallMinimalistic2.mjs";
+import S from "./StarFallMinimlistic2.mjs";
+import C from "./StarFallMinimalistic.mjs";
+import w from "./StarFallMinimlistic.mjs";
+import T from "./StarFall.mjs";
+import E from "./StarRainbow.mjs";
+import D from "./StarRing.mjs";
+import O from "./StarRings.mjs";
+import k from "./Stars2.mjs";
+import A from "./StarsLine.mjs";
+import j from "./StarsMinimalistic.mjs";
+import M from "./StarsMinimlistic.mjs";
+import N from "./Ufo2.mjs";
+import P from "./Ufo3.mjs";
+import F from "./Ufo.mjs";
+import I from "./Women.mjs";
+//#region src/csr/astronomy/index.ts
+var L = /* @__PURE__ */ e({
+	Asteroid: () => t,
+	Atom: () => n,
+	BlackHole: () => a,
+	BlackHole2: () => r,
+	BlackHole3: () => i,
+	Earth: () => o,
+	Infinite: () => s,
+	Infinity: () => c,
+	Men: () => l,
+	Planet: () => p,
+	Planet2: () => u,
+	Planet3: () => d,
+	Planet4: () => f,
+	Rocket: () => h,
+	Rocket2: () => m,
+	Satellite: () => g,
+	Star2: () => _,
+	StarAngle: () => v,
+	StarCircle: () => y,
+	StarFall: () => T,
+	StarFall2: () => b,
+	StarFallMinimalistic: () => C,
+	StarFallMinimalistic2: () => x,
+	StarFallMinimlistic: () => w,
+	StarFallMinimlistic2: () => S,
+	StarRainbow: () => E,
+	StarRing: () => D,
+	StarRings: () => O,
+	Stars2: () => k,
+	StarsLine: () => A,
+	StarsMinimalistic: () => j,
+	StarsMinimlistic: () => M,
+	Ufo: () => F,
+	Ufo2: () => N,
+	Ufo3: () => P,
+	Women: () => I
+});
+//#endregion
+export { L as astronomy_exports };

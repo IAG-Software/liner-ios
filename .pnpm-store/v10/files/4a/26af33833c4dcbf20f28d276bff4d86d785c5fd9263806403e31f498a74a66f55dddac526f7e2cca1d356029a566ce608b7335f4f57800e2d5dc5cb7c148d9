@@ -1,0 +1,33 @@
+import { _objectSpread2 as e } from "../_virtual/_@oxc-project_runtime@0.130.0/helpers/objectSpread2.mjs";
+import { _objectWithoutProperties as t } from "../_virtual/_@oxc-project_runtime@0.130.0/helpers/objectWithoutProperties.mjs";
+import { forwardRef as n } from "react";
+import { jsx as r, jsxs as i } from "react/jsx-runtime";
+//#region src/lib/SSRBase.tsx
+var a = [
+	"alt",
+	"color",
+	"size",
+	"weight",
+	"mirrored",
+	"children",
+	"weights"
+], o = n((n, o) => {
+	let { alt: s, color: c = "currentColor", size: l = "1em", weight: u = "Linear", mirrored: d = !1, children: f, weights: p } = n, m = t(n, a);
+	return /* @__PURE__ */ i("svg", e(e({
+		ref: o,
+		xmlns: "http://www.w3.org/2000/svg",
+		width: l,
+		height: l,
+		color: c,
+		fill: "none",
+		viewBox: "0 0 24 24",
+		transform: d ? "scale(-1, 1)" : void 0
+	}, m), {}, { children: [
+		!!s && /* @__PURE__ */ r("title", { children: s }),
+		f,
+		p.get(u)
+	] }));
+});
+o.displayName = "SSRBase";
+//#endregion
+export { o as default };

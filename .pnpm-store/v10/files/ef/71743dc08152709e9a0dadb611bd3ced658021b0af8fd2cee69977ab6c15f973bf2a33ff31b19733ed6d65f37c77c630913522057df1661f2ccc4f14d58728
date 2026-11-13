@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const UsdCoinUSDCLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const UsdCoinUSDCFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=usd-coin-usdc.d.ts.map

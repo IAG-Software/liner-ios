@@ -1,0 +1,5 @@
+import e from "./CloudStorm.mjs";
+//#region src/ssr/weather/CloundStorm.ts
+var t = e;
+//#endregion
+export { t as default };

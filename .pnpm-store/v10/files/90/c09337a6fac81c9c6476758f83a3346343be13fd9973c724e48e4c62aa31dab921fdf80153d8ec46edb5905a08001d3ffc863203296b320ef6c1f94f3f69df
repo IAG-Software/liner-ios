@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudDownload instead
+ */
+declare const CloundDownload: import("../../lib").Icon;
+export default CloundDownload;

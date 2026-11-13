@@ -1,0 +1,5 @@
+import e from "./MagnifierBug.mjs";
+//#region src/csr/search/MagniferBug.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BorderBlankLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BorderBlankFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=border-blank.d.ts.map

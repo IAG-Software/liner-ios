@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const MoonStarsLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const MoonStarsFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=moon-stars.d.ts.map

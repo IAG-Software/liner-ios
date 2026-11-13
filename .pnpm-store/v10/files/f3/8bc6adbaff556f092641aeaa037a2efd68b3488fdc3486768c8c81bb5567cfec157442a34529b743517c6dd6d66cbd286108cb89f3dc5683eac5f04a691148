@@ -1,0 +1,1 @@
+var e=require(`./FloorLampMinimalistic.cjs`).default;exports.default=e;

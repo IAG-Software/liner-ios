@@ -1,0 +1,1 @@
+var e=require(`./WashingMachineMinimalistic.cjs`).default;exports.default=e;

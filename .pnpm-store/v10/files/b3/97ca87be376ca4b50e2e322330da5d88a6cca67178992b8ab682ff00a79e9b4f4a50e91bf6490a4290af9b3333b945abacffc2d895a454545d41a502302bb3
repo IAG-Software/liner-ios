@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudWaterdrops instead
+ */
+declare const CloundWaterdrops: import("../../lib").Icon;
+export default CloundWaterdrops;

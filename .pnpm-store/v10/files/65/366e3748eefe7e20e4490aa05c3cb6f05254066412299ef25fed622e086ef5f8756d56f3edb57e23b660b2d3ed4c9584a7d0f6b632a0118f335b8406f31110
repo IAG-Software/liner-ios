@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use UploadMinimalistic instead
+ */
+declare const UploadMinimlistic: import("../../lib").Icon;
+export default UploadMinimlistic;

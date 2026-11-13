@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Book6AiLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Book6AiFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=book-6-ai.d.ts.map

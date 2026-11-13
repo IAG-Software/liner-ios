@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const LetterSpacingLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const LetterSpacingFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=letter-spacing.d.ts.map

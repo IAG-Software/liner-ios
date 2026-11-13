@@ -1,0 +1,9 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import DataContext from './DataContext';
+function EmojiProvider({ data, children }) {
+    if (!data) {
+        throw new Error('Please pass a data value to EmojiProvider');
+    }
+    return (_jsx(DataContext.Provider, { value: data, children: children }));
+}
+export default EmojiProvider;

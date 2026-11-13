@@ -1,0 +1,5 @@
+import e from "./RepeatOneMinimalistic.mjs";
+//#region src/ssr/video/RepeatOneMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

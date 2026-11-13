@@ -1,0 +1,5 @@
+import e from "./CloudWaterdrops.mjs";
+//#region src/ssr/weather/CloundWaterdrops.ts
+var t = e;
+//#endregion
+export { t as default };

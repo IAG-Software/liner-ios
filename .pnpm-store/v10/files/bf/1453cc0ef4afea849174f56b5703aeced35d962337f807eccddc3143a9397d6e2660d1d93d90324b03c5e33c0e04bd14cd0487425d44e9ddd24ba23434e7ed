@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CropMinimalistic instead
+ */
+declare const CropMinimlistic: import("../../lib").Icon;
+export default CropMinimlistic;

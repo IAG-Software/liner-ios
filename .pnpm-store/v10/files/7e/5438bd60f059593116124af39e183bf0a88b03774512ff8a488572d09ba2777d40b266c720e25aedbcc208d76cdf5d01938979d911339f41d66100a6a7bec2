@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ListCrossMinimalistic instead
+ */
+declare const ListCrossMinimlistic: import("../../lib").Icon;
+export default ListCrossMinimlistic;

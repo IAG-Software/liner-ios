@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AppleIntelligenceLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AppleIntelligenceFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=apple-intelligence.d.ts.map

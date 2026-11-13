@@ -1,0 +1,5 @@
+import e from "./GamepadMinimalistic.mjs";
+//#region src/ssr/devices/GamepadMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

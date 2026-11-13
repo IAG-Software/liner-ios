@@ -1,0 +1,1 @@
+var e=require(`./CalendarMinimalistic.cjs`).default;exports.default=e;

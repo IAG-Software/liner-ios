@@ -1,0 +1,5 @@
+import e from "./BugMinimalistic.mjs";
+//#region src/ssr/it/BugMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

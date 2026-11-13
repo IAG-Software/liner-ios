@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const UserPinLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const UserPinFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=user-pin.d.ts.map

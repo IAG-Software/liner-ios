@@ -1,0 +1,5 @@
+import e from "./DocumentsMinimalistic.mjs";
+//#region src/csr/notes/DocumentsMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

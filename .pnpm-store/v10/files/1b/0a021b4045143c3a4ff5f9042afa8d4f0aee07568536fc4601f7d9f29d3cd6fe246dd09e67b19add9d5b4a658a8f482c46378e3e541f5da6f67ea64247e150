@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use OvenMittsMinimalistic instead
+ */
+declare const OvenMittsMinimlistic: import("../../lib").Icon;
+export default OvenMittsMinimlistic;

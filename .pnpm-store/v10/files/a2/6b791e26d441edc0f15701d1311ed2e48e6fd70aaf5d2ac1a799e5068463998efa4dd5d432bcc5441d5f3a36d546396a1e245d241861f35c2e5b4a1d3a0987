@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudSnowfallMinimalistic instead
+ */
+declare const CloundSnowfallMinimalistic: import("../../lib").Icon;
+export default CloundSnowfallMinimalistic;

@@ -1,0 +1,5 @@
+import e from "./Infinite.mjs";
+//#region src/csr/astronomy/Infinity.ts
+var t = e;
+//#endregion
+export { t as default };

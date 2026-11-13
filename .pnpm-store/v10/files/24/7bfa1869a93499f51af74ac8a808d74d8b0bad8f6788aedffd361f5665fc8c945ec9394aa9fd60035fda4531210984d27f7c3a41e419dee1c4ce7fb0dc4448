@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudCheck instead
+ */
+declare const CloundCheck: import("../../lib").Icon;
+export default CloundCheck;

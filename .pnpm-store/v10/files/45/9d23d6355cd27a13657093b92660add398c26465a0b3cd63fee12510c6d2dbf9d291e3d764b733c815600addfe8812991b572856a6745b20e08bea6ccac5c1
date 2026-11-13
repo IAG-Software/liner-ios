@@ -1,0 +1,4 @@
+import { d as o } from "./format-CZ36zD-v.js";
+export {
+  o as detectFormat
+};

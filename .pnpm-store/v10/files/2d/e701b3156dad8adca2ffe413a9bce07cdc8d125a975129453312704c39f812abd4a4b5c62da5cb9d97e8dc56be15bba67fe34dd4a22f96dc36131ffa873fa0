@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Taipei101Line: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Taipei101Fill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=taipei101.d.ts.map

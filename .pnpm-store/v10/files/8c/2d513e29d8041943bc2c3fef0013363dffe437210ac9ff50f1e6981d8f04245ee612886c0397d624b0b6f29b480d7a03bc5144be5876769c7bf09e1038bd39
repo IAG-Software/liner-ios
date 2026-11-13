@@ -1,0 +1,1 @@
+var e=require(`./MagnifierZoomOut.cjs`).default;exports.default=e;

@@ -1,0 +1,1 @@
+var e=require(`./MouseMinimalistic.cjs`).default;exports.default=e;

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ArrowRightCircleLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ArrowRightCircleFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=arrow-right-circle.d.ts.map

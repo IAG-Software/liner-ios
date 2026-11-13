@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const VkontakteLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const VkontakteFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=vkontakte.d.ts.map

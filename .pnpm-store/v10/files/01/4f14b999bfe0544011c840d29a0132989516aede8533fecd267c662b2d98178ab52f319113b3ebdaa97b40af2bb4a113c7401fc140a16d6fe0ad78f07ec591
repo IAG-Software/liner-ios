@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use StarsMinimalistic instead
+ */
+declare const StarsMinimlistic: import("../../lib").Icon;
+export default StarsMinimlistic;

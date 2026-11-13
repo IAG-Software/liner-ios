@@ -1,0 +1,5 @@
+import e from "./HikingMinimalistic.mjs";
+//#region src/csr/sports/HikingMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

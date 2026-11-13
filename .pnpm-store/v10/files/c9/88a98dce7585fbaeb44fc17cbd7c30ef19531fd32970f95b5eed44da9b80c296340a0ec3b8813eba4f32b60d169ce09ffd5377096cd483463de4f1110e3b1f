@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use LinkBrokenMinimalistic instead
+ */
+declare const LinkBrokenMinimlistic: import("../../lib").Icon;
+export default LinkBrokenMinimlistic;

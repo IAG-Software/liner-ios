@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ElectricCookerLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ElectricCookerFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=electric-cooker.d.ts.map

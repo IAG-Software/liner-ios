@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SpeakerMinimalistic instead
+ */
+declare const SpeakerMinimlistic: import("../../lib").Icon;
+export default SpeakerMinimlistic;

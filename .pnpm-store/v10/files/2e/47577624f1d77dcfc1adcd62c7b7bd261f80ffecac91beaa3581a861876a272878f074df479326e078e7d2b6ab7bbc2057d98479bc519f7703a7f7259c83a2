@@ -1,0 +1,5 @@
+import type { LineData } from "../inject.js";
+import type { AnimationConfig } from "./animationConfig.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export declare function startLineAnimations(engine: AnimationEngineInstance, line: LineData, config: AnimationConfig, lyricTimeS: number): void;
+export declare function startLineExitAnimations(line: LineData, config: AnimationConfig, lyricTimeS: number): void;

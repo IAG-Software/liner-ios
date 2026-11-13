@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const SpacingVerticalLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const SpacingVerticalFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=spacing-vertical.d.ts.map

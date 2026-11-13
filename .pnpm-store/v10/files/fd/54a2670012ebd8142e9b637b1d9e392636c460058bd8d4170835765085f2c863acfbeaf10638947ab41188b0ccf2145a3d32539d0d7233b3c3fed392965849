@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use WiFiRouterMinimalistic instead
+ */
+declare const WiFiRouterMinimlistic: import("../../lib").Icon;
+export default WiFiRouterMinimlistic;

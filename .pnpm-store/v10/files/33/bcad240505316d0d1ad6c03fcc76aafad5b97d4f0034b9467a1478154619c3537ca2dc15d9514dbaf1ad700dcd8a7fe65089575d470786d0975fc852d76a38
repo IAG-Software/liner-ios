@@ -1,0 +1,5 @@
+import e from "./ShopMinimalistic.mjs";
+//#region src/csr/shopping/ShopMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

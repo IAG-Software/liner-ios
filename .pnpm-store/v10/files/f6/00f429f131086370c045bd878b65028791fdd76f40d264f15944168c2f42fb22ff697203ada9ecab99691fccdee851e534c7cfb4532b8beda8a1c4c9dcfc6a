@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const UserWarningLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const UserWarningFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=user-warning.d.ts.map

@@ -1,0 +1,5 @@
+import type { PartData } from "../inject.js";
+import type { AnimationConfig } from "./animationConfig.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export declare function startWordAnimations(engine: AnimationEngineInstance, part: PartData, config: AnimationConfig, lyricTimeS: number, appliedTimingOffsetMs: number): void;
+export declare function startWordExitAnimation(part: PartData, config: AnimationConfig): void;

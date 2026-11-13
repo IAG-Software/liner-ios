@@ -1,0 +1,1 @@
+var e=require(`./BoxMinimalistic.cjs`).default;exports.default=e;

@@ -1,0 +1,5 @@
+import e from "./Palette.mjs";
+//#region src/ssr/tools/Pallete.ts
+var t = e;
+//#endregion
+export { t as default };

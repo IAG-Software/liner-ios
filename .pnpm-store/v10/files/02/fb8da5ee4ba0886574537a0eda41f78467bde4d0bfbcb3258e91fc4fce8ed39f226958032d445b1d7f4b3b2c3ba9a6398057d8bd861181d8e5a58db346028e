@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const CardanoADALine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const CardanoADAFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=cardano-ada.d.ts.map

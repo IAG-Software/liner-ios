@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use DumbbellLargeMinimalistic instead
+ */
+declare const DumbbellLargeMinimlistic: import("../../lib").Icon;
+export default DumbbellLargeMinimlistic;

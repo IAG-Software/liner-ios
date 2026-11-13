@@ -1,0 +1,5 @@
+import e from "./BookMinimalistic.mjs";
+//#region src/ssr/school/BookMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

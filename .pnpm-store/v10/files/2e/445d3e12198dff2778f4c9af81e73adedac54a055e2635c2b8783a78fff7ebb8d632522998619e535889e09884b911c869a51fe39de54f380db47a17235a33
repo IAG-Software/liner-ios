@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BugMinimalistic instead
+ */
+declare const BugMinimlistic: import("../../lib").Icon;
+export default BugMinimlistic;

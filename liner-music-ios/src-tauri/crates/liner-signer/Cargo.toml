@@ -1,0 +1,32 @@
+[package]
+name = "liner-signer"
+version = "0.1.0"
+description = "Secure HMAC request and cover signing module for Liner"
+authors = ["Liner Team"]
+edition = "2021"
+rust-version = "1.82"
+license = "GPL-3.0-only"
+publish = false
+
+# Vendored verbatim from tryliner/desktop `signer/`.
+# On desktop the same code is compiled to WASM and loaded by Electron; here it
+# is linked natively into the iOS static library, so the obfuscated keys never
+# exist as a script asset that could be lifted out of the app bundle.
+[lib]
+name = "liner_signer"
+crate-type = ["lib"]
+
+[dependencies]
+hmac = "0.12"
+sha2 = "0.10"
+base64 = "0.22"
+zeroize = { version = "1", features = ["zeroize_derive"] }
+getrandom = "0.2"
+hex = "0.4"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

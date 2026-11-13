@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudMinus instead
+ */
+declare const CloundMinus: import("../../lib").Icon;
+export default CloundMinus;

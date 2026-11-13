@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use WashingMachineMinimalistic instead
+ */
+declare const WashingMachineMinimlistic: import("../../lib").Icon;
+export default WashingMachineMinimlistic;

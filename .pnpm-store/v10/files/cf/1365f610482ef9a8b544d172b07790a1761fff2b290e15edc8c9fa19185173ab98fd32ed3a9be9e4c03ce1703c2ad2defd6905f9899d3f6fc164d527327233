@@ -1,0 +1,54 @@
+{
+  "name": "react-apple-emojis",
+  "version": "3.0.0",
+  "description": "Apple emojis for React as images",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "src/data.json"
+  ],
+  "keywords": [
+    "react",
+    "apple",
+    "emoji",
+    "emojis"
+  ],
+  "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/react-apple-emojis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dherault/react-apple-emojis/issues"
+  },
+  "homepage": "https://github.com/dherault/react-apple-emojis",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "",
+    "clean": "rimraf dist",
+    "build": "npx tsc --declaration",
+    "prepublishOnly": "npm run clean && npm run build",
+    "link": "npm link && cd demo && npm link react-apple-emojis",
+    "dev": "nodemon --watch ./src --ext tsx,json --exec 'npm run build'",
+    "create-data": "bun ./scripts/createData.ts"
+  },
+  "peerDependencies": {
+    "react": ">=16.x",
+    "react-dom": ">=16.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.7",
+    "@babel/eslint-parser": "^7.27.5",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@types/react": "^18.3.4",
+    "eslint": "^8.13.0",
+    "eslint-config-dherault-typescript": "^1.4.0",
+    "nodemon": "^3.1.10",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}

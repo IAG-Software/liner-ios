@@ -1,0 +1,19 @@
+export interface MotionCurve {
+    startMs: number;
+    durationMs: number;
+    fromPx: number;
+    toPx: number;
+    easing: string;
+    endEasing: string;
+}
+export type Easing = (progress: number) => number;
+export type EasingLookup = (easing: string) => Easing;
+export interface BakedMotion {
+    keyframes: Keyframe[];
+    startMs: number;
+    durationMs: number;
+}
+export declare function curveEndMs(curve: MotionCurve): number;
+export declare function isRunningAt(curve: MotionCurve, timeMs: number): boolean;
+export declare function offsetAt(curves: readonly MotionCurve[], timeMs: number, easingOf: EasingLookup): number;
+export declare function bakeMotion(curves: readonly MotionCurve[], nowMs: number, easingOf: EasingLookup): BakedMotion;

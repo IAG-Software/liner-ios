@@ -1,0 +1,46 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Bottle.mjs";
+import n from "./ChefHatHeart.mjs";
+import r from "./ChefHatMinimalistic.mjs";
+import i from "./ChefHatMinimlistic.mjs";
+import a from "./ChefHat.mjs";
+import o from "./Corkscrew.mjs";
+import s from "./CupHot.mjs";
+import c from "./CupPaper.mjs";
+import l from "./DonutBitten.mjs";
+import u from "./Donut.mjs";
+import d from "./Ladle.mjs";
+import f from "./Mug.mjs";
+import p from "./OvenMittsMinimalistic.mjs";
+import m from "./OvenMittsMinimlistic.mjs";
+import h from "./OvenMitts.mjs";
+import g from "./RollingPin.mjs";
+import _ from "./TeaCup.mjs";
+import v from "./Whisk.mjs";
+import y from "./WineglassTriangle.mjs";
+import b from "./Wineglass.mjs";
+//#region src/csr/food/index.ts
+var x = /* @__PURE__ */ e({
+	Bottle: () => t,
+	ChefHat: () => a,
+	ChefHatHeart: () => n,
+	ChefHatMinimalistic: () => r,
+	ChefHatMinimlistic: () => i,
+	Corkscrew: () => o,
+	CupHot: () => s,
+	CupPaper: () => c,
+	Donut: () => u,
+	DonutBitten: () => l,
+	Ladle: () => d,
+	Mug: () => f,
+	OvenMitts: () => h,
+	OvenMittsMinimalistic: () => p,
+	OvenMittsMinimlistic: () => m,
+	RollingPin: () => g,
+	TeaCup: () => _,
+	Whisk: () => v,
+	Wineglass: () => b,
+	WineglassTriangle: () => y
+});
+//#endregion
+export { x as food_exports };

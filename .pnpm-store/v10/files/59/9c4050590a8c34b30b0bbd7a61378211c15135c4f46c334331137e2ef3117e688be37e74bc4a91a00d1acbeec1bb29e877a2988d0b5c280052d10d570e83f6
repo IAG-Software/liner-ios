@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use GalleryMinimalistic instead
+ */
+declare const GalleryMinimlistic: import("../../lib").Icon;
+export default GalleryMinimlistic;

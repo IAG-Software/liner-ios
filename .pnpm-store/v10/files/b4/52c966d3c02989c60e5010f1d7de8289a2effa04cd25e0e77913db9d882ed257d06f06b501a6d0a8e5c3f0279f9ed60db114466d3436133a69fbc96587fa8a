@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ConfettiMinimalistic instead
+ */
+declare const ConfettiMinimlistic: import("../../lib").Icon;
+export default ConfettiMinimlistic;

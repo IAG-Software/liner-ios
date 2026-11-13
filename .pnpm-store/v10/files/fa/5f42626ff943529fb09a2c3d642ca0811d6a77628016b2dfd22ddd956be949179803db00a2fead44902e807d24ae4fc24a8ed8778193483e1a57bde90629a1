@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BatteryLowMinimalistic instead
+ */
+declare const BatteryLowMinimlistic: import("../../lib").Icon;
+export default BatteryLowMinimlistic;

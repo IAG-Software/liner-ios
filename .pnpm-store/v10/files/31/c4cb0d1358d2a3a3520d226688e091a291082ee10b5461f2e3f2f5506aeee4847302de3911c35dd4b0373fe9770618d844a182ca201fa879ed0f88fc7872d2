@@ -1,0 +1,47 @@
+import type { LineData } from "../inject.js";
+import type { AnimationConfig } from "./animationConfig.js";
+import type { AnimationEngineInstance } from "./instance.js";
+import { type StyledScrollLine } from "./lineScrollStyle.js";
+export declare const SCROLL_PREPARE_LEAD_MS = 120;
+export declare const LINE_SCROLL_WILL_CHANGE_VALUE = "transform, translate";
+export interface LineScrollItem {
+    lyricElement: HTMLElement;
+    height: number;
+    position: number;
+}
+export interface RunningLineScroll {
+    lineElement: HTMLElement;
+    token: number;
+    durationMs: number;
+}
+export interface LineScrollRequest {
+    lines: LineScrollItem[];
+    activeLine: LineData;
+    fromScrollTop: number;
+    toScrollTop: number;
+    viewportHeight: number;
+    config: AnimationConfig;
+    continuesEngineScroll: boolean;
+}
+interface PlannedLineScroll extends StyledScrollLine {
+    token: number;
+    durationMs: number;
+    startEasing: string;
+    endEasing: string;
+    startPx: number;
+    endPx: number;
+}
+export interface PendingLineScroll {
+    plan: PlannedLineScroll[];
+    activeLineElement: HTMLElement;
+    fromScrollTop: number;
+    toScrollTop: number;
+}
+export declare function commitOrPrepareLineScroll(engine: AnimationEngineInstance, request: LineScrollRequest): void;
+export declare function prepareUpcomingLineScroll(engine: AnimationEngineInstance, request: LineScrollRequest): void;
+export declare function dropPendingLineScroll(engine: AnimationEngineInstance): void;
+export declare function clearLineScrolls(engine: AnimationEngineInstance): void;
+export declare function isLineVisibleDuringScroll(line: LineScrollItem, fromScrollTop: number, toScrollTop: number, viewportHeight: number): boolean;
+export declare function getLineScrollItems(engine: AnimationEngineInstance, lines: LineData[]): LineScrollItem[];
+export declare function measureTrailingItem(lyricsElement: HTMLElement, className: string): LineScrollItem | null;
+export {};

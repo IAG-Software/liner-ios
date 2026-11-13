@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use KeyMinimalistic2 instead
+ */
+declare const KeyMinimlistic2: import("../../lib").Icon;
+export default KeyMinimlistic2;

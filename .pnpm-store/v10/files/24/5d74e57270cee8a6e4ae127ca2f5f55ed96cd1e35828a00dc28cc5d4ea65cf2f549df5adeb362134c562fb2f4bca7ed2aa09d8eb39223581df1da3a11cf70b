@@ -1,0 +1,29 @@
+import type { ResolvedTickOptions } from "../types.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export declare const SMOOTH_PLAYBACK_CLOCK: boolean;
+export declare const CLOCK_RESYNC_THRESHOLD_S = 0.06;
+export declare const NO_PLAYER_SNAPSHOT = -1;
+interface PlaybackClock {
+    lastTime: number;
+    lastPlayState: boolean;
+    lastEventCreationTime: number;
+    smoothedTime: number;
+    smoothedAt: number;
+}
+export declare const playbackClock: PlaybackClock;
+/**
+ * Clears the shared playback history when switching songs.
+ */
+export declare function resetPlaybackClock(): void;
+export declare function smoothedPlaybackTime(previousTime: number, previousAt: number, rawTime: number, now: number, playbackRate: number): number;
+export interface Playhead {
+    timeS: number;
+    isPlaying: boolean;
+    jumped: boolean;
+    mediaClockRanBackwards: boolean;
+    seekedWhilePaused: boolean;
+}
+export declare function advancePlaybackClock(reportedTimeS: number, { isPlaying, eventCreationTime, followPausedSeeks }: ResolvedTickOptions, playbackRate: number, now: number): Playhead;
+export declare function lyricClockShiftS(engine: AnimationEngineInstance, lyricsElement: HTMLElement, options: ResolvedTickOptions): number;
+export declare function playerTimeForLyricTime(engine: AnimationEngineInstance, lyricTimeS: number): number;
+export {};

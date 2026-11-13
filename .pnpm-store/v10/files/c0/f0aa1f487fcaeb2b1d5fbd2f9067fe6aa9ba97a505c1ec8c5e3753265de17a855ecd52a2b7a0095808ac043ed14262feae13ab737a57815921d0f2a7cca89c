@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ToggleLeftLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ToggleLeftFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=toggle-left.d.ts.map

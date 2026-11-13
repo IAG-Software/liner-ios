@@ -1,0 +1,20 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Buildings2.mjs";
+import n from "./Buildings3.mjs";
+import r from "./Buildings.mjs";
+import i from "./City.mjs";
+import a from "./Garage.mjs";
+import o from "./Hospital.mjs";
+import s from "./House.mjs";
+//#region src/csr/building/index.ts
+var c = /* @__PURE__ */ e({
+	Buildings: () => r,
+	Buildings2: () => t,
+	Buildings3: () => n,
+	City: () => i,
+	Garage: () => a,
+	Hospital: () => o,
+	House: () => s
+});
+//#endregion
+export { c as building_exports };

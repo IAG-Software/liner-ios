@@ -1,0 +1,36 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export interface ScrollInsets {
+    readonly top: number;
+    readonly bottom: number;
+}
+export declare const NO_SCROLL_INSETS: ScrollInsets;
+interface ScrollTargetLine {
+    readonly time: number;
+    readonly duration: number;
+    readonly position: number;
+    readonly height: number;
+}
+interface ScrollPaddingMeasurements {
+    viewportHeight: number;
+    targetScrollRatio: number;
+    contentHeightWithoutBottomPadding: number;
+    firstLineHeight: number;
+    lastLineCentre: number | null;
+    lastLineHeight: number;
+    footerHeight: number;
+}
+export declare function getTargetScrollRatio(engine: AnimationEngineInstance, lyricsElement: HTMLElement): number;
+export declare function setupTabRendererObserver(engine: AnimationEngineInstance, element: HTMLElement): void;
+export declare function measureScrollViewport(engine: AnimationEngineInstance, element: HTMLElement): void;
+export declare function resolveScrollInsets(scrollPaddingTop: string, scrollPaddingBottom: string, viewportHeight: number): ScrollInsets;
+export declare function findScrollAnchor<Line extends ScrollTargetLine>(sungLines: readonly Line[], scrollTime: number): Line;
+export declare function computeActiveLinesScrollTop(sungLines: readonly ScrollTargetLine[], anchor: ScrollTargetLine, viewportHeight: number, insets: ScrollInsets, targetOffset: number): {
+    scrollTop: number;
+    overflowsBand: boolean;
+};
+export declare function computeScrollPadding(measurements: ScrollPaddingMeasurements): {
+    top: number;
+    bottom: number;
+};
+export declare function applyScrollPadding(engine: AnimationEngineInstance): void;
+export {};

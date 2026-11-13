@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const LayoutLeftbarOpenLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const LayoutLeftbarOpenFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=layout-leftbar-open.d.ts.map

@@ -1,0 +1,5 @@
+import e from "./SpeakerMinimalistic.mjs";
+//#region src/csr/home/SpeakerMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

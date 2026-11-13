@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use FolderCloud instead
+ */
+declare const FolderClound: import("../../lib").Icon;
+export default FolderClound;

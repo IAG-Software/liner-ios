@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BookMinimalistic instead
+ */
+declare const BookMinimlistic: import("../../lib").Icon;
+export default BookMinimlistic;

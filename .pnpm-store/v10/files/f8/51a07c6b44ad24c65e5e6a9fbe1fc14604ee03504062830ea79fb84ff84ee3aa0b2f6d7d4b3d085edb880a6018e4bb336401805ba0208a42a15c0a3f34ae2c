@@ -1,0 +1,1 @@
+var e=require(`./ConfettiMinimalistic.cjs`).default;exports.default=e;

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ListUpMinimalistic instead
+ */
+declare const ListUpMinimlistic: import("../../lib").Icon;
+export default ListUpMinimlistic;

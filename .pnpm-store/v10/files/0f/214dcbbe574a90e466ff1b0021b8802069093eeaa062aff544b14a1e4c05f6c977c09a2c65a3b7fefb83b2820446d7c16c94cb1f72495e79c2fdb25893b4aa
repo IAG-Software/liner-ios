@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const TrendingDownLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const TrendingDownFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=trending-down.d.ts.map

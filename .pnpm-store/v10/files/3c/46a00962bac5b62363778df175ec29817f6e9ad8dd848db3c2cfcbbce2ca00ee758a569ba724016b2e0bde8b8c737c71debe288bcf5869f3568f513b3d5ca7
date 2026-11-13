@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BookmarkAddLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BookmarkAddFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=bookmark-add.d.ts.map

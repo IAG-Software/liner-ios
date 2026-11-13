@@ -1,0 +1,5 @@
+import e from "./DollarMinimalistic.mjs";
+//#region src/ssr/money/DollarMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,5 @@
+import e from "./ListArrowUpMinimalistic.mjs";
+//#region src/ssr/list/ListArrowUpMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

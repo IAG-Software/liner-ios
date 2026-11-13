@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use PasswordMinimalistic instead
+ */
+declare const PasswordMinimlistic: import("../../lib").Icon;
+export default PasswordMinimlistic;

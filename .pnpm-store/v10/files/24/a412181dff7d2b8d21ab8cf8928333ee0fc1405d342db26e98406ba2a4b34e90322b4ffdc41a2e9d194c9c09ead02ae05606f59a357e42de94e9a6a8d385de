@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use DollarMinimalistic instead
+ */
+declare const DollarMinimlistic: import("../../lib").Icon;
+export default DollarMinimlistic;

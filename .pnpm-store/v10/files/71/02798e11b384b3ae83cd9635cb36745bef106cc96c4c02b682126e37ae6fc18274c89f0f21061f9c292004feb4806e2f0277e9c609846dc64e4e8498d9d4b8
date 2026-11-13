@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ServerSquareCloud instead
+ */
+declare const ServerSquareClound: import("../../lib").Icon;
+export default ServerSquareClound;

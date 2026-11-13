@@ -1,0 +1,1 @@
+var e=require(`./KeyMinimalistic2.cjs`).default;exports.default=e;

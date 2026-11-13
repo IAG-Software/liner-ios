@@ -1,0 +1,5 @@
+import e from "./ListDownMinimalistic.mjs";
+//#region src/csr/list/ListDownMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

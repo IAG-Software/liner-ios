@@ -1,0 +1,4 @@
+export declare const imageHighlights: import("./themeSettings.js").Setting;
+/** A single CSS url(), not gradients or an arbitrary list of background layers. */
+export declare function imageURL(value: string): string | null;
+export declare function refreshInstrumentalImages(container: HTMLElement | null, view: Window): void;

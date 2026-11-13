@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const EyeCloseLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const EyeCloseFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=eye-close.d.ts.map

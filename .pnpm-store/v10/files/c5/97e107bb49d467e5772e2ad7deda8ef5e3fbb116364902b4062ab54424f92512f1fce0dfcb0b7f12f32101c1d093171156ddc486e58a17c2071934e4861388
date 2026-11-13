@@ -1,0 +1,5 @@
+import e from "./FolderCloud.mjs";
+//#region src/ssr/folders/FolderClound.ts
+var t = e;
+//#endregion
+export { t as default };

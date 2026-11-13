@@ -1,0 +1,1 @@
+var e=require(`./BookBookmarkMinimalistic.cjs`).default;exports.default=e;

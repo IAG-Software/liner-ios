@@ -1,0 +1,24 @@
+import type { LineData } from "../inject.js";
+import type { AnimationConfig } from "./animationConfig.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export interface ScrollerReading {
+    element: HTMLElement;
+    height: number;
+    scrollTop: number;
+    maxScrollTop: number;
+}
+export interface AutoScrollTick {
+    engine: AnimationEngineInstance;
+    lyricsElement: HTMLElement;
+    scroller: ScrollerReading;
+    focusedLines: LineData[];
+    scrollTimeS: number;
+    config: AnimationConfig;
+    smoothScroll: boolean;
+    countEveryUserScroll: boolean;
+    jumped: boolean;
+    focusChanged: boolean;
+    now: number;
+}
+export declare function followFocusedLines(tick: AutoScrollTick): void;
+export declare function lastSungLine(engine: AnimationEngineInstance): LineData | undefined;

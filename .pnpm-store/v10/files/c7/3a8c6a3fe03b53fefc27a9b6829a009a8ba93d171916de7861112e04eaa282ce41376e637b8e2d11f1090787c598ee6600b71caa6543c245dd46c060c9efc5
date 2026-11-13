@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const HeartCrackLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const HeartCrackFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=heart-crack.d.ts.map

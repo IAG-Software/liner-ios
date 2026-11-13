@@ -1,0 +1,5 @@
+import e from "./DropperMinimalistic.mjs";
+//#region src/csr/medicine/DropperMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

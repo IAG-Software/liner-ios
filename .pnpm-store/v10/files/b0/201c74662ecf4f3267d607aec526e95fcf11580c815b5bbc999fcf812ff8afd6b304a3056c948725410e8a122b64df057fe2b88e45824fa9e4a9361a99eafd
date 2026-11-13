@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RoundedMagnifierZoomIn instead
+ */
+declare const RoundedMagniferZoomIn: import("../../lib").Icon;
+export default RoundedMagniferZoomIn;

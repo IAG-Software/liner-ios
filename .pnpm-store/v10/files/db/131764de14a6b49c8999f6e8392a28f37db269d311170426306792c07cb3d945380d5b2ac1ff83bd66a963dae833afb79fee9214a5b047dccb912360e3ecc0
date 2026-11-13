@@ -1,0 +1,6 @@
+import type { AnimationEngineInstance } from "./instance.js";
+import { type LineScrollItem } from "./lineScroll.js";
+export declare function setupLineCullObserver(engine: AnimationEngineInstance): void;
+export declare function clearOffscreenLineCulling(engine: AnimationEngineInstance): void;
+export declare function updateVisibleLyricWillChange(engine: AnimationEngineInstance, lines: LineScrollItem[], fromScrollTop: number, toScrollTop: number, viewportHeight: number): void;
+export declare function clearVisibleLyricWillChange(engine: AnimationEngineInstance): void;

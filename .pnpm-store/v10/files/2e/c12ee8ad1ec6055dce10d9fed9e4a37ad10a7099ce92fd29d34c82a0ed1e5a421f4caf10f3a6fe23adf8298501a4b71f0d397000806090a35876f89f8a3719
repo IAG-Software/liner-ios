@@ -1,0 +1,5 @@
+import e from "./CloudFile.mjs";
+//#region src/ssr/files/CloundFile.ts
+var t = e;
+//#endregion
+export { t as default };

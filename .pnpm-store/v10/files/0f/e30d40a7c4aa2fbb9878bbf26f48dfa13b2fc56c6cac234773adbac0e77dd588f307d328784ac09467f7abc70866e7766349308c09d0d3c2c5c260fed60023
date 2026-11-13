@@ -1,0 +1,5 @@
+import e from "./StationMinimalistic.mjs";
+//#region src/csr/it/StationMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

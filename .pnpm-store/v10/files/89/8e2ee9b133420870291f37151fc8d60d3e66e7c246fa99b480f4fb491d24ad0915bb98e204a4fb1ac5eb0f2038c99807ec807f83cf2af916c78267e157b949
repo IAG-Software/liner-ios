@@ -1,0 +1,5 @@
+import e from "./CloudBolt.mjs";
+//#region src/ssr/weather/CloundBolt.ts
+var t = e;
+//#endregion
+export { t as default };

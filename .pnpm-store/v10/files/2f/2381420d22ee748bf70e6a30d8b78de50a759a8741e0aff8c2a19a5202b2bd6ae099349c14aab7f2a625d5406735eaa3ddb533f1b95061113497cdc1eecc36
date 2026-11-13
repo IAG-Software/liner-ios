@@ -1,0 +1,5 @@
+import e from "./CaseRoundMinimalistic.mjs";
+//#region src/csr/school/CaseRoundMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

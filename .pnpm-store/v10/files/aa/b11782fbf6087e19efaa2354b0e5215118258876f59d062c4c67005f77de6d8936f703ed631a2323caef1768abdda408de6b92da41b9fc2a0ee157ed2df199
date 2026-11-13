@@ -1,0 +1,2834 @@
+import { __exportAll as ee } from "../_virtual/_rolldown/runtime.mjs";
+import te from "./arrows/AltArrowDown.mjs";
+import e from "./arrows/AltArrowLeft.mjs";
+import t from "./arrows/AltArrowRight.mjs";
+import n from "./arrows/AltArrowUp.mjs";
+import r from "./arrows/ArrowDown.mjs";
+import i from "./arrows/ArrowLeftDown.mjs";
+import a from "./arrows/ArrowLeftUp.mjs";
+import o from "./arrows/ArrowLeft.mjs";
+import s from "./arrows/ArrowRightDown.mjs";
+import c from "./arrows/ArrowRightUp.mjs";
+import l from "./arrows/ArrowRight.mjs";
+import u from "./arrows/ArrowUp.mjs";
+import d from "./arrows/DoubleAltArrowDown.mjs";
+import f from "./arrows/DoubleAltArrowLeft.mjs";
+import p from "./arrows/DoubleAltArrowRight.mjs";
+import m from "./arrows/DoubleAltArrowUp.mjs";
+import h from "./arrows/RefreshCircle.mjs";
+import g from "./arrows/RefreshSquare.mjs";
+import _ from "./arrows/Refresh.mjs";
+import v from "./arrows/RestartCircle.mjs";
+import y from "./arrows/RestartSquare.mjs";
+import b from "./arrows/Restart.mjs";
+import x from "./arrows/RoundAltArrowDown.mjs";
+import S from "./arrows/RoundAltArrowLeft.mjs";
+import C from "./arrows/RoundAltArrowRight.mjs";
+import w from "./arrows/RoundAltArrowUp.mjs";
+import T from "./arrows/RoundArrowDown.mjs";
+import E from "./arrows/RoundArrowLeftDown.mjs";
+import D from "./arrows/RoundArrowLeftUp.mjs";
+import O from "./arrows/RoundArrowLeft.mjs";
+import k from "./arrows/RoundArrowRightDown.mjs";
+import A from "./arrows/RoundArrowRightUp.mjs";
+import j from "./arrows/RoundArrowRight.mjs";
+import M from "./arrows/RoundArrowUp.mjs";
+import N from "./arrows/RoundDoubleAltArrowDown.mjs";
+import P from "./arrows/RoundDoubleAltArrowLeft.mjs";
+import F from "./arrows/RoundDoubleAltArrowRight.mjs";
+import I from "./arrows/RoundDoubleAltArrowUp.mjs";
+import L from "./arrows/RoundSortHorizontal.mjs";
+import R from "./arrows/RoundSortVertical.mjs";
+import z from "./arrows/RoundTransferDiagonal.mjs";
+import B from "./arrows/RoundTransferHorizontal.mjs";
+import V from "./arrows/RoundTransferVertical.mjs";
+import H from "./arrows/SortHorizontal.mjs";
+import U from "./arrows/SortVertical.mjs";
+import W from "./arrows/SquareAltArrowDown.mjs";
+import G from "./arrows/SquareAltArrowLeft.mjs";
+import K from "./arrows/SquareAltArrowRight.mjs";
+import q from "./arrows/SquareAltArrowUp.mjs";
+import J from "./arrows/SquareArrowDown.mjs";
+import Y from "./arrows/SquareArrowLeftDown.mjs";
+import X from "./arrows/SquareArrowLeftUp.mjs";
+import Z from "./arrows/SquareArrowLeft.mjs";
+import Q from "./arrows/SquareArrowRightDown.mjs";
+import ne from "./arrows/SquareArrowRightUp.mjs";
+import re from "./arrows/SquareArrowRight.mjs";
+import ie from "./arrows/SquareArrowUp.mjs";
+import ae from "./arrows/SquareDoubleAltArrowDown.mjs";
+import oe from "./arrows/SquareDoubleAltArrowLeft.mjs";
+import se from "./arrows/SquareDoubleAltArrowRight.mjs";
+import ce from "./arrows/SquareDoubleAltArrowUp.mjs";
+import le from "./arrows/SquareSortHorizontal.mjs";
+import ue from "./arrows/SquareSortVertical.mjs";
+import de from "./arrows/SquareTransferHorizontal.mjs";
+import fe from "./arrows/SquareTransferVertical.mjs";
+import pe from "./arrows/TransferHorizontal.mjs";
+import me from "./arrows/TransferVertical.mjs";
+import he from "./arrows-action/ArrowToDownLeft.mjs";
+import ge from "./arrows-action/ArrowToDownRight.mjs";
+import _e from "./arrows-action/ArrowToTopLeft.mjs";
+import ve from "./arrows-action/ArrowToTopRight.mjs";
+import ye from "./arrows-action/CircleBottomDown.mjs";
+import be from "./arrows-action/CircleBottomUp.mjs";
+import xe from "./arrows-action/CircleTopDown.mjs";
+import Se from "./arrows-action/CircleTopUp.mjs";
+import Ce from "./arrows-action/DownloadMinimalistic.mjs";
+import we from "./arrows-action/DownloadMinimlistic.mjs";
+import Te from "./arrows-action/DownloadSquare.mjs";
+import Ee from "./arrows-action/DownloadTwiceSquare.mjs";
+import De from "./arrows-action/Download.mjs";
+import Oe from "./arrows-action/Exit.mjs";
+import ke from "./arrows-action/Export.mjs";
+import Ae from "./arrows-action/Forward2.mjs";
+import je from "./arrows-action/Forward.mjs";
+import Me from "./arrows-action/Import.mjs";
+import Ne from "./arrows-action/Login2.mjs";
+import Pe from "./arrows-action/Login3.mjs";
+import Fe from "./arrows-action/Login.mjs";
+import Ie from "./arrows-action/Logout2.mjs";
+import Le from "./arrows-action/Logout3.mjs";
+import Re from "./arrows-action/Logout.mjs";
+import ze from "./arrows-action/MaximizeSquare2.mjs";
+import Be from "./arrows-action/MaximizeSquare3.mjs";
+import Ve from "./arrows-action/MaximizeSquareMinimalistic.mjs";
+import He from "./arrows-action/MaximizeSquareMinimlistic.mjs";
+import Ue from "./arrows-action/MaximizeSquare.mjs";
+import We from "./arrows-action/Maximize.mjs";
+import Ge from "./arrows-action/MinimizeSquare2.mjs";
+import Ke from "./arrows-action/MinimizeSquare3.mjs";
+import qe from "./arrows-action/MinimizeSquareMinimalistic.mjs";
+import Je from "./arrows-action/MinimizeSquareMinimlistic.mjs";
+import Ye from "./arrows-action/MinimizeSquare.mjs";
+import Xe from "./arrows-action/Minimize.mjs";
+import Ze from "./arrows-action/ReceiveSquare.mjs";
+import Qe from "./arrows-action/ReciveSquare.mjs";
+import $e from "./arrows-action/ReceiveTwiceSquare.mjs";
+import et from "./arrows-action/ReciveTwiceSquare.mjs";
+import tt from "./arrows-action/Reorder2.mjs";
+import nt from "./arrows-action/Reply2.mjs";
+import rt from "./arrows-action/Reply.mjs";
+import it from "./arrows-action/Scale.mjs";
+import at from "./arrows-action/ScreenShare.mjs";
+import ot from "./arrows-action/SendSquare.mjs";
+import st from "./arrows-action/SendTwiceSquare.mjs";
+import ct from "./arrows-action/SquareBottomDown.mjs";
+import lt from "./arrows-action/SquareBottomUp.mjs";
+import ut from "./arrows-action/SquareTopDown.mjs";
+import dt from "./arrows-action/SquareTopUp.mjs";
+import ft from "./arrows-action/UndoLeftRoundSquare.mjs";
+import pt from "./arrows-action/UndoLeftRound.mjs";
+import mt from "./arrows-action/UndoLeftSquare.mjs";
+import ht from "./arrows-action/UndoLeft.mjs";
+import gt from "./arrows-action/UndoRightRoundSquare.mjs";
+import _t from "./arrows-action/UndoRightRound.mjs";
+import vt from "./arrows-action/UndoRightSquare.mjs";
+import yt from "./arrows-action/UndoRight.mjs";
+import bt from "./arrows-action/UploadMinimalistic.mjs";
+import xt from "./arrows-action/UploadMinimlistic.mjs";
+import St from "./arrows-action/UploadSquare.mjs";
+import Ct from "./arrows-action/UploadTwiceSquare.mjs";
+import wt from "./arrows-action/Upload.mjs";
+import Tt from "./astronomy/Asteroid.mjs";
+import Et from "./astronomy/Atom.mjs";
+import Dt from "./astronomy/BlackHole2.mjs";
+import Ot from "./astronomy/BlackHole3.mjs";
+import kt from "./astronomy/BlackHole.mjs";
+import At from "./astronomy/Earth.mjs";
+import jt from "./astronomy/Infinite.mjs";
+import Mt from "./astronomy/Infinity.mjs";
+import Nt from "./astronomy/Men.mjs";
+import Pt from "./astronomy/Planet2.mjs";
+import Ft from "./astronomy/Planet3.mjs";
+import It from "./astronomy/Planet4.mjs";
+import Lt from "./astronomy/Planet.mjs";
+import Rt from "./astronomy/Rocket2.mjs";
+import zt from "./astronomy/Rocket.mjs";
+import Bt from "./astronomy/Satellite.mjs";
+import Vt from "./astronomy/Star2.mjs";
+import Ht from "./astronomy/StarAngle.mjs";
+import Ut from "./astronomy/StarCircle.mjs";
+import Wt from "./astronomy/StarFall2.mjs";
+import Gt from "./astronomy/StarFallMinimalistic2.mjs";
+import Kt from "./astronomy/StarFallMinimlistic2.mjs";
+import qt from "./astronomy/StarFallMinimalistic.mjs";
+import Jt from "./astronomy/StarFallMinimlistic.mjs";
+import Yt from "./astronomy/StarFall.mjs";
+import Xt from "./astronomy/StarRainbow.mjs";
+import Zt from "./astronomy/StarRing.mjs";
+import Qt from "./astronomy/StarRings.mjs";
+import $t from "./astronomy/Stars2.mjs";
+import en from "./astronomy/StarsLine.mjs";
+import tn from "./astronomy/StarsMinimalistic.mjs";
+import nn from "./astronomy/StarsMinimlistic.mjs";
+import rn from "./astronomy/Ufo2.mjs";
+import an from "./astronomy/Ufo3.mjs";
+import on from "./astronomy/Ufo.mjs";
+import sn from "./astronomy/Women.mjs";
+import cn from "./building/Buildings2.mjs";
+import ln from "./building/Buildings3.mjs";
+import un from "./building/Buildings.mjs";
+import dn from "./building/City.mjs";
+import fn from "./building/Garage.mjs";
+import pn from "./building/Hospital.mjs";
+import mn from "./building/House.mjs";
+import hn from "./business/Chart2.mjs";
+import gn from "./business/ChartSquare.mjs";
+import _n from "./business/Chart.mjs";
+import vn from "./business/ChatSquare2.mjs";
+import yn from "./business/CourseDown.mjs";
+import bn from "./business/CourseUp.mjs";
+import xn from "./business/DiagramDown.mjs";
+import Sn from "./business/DiagramUp.mjs";
+import Cn from "./business/GraphDownNew.mjs";
+import wn from "./business/GraphDown.mjs";
+import Tn from "./business/GraphNewUp.mjs";
+import En from "./business/GraphNew.mjs";
+import Dn from "./business/GraphUp.mjs";
+import On from "./business/Graph.mjs";
+import kn from "./business/PieChart2.mjs";
+import An from "./business/PieChart3.mjs";
+import jn from "./business/PieChart.mjs";
+import Mn from "./business/PresentationGraph.mjs";
+import Nn from "./business/RoundGraph.mjs";
+import Pn from "./call/CallCancelRounded.mjs";
+import Fn from "./call/CallCancel.mjs";
+import In from "./call/CallChatRounded.mjs";
+import Ln from "./call/CallChat.mjs";
+import Rn from "./call/CallDroppedRounded.mjs";
+import zn from "./call/CallDropped.mjs";
+import Bn from "./call/CallMedicineRounded.mjs";
+import Vn from "./call/CallMedicine.mjs";
+import Hn from "./call/EndCallRounded.mjs";
+import Un from "./call/EndCall.mjs";
+import Wn from "./call/IncomingCallRounded.mjs";
+import Gn from "./call/IncomingCall.mjs";
+import Kn from "./call/OutgoingCallRounded.mjs";
+import qn from "./call/OutgoingCall.mjs";
+import Jn from "./call/PhoneCallingRounded.mjs";
+import Yn from "./call/PhoneCalling.mjs";
+import Xn from "./call/PhoneRounded.mjs";
+import Zn from "./call/Phone.mjs";
+import Qn from "./call/RecordCircle.mjs";
+import $n from "./call/RecordMinimalistic.mjs";
+import er from "./call/RecordMinimlistic.mjs";
+import tr from "./call/RecordSquare.mjs";
+import nr from "./devices/AirbudsCaseCharge.mjs";
+import rr from "./devices/AirbudsCaseMinimalistic.mjs";
+import ir from "./devices/AirbudsCaseMinimlistic.mjs";
+import ar from "./devices/AirbudsCaseOpen.mjs";
+import or from "./devices/AirbudsCase.mjs";
+import sr from "./devices/AirbudsCharge.mjs";
+import cr from "./devices/AirbudsCheck.mjs";
+import lr from "./devices/AirbudsLeft.mjs";
+import ur from "./devices/AirbudsRemove.mjs";
+import dr from "./devices/AirbudsRight.mjs";
+import fr from "./devices/Airbuds.mjs";
+import pr from "./devices/BluetoothCircle.mjs";
+import mr from "./devices/BluetoothSquare.mjs";
+import hr from "./devices/BluetoothWave.mjs";
+import gr from "./devices/Bluetooth.mjs";
+import _r from "./devices/Boombox.mjs";
+import vr from "./devices/Cassette2.mjs";
+import yr from "./devices/Cassette.mjs";
+import br from "./devices/CloudStorage.mjs";
+import xr from "./devices/CloundStorage.mjs";
+import Sr from "./devices/CpuBolt.mjs";
+import Cr from "./devices/Cpu.mjs";
+import wr from "./devices/Devices.mjs";
+import Tr from "./devices/Diskette.mjs";
+import Er from "./devices/Display.mjs";
+import Dr from "./devices/FlashDrive.mjs";
+import Or from "./devices/Gameboy.mjs";
+import kr from "./devices/GamepadCharge.mjs";
+import Ar from "./devices/GamepadMinimalistic.mjs";
+import jr from "./devices/GamepadMinimlistic.mjs";
+import Mr from "./devices/GamepadNoCharge.mjs";
+import Nr from "./devices/GamepadOld.mjs";
+import Pr from "./devices/Gamepad.mjs";
+import Fr from "./devices/HeadphonesRoundSound.mjs";
+import Ir from "./devices/HeadphonesRound.mjs";
+import Lr from "./devices/HeadphonesSquareSound.mjs";
+import Rr from "./devices/HeadphonesSquare.mjs";
+import zr from "./devices/IPhone.mjs";
+import Br from "./devices/Keyboard.mjs";
+import Vr from "./devices/Laptop2.mjs";
+import Hr from "./devices/Laptop3.mjs";
+import Ur from "./devices/LaptopMinimalistic.mjs";
+import Wr from "./devices/LaptopMinimlistic.mjs";
+import Gr from "./devices/Laptop.mjs";
+import Kr from "./devices/LightbulbBolt.mjs";
+import qr from "./devices/LightbulbMinimalistic.mjs";
+import Jr from "./devices/LightbulbMinimlistic.mjs";
+import Yr from "./devices/Lightbulb.mjs";
+import Xr from "./devices/Lightning.mjs";
+import Zr from "./devices/MonitorCamera.mjs";
+import Qr from "./devices/MonitorSmartphone.mjs";
+import $r from "./devices/Monitor.mjs";
+import ei from "./devices/MouseCircle.mjs";
+import ti from "./devices/MouseMinimalistic.mjs";
+import ni from "./devices/MouseMinimlistic.mjs";
+import ri from "./devices/Mouse.mjs";
+import ii from "./devices/PlugCircle.mjs";
+import ai from "./devices/Printer2.mjs";
+import oi from "./devices/PrinterMinimalistic.mjs";
+import si from "./devices/PrinterMinimlistic.mjs";
+import ci from "./devices/Printer.mjs";
+import li from "./devices/Projector.mjs";
+import ui from "./devices/RadioMinimalistic.mjs";
+import di from "./devices/RadioMinimlistic.mjs";
+import fi from "./devices/Radio.mjs";
+import pi from "./devices/SdCard.mjs";
+import mi from "./devices/Server2.mjs";
+import hi from "./devices/ServerMinimalistic.mjs";
+import gi from "./devices/ServerMinimlistic.mjs";
+import _i from "./devices/ServerPath.mjs";
+import vi from "./devices/ServerSquareCloud.mjs";
+import yi from "./devices/ServerSquareClound.mjs";
+import bi from "./devices/ServerSquareUpdate.mjs";
+import xi from "./devices/ServerSquare.mjs";
+import Si from "./devices/Server.mjs";
+import Ci from "./devices/SimCardMinimalistic.mjs";
+import wi from "./devices/SimCardMinimlistic.mjs";
+import Ti from "./devices/SimCard.mjs";
+import Ei from "./devices/SimCards.mjs";
+import Di from "./devices/SmartSpeaker2.mjs";
+import Oi from "./devices/SmartSpeakerMinimalistic.mjs";
+import ki from "./devices/SmartSpeakerMinimlistic.mjs";
+import Ai from "./devices/SmartSpeaker.mjs";
+import ji from "./devices/Smartphone2.mjs";
+import Mi from "./devices/SmartphoneRotate2.mjs";
+import Ni from "./devices/SmartphoneRotateAngle.mjs";
+import Pi from "./devices/SmartphoneRotateOrientation.mjs";
+import Fi from "./devices/SmartphoneUpdate.mjs";
+import Ii from "./devices/SmartphoneVibration.mjs";
+import Li from "./devices/Smartphone.mjs";
+import Ri from "./devices/Socket.mjs";
+import zi from "./devices/SsdRound.mjs";
+import Bi from "./devices/SsdSquare.mjs";
+import Vi from "./devices/Tablet.mjs";
+import Hi from "./devices/Telescope.mjs";
+import Ui from "./devices/TurntableMinimalistic.mjs";
+import Wi from "./devices/TurntableMinimlistic.mjs";
+import Gi from "./devices/TurntableMusicNote.mjs";
+import Ki from "./devices/Turntable.mjs";
+import qi from "./devices/Tv.mjs";
+import Ji from "./devices/Weigher.mjs";
+import Yi from "./devices/WirelessCharge.mjs";
+import Xi from "./faces/ConfoundedCircle.mjs";
+import Zi from "./faces/ConfoundedSquare.mjs";
+import Qi from "./faces/EmojiFunnyCircle.mjs";
+import $i from "./faces/EmojiFunnySquare.mjs";
+import ea from "./faces/ExpressionlessCircle.mjs";
+import ta from "./faces/ExpressionlessSquare.mjs";
+import na from "./faces/FaceScanCircle.mjs";
+import ra from "./faces/FaceScanSquare.mjs";
+import ia from "./faces/FacemaskCircle.mjs";
+import aa from "./faces/FacemaskSquare.mjs";
+import oa from "./faces/SadCircle.mjs";
+import sa from "./faces/SadSquare.mjs";
+import ca from "./faces/SleepingCircle.mjs";
+import la from "./faces/SleepingSquare.mjs";
+import ua from "./faces/SmileCircle.mjs";
+import da from "./faces/SmileSquare.mjs";
+import fa from "./faces/StickerCircle.mjs";
+import pa from "./faces/StickerSmileCircle2.mjs";
+import ma from "./faces/StickerSmileCircle.mjs";
+import ha from "./faces/StickerSmileSquare.mjs";
+import ga from "./faces/StickerSquare.mjs";
+import _a from "./files/CloudFile.mjs";
+import va from "./files/CloundFile.mjs";
+import ya from "./files/CodeFile.mjs";
+import ba from "./files/FigmaFile.mjs";
+import xa from "./files/FileCheck.mjs";
+import Sa from "./files/FileCorrupted.mjs";
+import Ca from "./files/FileDownload.mjs";
+import wa from "./files/FileFavourite.mjs";
+import Ta from "./files/FileLeft.mjs";
+import Ea from "./files/FileRemove.mjs";
+import Da from "./files/FileRight.mjs";
+import Oa from "./files/FileSend.mjs";
+import ka from "./files/FileSmile.mjs";
+import Aa from "./files/FileText.mjs";
+import ja from "./files/File.mjs";
+import Ma from "./files/ZipFile.mjs";
+import Na from "./folders/AddFolder.mjs";
+import Pa from "./folders/Folder2.mjs";
+import Fa from "./folders/FolderCheck.mjs";
+import Ia from "./folders/FolderCloud.mjs";
+import La from "./folders/FolderClound.mjs";
+import Ra from "./folders/FolderError.mjs";
+import za from "./folders/FolderFavouriteBookmark.mjs";
+import Ba from "./folders/FolderFavouriteStar.mjs";
+import Va from "./folders/FolderOpen.mjs";
+import Ha from "./folders/FolderPathConnect.mjs";
+import Ua from "./folders/FolderSecurity.mjs";
+import Wa from "./folders/FolderWithFiles.mjs";
+import Ga from "./folders/Folder.mjs";
+import Ka from "./folders/MoveToFolder.mjs";
+import qa from "./folders/RemoveFolder.mjs";
+import Ja from "./food/Bottle.mjs";
+import Ya from "./food/ChefHatHeart.mjs";
+import Xa from "./food/ChefHatMinimalistic.mjs";
+import Za from "./food/ChefHatMinimlistic.mjs";
+import Qa from "./food/ChefHat.mjs";
+import $a from "./food/Corkscrew.mjs";
+import eo from "./food/CupHot.mjs";
+import to from "./food/CupPaper.mjs";
+import no from "./food/DonutBitten.mjs";
+import ro from "./food/Donut.mjs";
+import io from "./food/Ladle.mjs";
+import ao from "./food/Mug.mjs";
+import oo from "./food/OvenMittsMinimalistic.mjs";
+import so from "./food/OvenMittsMinimlistic.mjs";
+import co from "./food/OvenMitts.mjs";
+import lo from "./food/RollingPin.mjs";
+import uo from "./food/TeaCup.mjs";
+import fo from "./food/Whisk.mjs";
+import po from "./food/WineglassTriangle.mjs";
+import mo from "./food/Wineglass.mjs";
+import ho from "./hands/HandHeart.mjs";
+import go from "./hands/HandMoney.mjs";
+import _o from "./hands/HandPills.mjs";
+import vo from "./hands/HandShake.mjs";
+import yo from "./hands/HandStars.mjs";
+import bo from "./home/Armchair2.mjs";
+import xo from "./home/Armchair.mjs";
+import So from "./home/BarChair.mjs";
+import Co from "./home/Bath.mjs";
+import wo from "./home/Bed.mjs";
+import To from "./home/BedsideTable2.mjs";
+import Eo from "./home/BedsideTable3.mjs";
+import Do from "./home/BedsideTable4.mjs";
+import Oo from "./home/BedsideTable.mjs";
+import ko from "./home/Chair2.mjs";
+import Ao from "./home/Chair.mjs";
+import jo from "./home/Chandelier.mjs";
+import Mo from "./home/Closet2.mjs";
+import No from "./home/Closet.mjs";
+import Po from "./home/Conditioner2.mjs";
+import Fo from "./home/Condicioner2.mjs";
+import Io from "./home/Conditioner.mjs";
+import Lo from "./home/Condicioner.mjs";
+import Ro from "./home/FloorLampMinimalistic.mjs";
+import zo from "./home/FloorLampMinimlistic.mjs";
+import Bo from "./home/FloorLamp.mjs";
+import Vo from "./home/Fridge.mjs";
+import Ho from "./home/Lamp.mjs";
+import Uo from "./home/Mirror.mjs";
+import Wo from "./home/RemoteController2.mjs";
+import Go from "./home/RemoteControllerMinimalistic.mjs";
+import Ko from "./home/RemoteControllerMinimlistic.mjs";
+import qo from "./home/RemoteController.mjs";
+import Jo from "./home/SmartVacuumCleaner2.mjs";
+import Yo from "./home/SmartVacuumCleaner.mjs";
+import Xo from "./home/Sofa2.mjs";
+import Zo from "./home/Sofa3.mjs";
+import Qo from "./home/Sofa.mjs";
+import $o from "./home/SpeakerMinimalistic.mjs";
+import es from "./home/SpeakerMinimlistic.mjs";
+import ts from "./home/Speaker.mjs";
+import ns from "./home/Trellis.mjs";
+import rs from "./home/VolumeKnob.mjs";
+import is from "./home/WashingMachineMinimalistic.mjs";
+import as from "./home/WashingMachineMinimlistic.mjs";
+import os from "./home/WashingMachine.mjs";
+import ss from "./it/BugMinimalistic.mjs";
+import cs from "./it/BugMinimlistic.mjs";
+import ls from "./it/Bug.mjs";
+import us from "./it/Code2.mjs";
+import ds from "./it/CodeCircle.mjs";
+import fs from "./it/CodeSquare.mjs";
+import ps from "./it/Code.mjs";
+import ms from "./it/Command.mjs";
+import hs from "./it/HashtagChat.mjs";
+import gs from "./it/HashtagCircle.mjs";
+import _s from "./it/HashtagSquare.mjs";
+import vs from "./it/Hashtag.mjs";
+import ys from "./it/Programming.mjs";
+import bs from "./it/Screencast2.mjs";
+import xs from "./it/Screencast.mjs";
+import Ss from "./it/SidebarCode.mjs";
+import Cs from "./it/SiderbarCode.mjs";
+import ws from "./it/SidebarMinimalistic.mjs";
+import Ts from "./it/SiderbarMinimalistic.mjs";
+import Es from "./it/SidebarMinimlistic.mjs";
+import Ds from "./it/Sidebar.mjs";
+import Os from "./it/Siderbar.mjs";
+import ks from "./it/SlashCircle.mjs";
+import As from "./it/SlashSquare.mjs";
+import js from "./it/StationMinimalistic.mjs";
+import Ms from "./it/StationMinimlistic.mjs";
+import Ns from "./it/Station.mjs";
+import Ps from "./it/Structure.mjs";
+import Fs from "./it/Translation2.mjs";
+import Is from "./it/Translation.mjs";
+import Ls from "./it/UsbCircle.mjs";
+import Rs from "./it/UsbSquare.mjs";
+import zs from "./it/Usb.mjs";
+import Bs from "./it/WiFiRouterMinimalistic.mjs";
+import Vs from "./it/WiFiRouterMinimlistic.mjs";
+import Hs from "./it/WiFiRouterRound.mjs";
+import Us from "./it/WiFiRouter.mjs";
+import Ws from "./it/WindowFrame.mjs";
+import Gs from "./like/Dislike.mjs";
+import Ks from "./like/HeartAngle.mjs";
+import qs from "./like/HeartBroken.mjs";
+import Js from "./like/HeartLock.mjs";
+import Ys from "./like/HeartShine.mjs";
+import Xs from "./like/HeartUnlock.mjs";
+import Zs from "./like/Heart.mjs";
+import Qs from "./like/Hearts.mjs";
+import $s from "./like/Like.mjs";
+import ec from "./like/MedalRibbonStar.mjs";
+import tc from "./like/MedalRibbon.mjs";
+import nc from "./like/MedalRibbonsStar.mjs";
+import rc from "./like/MedalStarCircle.mjs";
+import ic from "./like/MedalStarSquare.mjs";
+import ac from "./like/MedalStar.mjs";
+import oc from "./like/StarShine.mjs";
+import sc from "./like/Star.mjs";
+import cc from "./list/Bill2.mjs";
+import lc from "./list/ChecklistMinimalistic.mjs";
+import uc from "./list/ChecklistMinimlistic.mjs";
+import dc from "./list/Checklist.mjs";
+import fc from "./list/ListArrowDownMinimalistic.mjs";
+import pc from "./list/ListArrowDownMinimlistic.mjs";
+import mc from "./list/ListArrowDown.mjs";
+import hc from "./list/ListArrowUpMinimalistic.mjs";
+import gc from "./list/ListArrowUpMinimlistic.mjs";
+import _c from "./list/ListArrowUp.mjs";
+import vc from "./list/ListCheckMinimalistic.mjs";
+import yc from "./list/ListCheckMinimlistic.mjs";
+import bc from "./list/ListCheck.mjs";
+import xc from "./list/ListCrossMinimalistic.mjs";
+import Sc from "./list/ListCrossMinimlistic.mjs";
+import Cc from "./list/ListCross.mjs";
+import wc from "./list/ListDownMinimalistic.mjs";
+import Tc from "./list/ListDownMinimlistic.mjs";
+import Ec from "./list/ListDown.mjs";
+import Dc from "./list/ListHeartMinimalistic.mjs";
+import Oc from "./list/ListHeartMinimlistic.mjs";
+import kc from "./list/ListHeart.mjs";
+import Ac from "./list/ListUpMinimalistic.mjs";
+import jc from "./list/ListUpMinimlistic.mjs";
+import Mc from "./list/ListUp.mjs";
+import Nc from "./list/ListVertical.mjs";
+import Pc from "./list/List.mjs";
+import Fc from "./list/Playlist2.mjs";
+import Ic from "./list/Plaaylist2.mjs";
+import Lc from "./list/PlaylistMinimalistic2.mjs";
+import Rc from "./list/PlaaylistMinimalistic2.mjs";
+import zc from "./list/PlaylistMinimlistic2.mjs";
+import Bc from "./list/PlaylistMinimalistic3.mjs";
+import Vc from "./list/PlaaylistMinimalistic3.mjs";
+import Hc from "./list/PlaylistMinimlistic3.mjs";
+import Uc from "./list/PlaylistMinimalistic.mjs";
+import Wc from "./list/PlaaylistMinimalistic.mjs";
+import Gc from "./list/PlaylistMinimlistic.mjs";
+import Kc from "./list/Playlist.mjs";
+import qc from "./list/Plaaylist.mjs";
+import Jc from "./list/SortByAlphabet.mjs";
+import Yc from "./list/SortByTime.mjs";
+import Xc from "./list/SortFromBottomToTop.mjs";
+import Zc from "./list/SortFromTopToBottom.mjs";
+import Qc from "./map/BranchingPathsDown.mjs";
+import $c from "./map/BranchingPathsUp.mjs";
+import el from "./map/CompassBig.mjs";
+import tl from "./map/CompassSquare.mjs";
+import nl from "./map/Compass.mjs";
+import rl from "./map/Global.mjs";
+import il from "./map/Globus.mjs";
+import al from "./map/Gps.mjs";
+import ol from "./map/MapArrowDown.mjs";
+import sl from "./map/MapArrowLeft.mjs";
+import cl from "./map/MapArrowRight.mjs";
+import ll from "./map/MapArrowSquare.mjs";
+import ul from "./map/MapArrowUp.mjs";
+import dl from "./map/MapPointAdd.mjs";
+import fl from "./map/MapPointFavourite.mjs";
+import pl from "./map/MapPointHospital.mjs";
+import ml from "./map/MapPointRemove.mjs";
+import hl from "./map/MapPointRotate.mjs";
+import gl from "./map/MapPointSchool.mjs";
+import _l from "./map/MapPointSearch.mjs";
+import vl from "./map/MapPointWave.mjs";
+import yl from "./map/MapPoint.mjs";
+import bl from "./map/Map.mjs";
+import xl from "./map/PeopleNearby.mjs";
+import Sl from "./map/PointOnMapPerspective.mjs";
+import Cl from "./map/PointOnMap.mjs";
+import wl from "./map/Radar2.mjs";
+import Tl from "./map/Radar.mjs";
+import El from "./map/Route.mjs";
+import Dl from "./map/Routing2.mjs";
+import Ol from "./map/Routing3.mjs";
+import kl from "./map/Routing.mjs";
+import Al from "./map/Signpost2.mjs";
+import jl from "./map/Signpost.mjs";
+import Ml from "./map/StreetsMapPoint.mjs";
+import Nl from "./map/StreetsNavigation.mjs";
+import Pl from "./map/Streets.mjs";
+import Fl from "./medicine/AdhesivePlaster2.mjs";
+import Il from "./medicine/AdhesivePlaster.mjs";
+import Ll from "./medicine/Bacteria.mjs";
+import Rl from "./medicine/BenzeneRing.mjs";
+import zl from "./medicine/BoneBroken.mjs";
+import Bl from "./medicine/BoneCrack.mjs";
+import Vl from "./medicine/Bone.mjs";
+import Hl from "./medicine/Bones.mjs";
+import Ul from "./medicine/Dna.mjs";
+import Wl from "./medicine/Dropper2.mjs";
+import Gl from "./medicine/Dropper3.mjs";
+import Kl from "./medicine/DropperMinimalistic2.mjs";
+import ql from "./medicine/DropperMinimlistic2.mjs";
+import Jl from "./medicine/DropperMinimalistic.mjs";
+import Yl from "./medicine/DropperMinimlistic.mjs";
+import Xl from "./medicine/Dropper.mjs";
+import Zl from "./medicine/Health.mjs";
+import Ql from "./medicine/HeartPulse2.mjs";
+import $l from "./medicine/HeartPulse.mjs";
+import eu from "./medicine/JarOfPills2.mjs";
+import tu from "./medicine/JarOfPills.mjs";
+import nu from "./medicine/MedicalKit.mjs";
+import ru from "./medicine/Pill.mjs";
+import iu from "./medicine/Pills2.mjs";
+import au from "./medicine/Pills3.mjs";
+import ou from "./medicine/Pills.mjs";
+import su from "./medicine/Pulse2.mjs";
+import cu from "./medicine/Pulse.mjs";
+import lu from "./medicine/Stethoscope.mjs";
+import uu from "./medicine/Syringe.mjs";
+import du from "./medicine/TestTubeMinimalistic.mjs";
+import fu from "./medicine/TestTubeMinimlistic.mjs";
+import pu from "./medicine/TestTube.mjs";
+import mu from "./medicine/Thermometer.mjs";
+import hu from "./medicine/Virus.mjs";
+import gu from "./messages/ChatDots.mjs";
+import _u from "./messages/ChatLine.mjs";
+import vu from "./messages/ChatRoundCall.mjs";
+import yu from "./messages/ChatRoundCheck.mjs";
+import bu from "./messages/ChatRoundDots.mjs";
+import xu from "./messages/ChatRoundLike.mjs";
+import Su from "./messages/ChatRoundLine.mjs";
+import Cu from "./messages/ChatRoundMoney.mjs";
+import wu from "./messages/ChatRoundUnread.mjs";
+import Tu from "./messages/ChatRoundVideo.mjs";
+import Eu from "./messages/ChatRound.mjs";
+import Du from "./messages/ChatSquareArrow.mjs";
+import Ou from "./messages/ChatSquareCall.mjs";
+import ku from "./messages/ChatSquareCheck.mjs";
+import Au from "./messages/ChatSquareCode.mjs";
+import ju from "./messages/ChatSquareLike.mjs";
+import Mu from "./messages/ChatSquare.mjs";
+import Nu from "./messages/ChatUnread.mjs";
+import Pu from "./messages/CheckRead.mjs";
+import Fu from "./messages/Dialog2.mjs";
+import Iu from "./messages/Dialog.mjs";
+import Lu from "./messages/ForwardRight.mjs";
+import Ru from "./messages/InboxArchive.mjs";
+import zu from "./messages/InboxIn.mjs";
+import Bu from "./messages/InboxLine.mjs";
+import Vu from "./messages/InboxOut.mjs";
+import Hu from "./messages/InboxUnread.mjs";
+import Uu from "./messages/Inbox.mjs";
+import Wu from "./messages/LetterOpened.mjs";
+import Gu from "./messages/LetterUnread.mjs";
+import Ku from "./messages/Letter.mjs";
+import qu from "./messages/Mailbox.mjs";
+import Ju from "./messages/MultipleForwardLeft.mjs";
+import Yu from "./messages/MultipleForwardRight.mjs";
+import Xu from "./messages/Paperclip2.mjs";
+import Zu from "./messages/PaperclipRounded2.mjs";
+import Qu from "./messages/PaperclipRounded.mjs";
+import $u from "./messages/Paperclip.mjs";
+import ed from "./messages/Pen2.mjs";
+import td from "./messages/PenNewRound.mjs";
+import nd from "./messages/PenNewSquare.mjs";
+import rd from "./messages/Pen.mjs";
+import id from "./messages/Plain2.mjs";
+import ad from "./messages/Plain3.mjs";
+import od from "./messages/Plain.mjs";
+import sd from "./messages/SquareForward.mjs";
+import cd from "./messages/SquareShareLine.mjs";
+import ld from "./messages/Unread.mjs";
+import ud from "./money/Banknote2.mjs";
+import dd from "./money/Banknote.mjs";
+import fd from "./money/BillCheck.mjs";
+import pd from "./money/BillCross.mjs";
+import md from "./money/BillList.mjs";
+import hd from "./money/Bill.mjs";
+import gd from "./money/Card2.mjs";
+import _d from "./money/CardReceive.mjs";
+import vd from "./money/CardRecive.mjs";
+import yd from "./money/CardSearch.mjs";
+import bd from "./money/CardSend.mjs";
+import xd from "./money/CardTransfer.mjs";
+import Sd from "./money/Card.mjs";
+import Cd from "./money/Cardholder.mjs";
+import wd from "./money/CashOut.mjs";
+import Td from "./money/DollarMinimalistic.mjs";
+import Ed from "./money/DollarMinimlistic.mjs";
+import Dd from "./money/Dollar.mjs";
+import Od from "./money/Euro.mjs";
+import kd from "./money/MoneyBag.mjs";
+import Ad from "./money/Ruble.mjs";
+import jd from "./money/Safe2.mjs";
+import Md from "./money/SafeCircle.mjs";
+import Nd from "./money/SafeSquare.mjs";
+import Pd from "./money/SaleSquare.mjs";
+import Fd from "./money/Sale.mjs";
+import Id from "./money/TagHorizontal.mjs";
+import Ld from "./money/TagPrice.mjs";
+import Rd from "./money/Tag.mjs";
+import zd from "./money/TickerStar.mjs";
+import Bd from "./money/TicketSale.mjs";
+import Vd from "./money/Ticket.mjs";
+import Hd from "./money/VerifiedCheck.mjs";
+import Ud from "./money/WadOfMoney.mjs";
+import Wd from "./money/Wallet2.mjs";
+import Gd from "./money/WalletMoney.mjs";
+import Kd from "./money/Wallet.mjs";
+import qd from "./nature/Bonfire.mjs";
+import Jd from "./nature/FireMinimalistic.mjs";
+import Yd from "./nature/FireMinimlistic.mjs";
+import Xd from "./nature/FireSquare.mjs";
+import Zd from "./nature/Fire.mjs";
+import Qd from "./nature/Flame.mjs";
+import $d from "./nature/Leaf.mjs";
+import ef from "./nature/SuitcaseLines.mjs";
+import tf from "./nature/SuitcaseTag.mjs";
+import nf from "./nature/Suitcase.mjs";
+import rf from "./notes/ArchiveCheck.mjs";
+import af from "./notes/ArchiveDownMinimalistic.mjs";
+import of from "./notes/ArchiveDownMinimlistic.mjs";
+import sf from "./notes/ArchiveDown.mjs";
+import cf from "./notes/ArchiveMinimalistic.mjs";
+import lf from "./notes/ArchiveMinimlistic.mjs";
+import uf from "./notes/ArchiveUpMinimalistic.mjs";
+import df from "./notes/ArchiveUpMinimlistic.mjs";
+import ff from "./notes/ArchiveUp.mjs";
+import pf from "./notes/Archive.mjs";
+import mf from "./notes/ClipboardAdd.mjs";
+import hf from "./notes/ClipboardCheck.mjs";
+import gf from "./notes/ClipboardHeart.mjs";
+import _f from "./notes/ClipboardList.mjs";
+import vf from "./notes/ClipboardRemove.mjs";
+import yf from "./notes/ClipboardText.mjs";
+import bf from "./notes/Clipboard.mjs";
+import xf from "./notes/DocumentAdd.mjs";
+import Sf from "./notes/DocumentMedicine.mjs";
+import Cf from "./notes/DocumentText.mjs";
+import wf from "./notes/Document.mjs";
+import Tf from "./notes/DocumentsMinimalistic.mjs";
+import Ef from "./notes/DocumentsMinimlistic.mjs";
+import Df from "./notes/Documents.mjs";
+import Of from "./notes/Notebook.mjs";
+import kf from "./notes/NotesMinimalistic.mjs";
+import Af from "./notes/NotesMinimlistic.mjs";
+import jf from "./notes/Notes.mjs";
+import Mf from "./notifications/BellBing.mjs";
+import Nf from "./notifications/BellOff.mjs";
+import Pf from "./notifications/Bell.mjs";
+import Ff from "./notifications/NotificationLinesRemove.mjs";
+import If from "./notifications/NotificationRemove.mjs";
+import Lf from "./notifications/NotificationUnreadLines.mjs";
+import Rf from "./notifications/NotificationUnread.mjs";
+import zf from "./parts/Accumulator.mjs";
+import Bf from "./parts/Bus.mjs";
+import Vf from "./parts/ElectricRefueling.mjs";
+import Hf from "./parts/GasStation.mjs";
+import Uf from "./parts/KickScooter.mjs";
+import Wf from "./parts/Scooter.mjs";
+import Gf from "./parts/ShockAbsorber.mjs";
+import Kf from "./parts/SpeedometerLow.mjs";
+import qf from "./parts/SpedometerLow.mjs";
+import Jf from "./parts/SpeedometerMax.mjs";
+import Yf from "./parts/SpedometerMax.mjs";
+import Xf from "./parts/SpeedometerMiddle.mjs";
+import Zf from "./parts/SpedometerMiddle.mjs";
+import Qf from "./parts/SuspensionBolt.mjs";
+import $f from "./parts/SuspensionCross.mjs";
+import ep from "./parts/Suspension.mjs";
+import tp from "./parts/Tram.mjs";
+import np from "./parts/TransmissionCircle.mjs";
+import rp from "./parts/TransmissionSquare.mjs";
+import ip from "./parts/Transmission.mjs";
+import ap from "./parts/WheelAngle.mjs";
+import op from "./parts/Wheel.mjs";
+import sp from "./school/Backpack.mjs";
+import cp from "./school/Book2.mjs";
+import lp from "./school/BookBookmarkMinimalistic.mjs";
+import up from "./school/BookBookmarkMinimlistic.mjs";
+import dp from "./school/BookBookmark.mjs";
+import fp from "./school/BookMinimalistic.mjs";
+import pp from "./school/BookMinimlistic.mjs";
+import mp from "./school/Book.mjs";
+import hp from "./school/BookmarkCircle.mjs";
+import gp from "./school/BookmarkOpened.mjs";
+import _p from "./school/BookmarkSquareMinimalistic.mjs";
+import vp from "./school/BookmarkSquareMinimlistic.mjs";
+import yp from "./school/BookmarkSquare.mjs";
+import bp from "./school/Bookmark.mjs";
+import xp from "./school/CalculatorMinimalistic.mjs";
+import Sp from "./school/CalculatorMinimlistic.mjs";
+import Cp from "./school/Calculator.mjs";
+import wp from "./school/CaseMinimalistic.mjs";
+import Tp from "./school/CaseMinimlistic.mjs";
+import Ep from "./school/CaseRoundMinimalistic.mjs";
+import Dp from "./school/CaseRoundMinimlistic.mjs";
+import Op from "./school/CaseRound.mjs";
+import kp from "./school/Case.mjs";
+import Ap from "./school/DiplomaVerified.mjs";
+import jp from "./school/Diploma.mjs";
+import Mp from "./school/Document2.mjs";
+import Np from "./school/Notebook2.mjs";
+import Pp from "./school/NotebookBookmark.mjs";
+import Fp from "./school/NotebookMinimalistic.mjs";
+import Ip from "./school/NotebookMinimlistic.mjs";
+import Lp from "./school/NotebookSquare.mjs";
+import Rp from "./school/PassportMinimalistic.mjs";
+import zp from "./school/PassportMinimlistic.mjs";
+import Bp from "./school/Passport.mjs";
+import Vp from "./school/PlusMinus.mjs";
+import Hp from "./school/SquareAcademicCap2.mjs";
+import Up from "./school/SquareAcademicCap.mjs";
+import Wp from "./search/MagnifierBug.mjs";
+import Gp from "./search/MagniferBug.mjs";
+import Kp from "./search/MagnifierZoomIn.mjs";
+import qp from "./search/MagniferZoomIn.mjs";
+import Jp from "./search/MagnifierZoomOut.mjs";
+import Yp from "./search/MagniferZoomOut.mjs";
+import Xp from "./search/Magnifier.mjs";
+import Zp from "./search/Magnifer.mjs";
+import $ from "./search/MinimalisticMagnifierBug.mjs";
+import Qp from "./search/MinimalisticMagniferBug.mjs";
+import $p from "./search/MinimlisticMagnifierBug.mjs";
+import em from "./search/MinimalisticMagnifierZoomIn.mjs";
+import tm from "./search/MinimalisticMagniferZoomIn.mjs";
+import nm from "./search/MinimlisticMagnifierZoomIn.mjs";
+import rm from "./search/MinimalisticMagnifierZoomOut.mjs";
+import im from "./search/MinimalisticMagniferZoomOut.mjs";
+import am from "./search/MinimlisticMagnifierZoomOut.mjs";
+import om from "./search/MinimalisticMagnifier.mjs";
+import sm from "./search/MinimalisticMagnifer.mjs";
+import cm from "./search/MinimlisticMagnifier.mjs";
+import lm from "./search/RoundedMagnifierBug.mjs";
+import um from "./search/RoundedMagniferBug.mjs";
+import dm from "./search/RoundedMagnifierZoomIn.mjs";
+import fm from "./search/RoundedMagniferZoomIn.mjs";
+import pm from "./search/RoundedMagnifierZoomOut.mjs";
+import mm from "./search/RoundedMagniferZoomOut.mjs";
+import hm from "./search/RoundedMagnifier.mjs";
+import gm from "./search/RoundedMagnifer.mjs";
+import _m from "./security/BombEmoji.mjs";
+import vm from "./security/BombMinimalistic.mjs";
+import ym from "./security/BombMinimlistic.mjs";
+import bm from "./security/Bomb.mjs";
+import xm from "./security/CodeScan.mjs";
+import Sm from "./security/EyeClosed.mjs";
+import Cm from "./security/EyeScan.mjs";
+import wm from "./security/Eye.mjs";
+import Tm from "./security/Incognito.mjs";
+import Em from "./security/KeyMinimalistic2.mjs";
+import Dm from "./security/KeyMinimlistic2.mjs";
+import Om from "./security/KeyMinimalisticSquare2.mjs";
+import km from "./security/KeyMinimlisticSquare2.mjs";
+import Am from "./security/KeyMinimalisticSquare3.mjs";
+import jm from "./security/KeyMinimlisticSquare3.mjs";
+import Mm from "./security/KeyMinimalisticSquare.mjs";
+import Nm from "./security/KeyMinimlisticSquare.mjs";
+import Pm from "./security/KeyMinimalistic.mjs";
+import Fm from "./security/KeyMinimlistic.mjs";
+import Im from "./security/KeySquare2.mjs";
+import Lm from "./security/KeySquare.mjs";
+import Rm from "./security/Key.mjs";
+import zm from "./security/LockKeyholeMinimalisticUnlocked.mjs";
+import Bm from "./security/LockKeyholeMinimlisticUnlocked.mjs";
+import Vm from "./security/LockKeyholeMinimalistic.mjs";
+import Hm from "./security/LockKeyholeMinimlistic.mjs";
+import Um from "./security/LockKeyholeUnlocked.mjs";
+import Wm from "./security/LockKeyhole.mjs";
+import Gm from "./security/LockPasswordUnlocked.mjs";
+import Km from "./security/LockPassword.mjs";
+import qm from "./security/LockUnlocked.mjs";
+import Jm from "./security/Lock.mjs";
+import Ym from "./security/ObjectScan.mjs";
+import Xm from "./security/PasswordMinimalisticInput.mjs";
+import Zm from "./security/PasswordMinimlisticInput.mjs";
+import Qm from "./security/PasswordMinimalistic.mjs";
+import $m from "./security/PasswordMinimlistic.mjs";
+import eh from "./security/Password.mjs";
+import th from "./security/QrCode.mjs";
+import nh from "./security/Scanner2.mjs";
+import rh from "./security/Scanner.mjs";
+import ih from "./security/ShieldCheck.mjs";
+import ah from "./security/ShieldCross.mjs";
+import oh from "./security/ShieldKeyholeMinimalistic.mjs";
+import sh from "./security/ShieldKeyholeMinimlistic.mjs";
+import ch from "./security/ShieldKeyhole.mjs";
+import lh from "./security/ShieldMinimalistic.mjs";
+import uh from "./security/ShieldMinimlistic.mjs";
+import dh from "./security/ShieldMinus.mjs";
+import fh from "./security/ShieldNetwork.mjs";
+import ph from "./security/ShieldPlus.mjs";
+import mh from "./security/ShieldStar.mjs";
+import hh from "./security/ShieldUp.mjs";
+import gh from "./security/ShieldUser.mjs";
+import _h from "./security/ShieldWarning.mjs";
+import vh from "./security/Shield.mjs";
+import yh from "./security/SirenRounded.mjs";
+import bh from "./security/Siren.mjs";
+import xh from "./settings/SettingsMinimalistic.mjs";
+import Sh from "./settings/SettingsMinimlistic.mjs";
+import Ch from "./settings/Settings.mjs";
+import wh from "./settings/Tuning2.mjs";
+import Th from "./settings/Tuneing2.mjs";
+import Eh from "./settings/Tuning3.mjs";
+import Dh from "./settings/Tuneing3.mjs";
+import Oh from "./settings/Tuning4.mjs";
+import kh from "./settings/Tuneing4.mjs";
+import Ah from "./settings/TuningSquare2.mjs";
+import jh from "./settings/TuneingSquare2.mjs";
+import Mh from "./settings/TuningSquare.mjs";
+import Nh from "./settings/TuneingSquare.mjs";
+import Ph from "./settings/Tuning.mjs";
+import Fh from "./settings/Tuneing.mjs";
+import Ih from "./settings/Widget2.mjs";
+import Lh from "./settings/Widget3.mjs";
+import Rh from "./settings/Widget4.mjs";
+import zh from "./settings/Widget5.mjs";
+import Bh from "./settings/Widget6.mjs";
+import Vh from "./settings/WidgetAdd.mjs";
+import Hh from "./settings/Widget.mjs";
+import Uh from "./shopping/Bag2.mjs";
+import Wh from "./shopping/Bag3.mjs";
+import Gh from "./shopping/Bag4.mjs";
+import Kh from "./shopping/Bag5.mjs";
+import qh from "./shopping/BagCheck.mjs";
+import Jh from "./shopping/BagCross.mjs";
+import Yh from "./shopping/BagHeart.mjs";
+import Xh from "./shopping/BagMusic2.mjs";
+import Zh from "./shopping/BagMusic.mjs";
+import Qh from "./shopping/BagSmile.mjs";
+import $h from "./shopping/Bag.mjs";
+import eg from "./shopping/Cart2.mjs";
+import tg from "./shopping/Cart3.mjs";
+import ng from "./shopping/Cart4.mjs";
+import rg from "./shopping/Cart5.mjs";
+import ig from "./shopping/CartCheck.mjs";
+import ag from "./shopping/CartCross.mjs";
+import og from "./shopping/CartLarge2.mjs";
+import sg from "./shopping/CartLarge3.mjs";
+import cg from "./shopping/CartLarge4.mjs";
+import lg from "./shopping/CartLargeMinimalistic.mjs";
+import ug from "./shopping/CartLargeMinimlistic.mjs";
+import dg from "./shopping/CartLarge.mjs";
+import fg from "./shopping/CartPlus.mjs";
+import pg from "./shopping/Cart.mjs";
+import mg from "./shopping/Shop2.mjs";
+import hg from "./shopping/ShopMinimalistic.mjs";
+import gg from "./shopping/ShopMinimlistic.mjs";
+import _g from "./shopping/Shop.mjs";
+import vg from "./sports/Balls.mjs";
+import yg from "./sports/Basketball.mjs";
+import bg from "./sports/BicyclingRound.mjs";
+import xg from "./sports/Bicycling.mjs";
+import Sg from "./sports/BodyShapeMinimalistic.mjs";
+import Cg from "./sports/BodyShapeMinimlistic.mjs";
+import wg from "./sports/BodyShape.mjs";
+import Tg from "./sports/Bowling.mjs";
+import Eg from "./sports/DumbbellLargeMinimalistic.mjs";
+import Dg from "./sports/DumbbellLargeMinimlistic.mjs";
+import Og from "./sports/DumbbellLarge.mjs";
+import kg from "./sports/DumbbellSmall.mjs";
+import Ag from "./sports/Dumbbell.mjs";
+import jg from "./sports/Dumbbells2.mjs";
+import Mg from "./sports/Dumbbells.mjs";
+import Ng from "./sports/Football.mjs";
+import Pg from "./sports/Golf.mjs";
+import Fg from "./sports/HikingMinimalistic.mjs";
+import Ig from "./sports/HikingMinimlistic.mjs";
+import Lg from "./sports/HikingRound.mjs";
+import Rg from "./sports/Hiking.mjs";
+import zg from "./sports/MeditationRound.mjs";
+import Bg from "./sports/Meditation.mjs";
+import Vg from "./sports/Ranking.mjs";
+import Hg from "./sports/Rugby.mjs";
+import Ug from "./sports/Running2.mjs";
+import Wg from "./sports/RunningRound.mjs";
+import Gg from "./sports/Running.mjs";
+import Kg from "./sports/Skateboard.mjs";
+import qg from "./sports/SkateboardingRound.mjs";
+import Jg from "./sports/Skateboarding.mjs";
+import Yg from "./sports/StretchingRound.mjs";
+import Xg from "./sports/Stretching.mjs";
+import Zg from "./sports/Swimming.mjs";
+import Qg from "./sports/Tennis2.mjs";
+import $g from "./sports/Tennis.mjs";
+import e_ from "./sports/TreadmillRound.mjs";
+import t_ from "./sports/Treadmill.mjs";
+import n_ from "./sports/Volleyball2.mjs";
+import r_ from "./sports/Volleyball.mjs";
+import i_ from "./sports/WalkingRound.mjs";
+import a_ from "./sports/Walking.mjs";
+import o_ from "./sports/WaterSun.mjs";
+import s_ from "./sports/Water.mjs";
+import c_ from "./text-formatting/Backspace.mjs";
+import l_ from "./text-formatting/EraserCircle.mjs";
+import u_ from "./text-formatting/EraserSquare.mjs";
+import d_ from "./text-formatting/Eraser.mjs";
+import f_ from "./text-formatting/LinkBrokenMinimalistic.mjs";
+import p_ from "./text-formatting/LinkBrokenMinimlistic.mjs";
+import m_ from "./text-formatting/LinkBroken.mjs";
+import h_ from "./text-formatting/LinkCircle.mjs";
+import g_ from "./text-formatting/LinkMinimalistic2.mjs";
+import __ from "./text-formatting/LinkMinimlistic2.mjs";
+import v_ from "./text-formatting/LinkMinimalistic.mjs";
+import y_ from "./text-formatting/LinkMinimlistic.mjs";
+import b_ from "./text-formatting/LinkRoundAngle.mjs";
+import x_ from "./text-formatting/LinkRound.mjs";
+import S_ from "./text-formatting/LinkSquare.mjs";
+import C_ from "./text-formatting/Link.mjs";
+import w_ from "./text-formatting/ParagraphSpacing.mjs";
+import T_ from "./text-formatting/TextBoldCircle.mjs";
+import E_ from "./text-formatting/TextBoldSquare.mjs";
+import D_ from "./text-formatting/TextBold.mjs";
+import O_ from "./text-formatting/TextCircle.mjs";
+import k_ from "./text-formatting/TextCrossCircle.mjs";
+import A_ from "./text-formatting/TextCrossSquare.mjs";
+import j_ from "./text-formatting/TextCross.mjs";
+import M_ from "./text-formatting/TextFieldFocus.mjs";
+import N_ from "./text-formatting/TextField.mjs";
+import P_ from "./text-formatting/TextItalicCircle.mjs";
+import F_ from "./text-formatting/TextItalicSquare.mjs";
+import I_ from "./text-formatting/TextItalic.mjs";
+import L_ from "./text-formatting/TextSelection.mjs";
+import R_ from "./text-formatting/TextSquare2.mjs";
+import z_ from "./text-formatting/TextSquare.mjs";
+import B_ from "./text-formatting/TextUnderlineCircle.mjs";
+import V_ from "./text-formatting/TextUnderlineCross.mjs";
+import H_ from "./text-formatting/TextUnderline.mjs";
+import U_ from "./text-formatting/Text.mjs";
+import W_ from "./time/AlarmAdd.mjs";
+import G_ from "./time/AlarmPause.mjs";
+import K_ from "./time/AlarmPlay.mjs";
+import q_ from "./time/AlarmRemove.mjs";
+import J_ from "./time/AlarmSleep.mjs";
+import Y_ from "./time/AlarmTurnOff.mjs";
+import X_ from "./time/Alarm.mjs";
+import Z_ from "./time/CalendarAdd.mjs";
+import Q_ from "./time/CalendarDate.mjs";
+import $_ from "./time/CalendarMark.mjs";
+import ev from "./time/CalendarMinimalistic.mjs";
+import tv from "./time/CalendarMinimlistic.mjs";
+import nv from "./time/CalendarSearch.mjs";
+import rv from "./time/Calendar.mjs";
+import iv from "./time/ClockCircle.mjs";
+import av from "./time/ClockSquare.mjs";
+import ov from "./time/History2.mjs";
+import sv from "./time/History3.mjs";
+import cv from "./time/History.mjs";
+import lv from "./time/HourglassLine.mjs";
+import uv from "./time/Hourglass.mjs";
+import dv from "./time/StopwatchPause.mjs";
+import fv from "./time/StopwatchPlay.mjs";
+import pv from "./time/Stopwatch.mjs";
+import mv from "./time/WatchRound.mjs";
+import hv from "./time/WatchSquareMinimalisticCharge.mjs";
+import gv from "./time/WatchSquareMinimlisticCharge.mjs";
+import _v from "./time/WatchSquareMinimalistic.mjs";
+import vv from "./time/WatchSquareMinimlistic.mjs";
+import yv from "./time/WatchSquare.mjs";
+import bv from "./tools/AlignBottom.mjs";
+import xv from "./tools/AlignHorizontalCenter.mjs";
+import Sv from "./tools/AlignHorizontalSpacing.mjs";
+import Cv from "./tools/AlignLeft.mjs";
+import wv from "./tools/AlignRight.mjs";
+import Tv from "./tools/AlignTop.mjs";
+import Ev from "./tools/AlignVerticalCenter.mjs";
+import Dv from "./tools/AlignVerticalSpacing.mjs";
+import Ov from "./tools/ColourTuning.mjs";
+import kv from "./tools/ColourTuneing.mjs";
+import Av from "./tools/CropMinimalistic.mjs";
+import jv from "./tools/CropMinimlistic.mjs";
+import Mv from "./tools/Crop.mjs";
+import Nv from "./tools/Filters.mjs";
+import Pv from "./tools/FlipHorizontal.mjs";
+import Fv from "./tools/FlipVertical.mjs";
+import Iv from "./tools/LayersMinimalistic.mjs";
+import Lv from "./tools/LayersMinimlistic.mjs";
+import Rv from "./tools/Layers.mjs";
+import zv from "./tools/MirrorLeft.mjs";
+import Bv from "./tools/MirrorRight.mjs";
+import Vv from "./tools/PaintRoller.mjs";
+import Hv from "./tools/Palette2.mjs";
+import Uv from "./tools/Pallete2.mjs";
+import Wv from "./tools/PaletteRound.mjs";
+import Gv from "./tools/PalleteRound.mjs";
+import Kv from "./tools/Palette.mjs";
+import qv from "./tools/Pallete.mjs";
+import Jv from "./tools/Pipette.mjs";
+import Yv from "./tools/RadialBlur.mjs";
+import Xv from "./tools/RulerAngular.mjs";
+import Zv from "./tools/RulerCrossPen.mjs";
+import Qv from "./tools/RulerPen.mjs";
+import $v from "./tools/Ruler.mjs";
+import ey from "./tools/ThreeSquares.mjs";
+import ty from "./ui/Accessibility.mjs";
+import ny from "./ui/AddCircle.mjs";
+import ry from "./ui/AddSquare.mjs";
+import iy from "./ui/AugmentedReality.mjs";
+import ay from "./ui/Balloon.mjs";
+import oy from "./ui/BatteryChargeMinimalistic.mjs";
+import sy from "./ui/BatteryChargeMinimlistic.mjs";
+import cy from "./ui/BatteryCharge.mjs";
+import ly from "./ui/BatteryFullMinimalistic.mjs";
+import uy from "./ui/BatteryFullMinimlistic.mjs";
+import dy from "./ui/BatteryFull.mjs";
+import fy from "./ui/BatteryHalfMinimalistic.mjs";
+import py from "./ui/BatteryHalfMinimlistic.mjs";
+import my from "./ui/BatteryHalf.mjs";
+import hy from "./ui/BatteryLowMinimalistic.mjs";
+import gy from "./ui/BatteryLowMinimlistic.mjs";
+import _y from "./ui/BatteryLow.mjs";
+import vy from "./ui/Body.mjs";
+import yy from "./ui/BoltCircle.mjs";
+import by from "./ui/Bolt.mjs";
+import xy from "./ui/BoxMinimalistic.mjs";
+import Sy from "./ui/BoxMinimlistic.mjs";
+import Cy from "./ui/Box.mjs";
+import wy from "./ui/Broom.mjs";
+import Ty from "./ui/Cat.mjs";
+import Ey from "./ui/CheckCircle.mjs";
+import Dy from "./ui/CheckSquare.mjs";
+import Oy from "./ui/CloseCircle.mjs";
+import ky from "./ui/CloseSquare.mjs";
+import Ay from "./ui/ConfettiMinimalistic.mjs";
+import jy from "./ui/ConfettiMinimlistic.mjs";
+import My from "./ui/Confetti.mjs";
+import Ny from "./ui/Copy.mjs";
+import Py from "./ui/Copyright.mjs";
+import Fy from "./ui/Cosmetic.mjs";
+import Iy from "./ui/CreativeCommons.mjs";
+import Ly from "./ui/CrownLine.mjs";
+import Ry from "./ui/CrownMinimalistic.mjs";
+import zy from "./ui/CrownMinimlistic.mjs";
+import By from "./ui/CrownStar.mjs";
+import Vy from "./ui/Crown.mjs";
+import Hy from "./ui/CupFirst.mjs";
+import Uy from "./ui/CupMusic.mjs";
+import Wy from "./ui/CupStar.mjs";
+import Gy from "./ui/Cup.mjs";
+import Ky from "./ui/CursorSquare.mjs";
+import qy from "./ui/Cursor.mjs";
+import Jy from "./ui/DangerCircle.mjs";
+import Yy from "./ui/DangerSquare.mjs";
+import Xy from "./ui/DangerTriangle.mjs";
+import Zy from "./ui/Danger.mjs";
+import Qy from "./ui/Database.mjs";
+import $y from "./ui/Delivery.mjs";
+import eb from "./ui/Explicit.mjs";
+import tb from "./ui/Feed.mjs";
+import nb from "./ui/FerrisWheel.mjs";
+import rb from "./ui/Figma.mjs";
+import ib from "./ui/Filter.mjs";
+import ab from "./ui/Flag2.mjs";
+import ob from "./ui/Flag.mjs";
+import sb from "./ui/FlashlightOn.mjs";
+import cb from "./ui/Flashlight.mjs";
+import lb from "./ui/ForbiddenCircle.mjs";
+import ub from "./ui/Forbidden.mjs";
+import db from "./ui/FourK.mjs";
+import fb from "./ui/Fuel.mjs";
+import pb from "./ui/GhostSmile.mjs";
+import mb from "./ui/Ghost.mjs";
+import hb from "./ui/Gift.mjs";
+import gb from "./ui/Glasses.mjs";
+import _b from "./ui/HamburgerMenu.mjs";
+import vb from "./ui/Hanger2.mjs";
+import yb from "./ui/Hanger.mjs";
+import bb from "./ui/Help.mjs";
+import xb from "./ui/HighDefinition.mjs";
+import Sb from "./ui/HighQuality.mjs";
+import Cb from "./ui/Home2.mjs";
+import wb from "./ui/HomeAddAngle.mjs";
+import Tb from "./ui/HomeAdd.mjs";
+import Eb from "./ui/HomeAngle2.mjs";
+import Db from "./ui/HomeAngle.mjs";
+import Ob from "./ui/HomeSmileAngle.mjs";
+import kb from "./ui/HomeSmile.mjs";
+import Ab from "./ui/HomeWiFiAngle.mjs";
+import jb from "./ui/HomeWiFi.mjs";
+import Mb from "./ui/Home.mjs";
+import Nb from "./ui/InfoCircle.mjs";
+import Pb from "./ui/InfoSquare.mjs";
+import Fb from "./ui/MagicStick2.mjs";
+import Ib from "./ui/MagicStick3.mjs";
+import Lb from "./ui/MagicStick.mjs";
+import Rb from "./ui/MagnetWave.mjs";
+import zb from "./ui/Magnet.mjs";
+import Bb from "./ui/MaskHappy.mjs";
+import Vb from "./ui/MaskHapply.mjs";
+import Hb from "./ui/MaskSad.mjs";
+import Ub from "./ui/Masks.mjs";
+import Wb from "./ui/MentionCircle.mjs";
+import Gb from "./ui/MentionSquare.mjs";
+import Kb from "./ui/MenuDotsCircle.mjs";
+import qb from "./ui/MenuDotsSquare.mjs";
+import Jb from "./ui/MenuDots.mjs";
+import Yb from "./ui/MinusCircle.mjs";
+import Xb from "./ui/MinusSquare.mjs";
+import Zb from "./ui/Mirror2.mjs";
+import Qb from "./ui/PaperBin.mjs";
+import $b from "./ui/Paw.mjs";
+import ex from "./ui/Perfume.mjs";
+import tx from "./ui/PinCircle.mjs";
+import nx from "./ui/PinList.mjs";
+import rx from "./ui/Pin.mjs";
+import ix from "./ui/Plate.mjs";
+import ax from "./ui/PostsCarouselHorizontal.mjs";
+import ox from "./ui/PostsCarouselVertical.mjs";
+import sx from "./ui/Power.mjs";
+import cx from "./ui/QuestionCircle.mjs";
+import lx from "./ui/QuestionSquare.mjs";
+import ux from "./ui/Reorder.mjs";
+import dx from "./ui/Revote.mjs";
+import fx from "./ui/ScissorsSquare.mjs";
+import px from "./ui/Scissors.mjs";
+import mx from "./ui/ShareCircle.mjs";
+import hx from "./ui/Share.mjs";
+import gx from "./ui/Skirt.mjs";
+import _x from "./ui/Sledgehammer.mjs";
+import vx from "./ui/Sleeping.mjs";
+import yx from "./ui/SliderHorizontal.mjs";
+import bx from "./ui/SliderMinimalisticHorizontal.mjs";
+import xx from "./ui/SliderMinimlisticHorizontal.mjs";
+import Sx from "./ui/SliderVerticalMinimalistic.mjs";
+import Cx from "./ui/SliderVerticalMinimlistic.mjs";
+import wx from "./ui/SliderVertical.mjs";
+import Tx from "./ui/SmartHomeAngle.mjs";
+import Ex from "./ui/SmartHome.mjs";
+import Dx from "./ui/Sort.mjs";
+import Ox from "./ui/SpecialEffects.mjs";
+import kx from "./ui/Subtitles.mjs";
+import Ax from "./ui/TShirt.mjs";
+import jx from "./ui/Target.mjs";
+import Mx from "./ui/TrafficEconomy.mjs";
+import Nx from "./ui/Traffic.mjs";
+import Px from "./ui/TrashBin2.mjs";
+import Fx from "./ui/TrashBinMinimalistic2.mjs";
+import Ix from "./ui/TrashBinMinimlistic2.mjs";
+import Lx from "./ui/TrashBinMinimalistic.mjs";
+import Rx from "./ui/TrashBinMinimlistic.mjs";
+import zx from "./ui/TrashBinTrash.mjs";
+import Bx from "./ui/Umbrella.mjs";
+import Vx from "./ui/Waterdrop.mjs";
+import Hx from "./ui/WinRar.mjs";
+import Ux from "./ui/Xxx.mjs";
+import Wx from "./users/UserBlockRounded.mjs";
+import Gx from "./users/UserBlock.mjs";
+import Kx from "./users/UserCheckRounded.mjs";
+import qx from "./users/UserCheck.mjs";
+import Jx from "./users/UserCircle.mjs";
+import Yx from "./users/UserCrossRounded.mjs";
+import Xx from "./users/UserCross.mjs";
+import Zx from "./users/UserHandUp.mjs";
+import Qx from "./users/UserHands.mjs";
+import $x from "./users/UserHeartRounded.mjs";
+import eS from "./users/UserHeart.mjs";
+import tS from "./users/UserId.mjs";
+import nS from "./users/UserMinusRounded.mjs";
+import rS from "./users/UserMinus.mjs";
+import iS from "./users/UserPlusRounded.mjs";
+import aS from "./users/UserPlus.mjs";
+import oS from "./users/UserRounded.mjs";
+import sS from "./users/UserSpeakRounded.mjs";
+import cS from "./users/UserSpeak.mjs";
+import lS from "./users/User.mjs";
+import uS from "./users/UsersGroupRounded.mjs";
+import dS from "./users/UsersGroupTwoRounded.mjs";
+import fS from "./video/Album.mjs";
+import pS from "./video/CameraAdd.mjs";
+import mS from "./video/CameraMinimalistic.mjs";
+import hS from "./video/CameraMinimlistic.mjs";
+import gS from "./video/CameraRotate.mjs";
+import _S from "./video/CameraSquare.mjs";
+import vS from "./video/Camera.mjs";
+import yS from "./video/ClapperboardEdit.mjs";
+import bS from "./video/ClapperboardOpenPlay.mjs";
+import xS from "./video/ClapperboardOpen.mjs";
+import SS from "./video/ClapperboardPlay.mjs";
+import CS from "./video/ClapperboardText.mjs";
+import wS from "./video/Clapperboard.mjs";
+import TS from "./video/FullScreenCircle.mjs";
+import ES from "./video/FullScreenSquare.mjs";
+import DS from "./video/FullScreen.mjs";
+import OS from "./video/GalleryAdd.mjs";
+import kS from "./video/GalleryCheck.mjs";
+import AS from "./video/GalleryCircle.mjs";
+import jS from "./video/GalleryDownload.mjs";
+import MS from "./video/GalleryEdit.mjs";
+import NS from "./video/GalleryFavourite.mjs";
+import PS from "./video/GalleryMinimalistic.mjs";
+import FS from "./video/GalleryMinimlistic.mjs";
+import IS from "./video/GalleryRemove.mjs";
+import LS from "./video/GalleryRound.mjs";
+import RS from "./video/GallerySend.mjs";
+import zS from "./video/GalleryWide.mjs";
+import BS from "./video/Gallery.mjs";
+import VS from "./video/Library.mjs";
+import HS from "./video/Microphone2.mjs";
+import US from "./video/Microphone3.mjs";
+import WS from "./video/MicrophoneLarge.mjs";
+import GS from "./video/Microphone.mjs";
+import KS from "./video/MusicLibrary2.mjs";
+import qS from "./video/MusicLibrary.mjs";
+import JS from "./video/MusicNote2.mjs";
+import YS from "./video/MusicNote3.mjs";
+import XS from "./video/MusicNote4.mjs";
+import ZS from "./video/MusicNoteSlider2.mjs";
+import QS from "./video/MusicNoteSlider.mjs";
+import $S from "./video/MusicNote.mjs";
+import eC from "./video/MusicNotes.mjs";
+import tC from "./video/Muted.mjs";
+import nC from "./video/Panorama.mjs";
+import rC from "./video/PauseCircle.mjs";
+import iC from "./video/Pause.mjs";
+import aC from "./video/Pip2.mjs";
+import oC from "./video/Pip.mjs";
+import sC from "./video/PlayCircle.mjs";
+import cC from "./video/PlayStream.mjs";
+import lC from "./video/Play.mjs";
+import uC from "./video/PlaybackSpeed.mjs";
+import dC from "./video/Podcast.mjs";
+import fC from "./video/QuitFullScreenCircle.mjs";
+import pC from "./video/QuitFullScreenSquare.mjs";
+import mC from "./video/QuitFullScreen.mjs";
+import hC from "./video/QuitPip.mjs";
+import gC from "./video/RecordAudioCircle.mjs";
+import _C from "./video/Record.mjs";
+import vC from "./video/Reel2.mjs";
+import yC from "./video/Reel.mjs";
+import bC from "./video/RepeatOneMinimalistic.mjs";
+import xC from "./video/RepeatOneMinimlistic.mjs";
+import SC from "./video/RepeatOne.mjs";
+import CC from "./video/Repeat.mjs";
+import wC from "./video/Rewind10SecondsBack.mjs";
+import TC from "./video/Rewind10SecondsForward.mjs";
+import EC from "./video/Rewind15SecondsBack.mjs";
+import DC from "./video/Rewind15SecondsForward.mjs";
+import OC from "./video/Rewind5SecondsBack.mjs";
+import kC from "./video/Rewind5SecondsForward.mjs";
+import AC from "./video/RewindBackCircle.mjs";
+import jC from "./video/RewindBack.mjs";
+import MC from "./video/RewindForwardCircle.mjs";
+import NC from "./video/RewindForward.mjs";
+import PC from "./video/Shuffle.mjs";
+import FC from "./video/SkipNext.mjs";
+import IC from "./video/SkipPrevious.mjs";
+import LC from "./video/SoundwaveCircle.mjs";
+import RC from "./video/SoundwaveSquare.mjs";
+import zC from "./video/Soundwave.mjs";
+import BC from "./video/StopCircle.mjs";
+import VC from "./video/Stop.mjs";
+import HC from "./video/Stream.mjs";
+import UC from "./video/ToPip.mjs";
+import WC from "./video/UploadTrack2.mjs";
+import GC from "./video/UploadTrack.mjs";
+import KC from "./video/VideoFrame2.mjs";
+import qC from "./video/VideoFrameCut2.mjs";
+import JC from "./video/VideoFrameCut.mjs";
+import YC from "./video/VideoFramePlayHorizontal.mjs";
+import XC from "./video/VideoFramePlayVertical.mjs";
+import ZC from "./video/VideoFrameReplace.mjs";
+import QC from "./video/VideoFrame.mjs";
+import $C from "./video/VideoLibrary.mjs";
+import ew from "./video/VideocameraAdd.mjs";
+import tw from "./video/VideocameraRecord.mjs";
+import nw from "./video/Videocamera.mjs";
+import rw from "./video/VinylRecord.mjs";
+import iw from "./video/Vinyl.mjs";
+import aw from "./video/VolumeCross.mjs";
+import ow from "./video/VolumeLoud.mjs";
+import sw from "./video/VolumeSmall.mjs";
+import cw from "./video/Volume.mjs";
+import lw from "./video/Wallpaper.mjs";
+import uw from "./weather/CloudBoltMinimalistic.mjs";
+import dw from "./weather/CloudBoltMinimlistic.mjs";
+import fw from "./weather/CloundBoltMinimalistic.mjs";
+import pw from "./weather/CloudBolt.mjs";
+import mw from "./weather/CloundBolt.mjs";
+import hw from "./weather/CloudCheck.mjs";
+import gw from "./weather/CloundCheck.mjs";
+import _w from "./weather/CloudCross.mjs";
+import vw from "./weather/CloundCross.mjs";
+import yw from "./weather/CloudDownload.mjs";
+import bw from "./weather/CloundDownload.mjs";
+import xw from "./weather/CloudMinus.mjs";
+import Sw from "./weather/CloundMinus.mjs";
+import Cw from "./weather/CloudPlus.mjs";
+import ww from "./weather/CloundPlus.mjs";
+import Tw from "./weather/CloudRain.mjs";
+import Ew from "./weather/CloundRain.mjs";
+import Dw from "./weather/CloudSnowfallMinimalistic.mjs";
+import Ow from "./weather/CloudSnowfallMinimlistic.mjs";
+import kw from "./weather/CloundSnowfallMinimalistic.mjs";
+import Aw from "./weather/CloudSnowfall.mjs";
+import jw from "./weather/CloundSnowfall.mjs";
+import Mw from "./weather/CloudStorm.mjs";
+import Nw from "./weather/CloundStorm.mjs";
+import Pw from "./weather/CloudSun2.mjs";
+import Fw from "./weather/CloundSun2.mjs";
+import Iw from "./weather/CloudSun.mjs";
+import Lw from "./weather/CloundSun.mjs";
+import Rw from "./weather/CloudUpload.mjs";
+import zw from "./weather/CloundUpload.mjs";
+import Bw from "./weather/CloudWaterdrop.mjs";
+import Vw from "./weather/CloundWaterdrop.mjs";
+import Hw from "./weather/CloudWaterdrops.mjs";
+import Uw from "./weather/CloundWaterdrops.mjs";
+import Ww from "./weather/Cloud.mjs";
+import Gw from "./weather/Clound.mjs";
+import Kw from "./weather/Clouds.mjs";
+import qw from "./weather/Clounds.mjs";
+import Jw from "./weather/CloudyMoon.mjs";
+import Yw from "./weather/CloundyMoon.mjs";
+import Xw from "./weather/Fog.mjs";
+import Zw from "./weather/MoonFog.mjs";
+import Qw from "./weather/MoonSleep.mjs";
+import $w from "./weather/MoonStars.mjs";
+import eT from "./weather/Moon.mjs";
+import tT from "./weather/Snowflake.mjs";
+import nT from "./weather/Stars.mjs";
+import rT from "./weather/Sun2.mjs";
+import iT from "./weather/SunFog.mjs";
+import aT from "./weather/Sun.mjs";
+import oT from "./weather/Sunrise.mjs";
+import sT from "./weather/Sunset.mjs";
+import cT from "./weather/Temperature.mjs";
+import lT from "./weather/TornadoSmall.mjs";
+import uT from "./weather/Tornado.mjs";
+import dT from "./weather/Waterdrops.mjs";
+import fT from "./weather/Wind.mjs";
+import { category_exports as pT } from "./category.mjs";
+//#region src/ssr/index.ts
+var mT = /* @__PURE__ */ ee({
+	Accessibility: () => ty,
+	Accumulator: () => zf,
+	AddCircle: () => ny,
+	AddFolder: () => Na,
+	AddSquare: () => ry,
+	AdhesivePlaster: () => Il,
+	AdhesivePlaster2: () => Fl,
+	Airbuds: () => fr,
+	AirbudsCase: () => or,
+	AirbudsCaseCharge: () => nr,
+	AirbudsCaseMinimalistic: () => rr,
+	AirbudsCaseMinimlistic: () => ir,
+	AirbudsCaseOpen: () => ar,
+	AirbudsCharge: () => sr,
+	AirbudsCheck: () => cr,
+	AirbudsLeft: () => lr,
+	AirbudsRemove: () => ur,
+	AirbudsRight: () => dr,
+	Alarm: () => X_,
+	AlarmAdd: () => W_,
+	AlarmPause: () => G_,
+	AlarmPlay: () => K_,
+	AlarmRemove: () => q_,
+	AlarmSleep: () => J_,
+	AlarmTurnOff: () => Y_,
+	Album: () => fS,
+	AlignBottom: () => bv,
+	AlignHorizontalCenter: () => xv,
+	AlignHorizontalSpacing: () => Sv,
+	AlignLeft: () => Cv,
+	AlignRight: () => wv,
+	AlignTop: () => Tv,
+	AlignVerticalCenter: () => Ev,
+	AlignVerticalSpacing: () => Dv,
+	AltArrowDown: () => te,
+	AltArrowLeft: () => e,
+	AltArrowRight: () => t,
+	AltArrowUp: () => n,
+	Archive: () => pf,
+	ArchiveCheck: () => rf,
+	ArchiveDown: () => sf,
+	ArchiveDownMinimalistic: () => af,
+	ArchiveDownMinimlistic: () => of,
+	ArchiveMinimalistic: () => cf,
+	ArchiveMinimlistic: () => lf,
+	ArchiveUp: () => ff,
+	ArchiveUpMinimalistic: () => uf,
+	ArchiveUpMinimlistic: () => df,
+	Armchair: () => xo,
+	Armchair2: () => bo,
+	ArrowDown: () => r,
+	ArrowLeft: () => o,
+	ArrowLeftDown: () => i,
+	ArrowLeftUp: () => a,
+	ArrowRight: () => l,
+	ArrowRightDown: () => s,
+	ArrowRightUp: () => c,
+	ArrowToDownLeft: () => he,
+	ArrowToDownRight: () => ge,
+	ArrowToTopLeft: () => _e,
+	ArrowToTopRight: () => ve,
+	ArrowUp: () => u,
+	Asteroid: () => Tt,
+	Atom: () => Et,
+	AugmentedReality: () => iy,
+	Backpack: () => sp,
+	Backspace: () => c_,
+	Bacteria: () => Ll,
+	Bag: () => $h,
+	Bag2: () => Uh,
+	Bag3: () => Wh,
+	Bag4: () => Gh,
+	Bag5: () => Kh,
+	BagCheck: () => qh,
+	BagCross: () => Jh,
+	BagHeart: () => Yh,
+	BagMusic: () => Zh,
+	BagMusic2: () => Xh,
+	BagSmile: () => Qh,
+	Balloon: () => ay,
+	Balls: () => vg,
+	Banknote: () => dd,
+	Banknote2: () => ud,
+	BarChair: () => So,
+	Basketball: () => yg,
+	Bath: () => Co,
+	BatteryCharge: () => cy,
+	BatteryChargeMinimalistic: () => oy,
+	BatteryChargeMinimlistic: () => sy,
+	BatteryFull: () => dy,
+	BatteryFullMinimalistic: () => ly,
+	BatteryFullMinimlistic: () => uy,
+	BatteryHalf: () => my,
+	BatteryHalfMinimalistic: () => fy,
+	BatteryHalfMinimlistic: () => py,
+	BatteryLow: () => _y,
+	BatteryLowMinimalistic: () => hy,
+	BatteryLowMinimlistic: () => gy,
+	Bed: () => wo,
+	BedsideTable: () => Oo,
+	BedsideTable2: () => To,
+	BedsideTable3: () => Eo,
+	BedsideTable4: () => Do,
+	Bell: () => Pf,
+	BellBing: () => Mf,
+	BellOff: () => Nf,
+	BenzeneRing: () => Rl,
+	Bicycling: () => xg,
+	BicyclingRound: () => bg,
+	Bill: () => hd,
+	Bill2: () => cc,
+	BillCheck: () => fd,
+	BillCross: () => pd,
+	BillList: () => md,
+	BlackHole: () => kt,
+	BlackHole2: () => Dt,
+	BlackHole3: () => Ot,
+	Bluetooth: () => gr,
+	BluetoothCircle: () => pr,
+	BluetoothSquare: () => mr,
+	BluetoothWave: () => hr,
+	Body: () => vy,
+	BodyShape: () => wg,
+	BodyShapeMinimalistic: () => Sg,
+	BodyShapeMinimlistic: () => Cg,
+	Bolt: () => by,
+	BoltCircle: () => yy,
+	Bomb: () => bm,
+	BombEmoji: () => _m,
+	BombMinimalistic: () => vm,
+	BombMinimlistic: () => ym,
+	Bone: () => Vl,
+	BoneBroken: () => zl,
+	BoneCrack: () => Bl,
+	Bones: () => Hl,
+	Bonfire: () => qd,
+	Book: () => mp,
+	Book2: () => cp,
+	BookBookmark: () => dp,
+	BookBookmarkMinimalistic: () => lp,
+	BookBookmarkMinimlistic: () => up,
+	BookMinimalistic: () => fp,
+	BookMinimlistic: () => pp,
+	Bookmark: () => bp,
+	BookmarkCircle: () => hp,
+	BookmarkOpened: () => gp,
+	BookmarkSquare: () => yp,
+	BookmarkSquareMinimalistic: () => _p,
+	BookmarkSquareMinimlistic: () => vp,
+	Boombox: () => _r,
+	Bottle: () => Ja,
+	Bowling: () => Tg,
+	Box: () => Cy,
+	BoxMinimalistic: () => xy,
+	BoxMinimlistic: () => Sy,
+	BranchingPathsDown: () => Qc,
+	BranchingPathsUp: () => $c,
+	Broom: () => wy,
+	Bug: () => ls,
+	BugMinimalistic: () => ss,
+	BugMinimlistic: () => cs,
+	Buildings: () => un,
+	Buildings2: () => cn,
+	Buildings3: () => ln,
+	Bus: () => Bf,
+	Calculator: () => Cp,
+	CalculatorMinimalistic: () => xp,
+	CalculatorMinimlistic: () => Sp,
+	Calendar: () => rv,
+	CalendarAdd: () => Z_,
+	CalendarDate: () => Q_,
+	CalendarMark: () => $_,
+	CalendarMinimalistic: () => ev,
+	CalendarMinimlistic: () => tv,
+	CalendarSearch: () => nv,
+	CallCancel: () => Fn,
+	CallCancelRounded: () => Pn,
+	CallChat: () => Ln,
+	CallChatRounded: () => In,
+	CallDropped: () => zn,
+	CallDroppedRounded: () => Rn,
+	CallMedicine: () => Vn,
+	CallMedicineRounded: () => Bn,
+	Camera: () => vS,
+	CameraAdd: () => pS,
+	CameraMinimalistic: () => mS,
+	CameraMinimlistic: () => hS,
+	CameraRotate: () => gS,
+	CameraSquare: () => _S,
+	Card: () => Sd,
+	Card2: () => gd,
+	CardReceive: () => _d,
+	CardRecive: () => vd,
+	CardSearch: () => yd,
+	CardSend: () => bd,
+	CardTransfer: () => xd,
+	Cardholder: () => Cd,
+	Cart: () => pg,
+	Cart2: () => eg,
+	Cart3: () => tg,
+	Cart4: () => ng,
+	Cart5: () => rg,
+	CartCheck: () => ig,
+	CartCross: () => ag,
+	CartLarge: () => dg,
+	CartLarge2: () => og,
+	CartLarge3: () => sg,
+	CartLarge4: () => cg,
+	CartLargeMinimalistic: () => lg,
+	CartLargeMinimlistic: () => ug,
+	CartPlus: () => fg,
+	Case: () => kp,
+	CaseMinimalistic: () => wp,
+	CaseMinimlistic: () => Tp,
+	CaseRound: () => Op,
+	CaseRoundMinimalistic: () => Ep,
+	CaseRoundMinimlistic: () => Dp,
+	CashOut: () => wd,
+	Cassette: () => yr,
+	Cassette2: () => vr,
+	Cat: () => Ty,
+	Chair: () => Ao,
+	Chair2: () => ko,
+	Chandelier: () => jo,
+	Chart: () => _n,
+	Chart2: () => hn,
+	ChartSquare: () => gn,
+	ChatDots: () => gu,
+	ChatLine: () => _u,
+	ChatRound: () => Eu,
+	ChatRoundCall: () => vu,
+	ChatRoundCheck: () => yu,
+	ChatRoundDots: () => bu,
+	ChatRoundLike: () => xu,
+	ChatRoundLine: () => Su,
+	ChatRoundMoney: () => Cu,
+	ChatRoundUnread: () => wu,
+	ChatRoundVideo: () => Tu,
+	ChatSquare: () => Mu,
+	ChatSquare2: () => vn,
+	ChatSquareArrow: () => Du,
+	ChatSquareCall: () => Ou,
+	ChatSquareCheck: () => ku,
+	ChatSquareCode: () => Au,
+	ChatSquareLike: () => ju,
+	ChatUnread: () => Nu,
+	CheckCircle: () => Ey,
+	CheckRead: () => Pu,
+	CheckSquare: () => Dy,
+	Checklist: () => dc,
+	ChecklistMinimalistic: () => lc,
+	ChecklistMinimlistic: () => uc,
+	ChefHat: () => Qa,
+	ChefHatHeart: () => Ya,
+	ChefHatMinimalistic: () => Xa,
+	ChefHatMinimlistic: () => Za,
+	CircleBottomDown: () => ye,
+	CircleBottomUp: () => be,
+	CircleTopDown: () => xe,
+	CircleTopUp: () => Se,
+	City: () => dn,
+	Clapperboard: () => wS,
+	ClapperboardEdit: () => yS,
+	ClapperboardOpen: () => xS,
+	ClapperboardOpenPlay: () => bS,
+	ClapperboardPlay: () => SS,
+	ClapperboardText: () => CS,
+	Clipboard: () => bf,
+	ClipboardAdd: () => mf,
+	ClipboardCheck: () => hf,
+	ClipboardHeart: () => gf,
+	ClipboardList: () => _f,
+	ClipboardRemove: () => vf,
+	ClipboardText: () => yf,
+	ClockCircle: () => iv,
+	ClockSquare: () => av,
+	CloseCircle: () => Oy,
+	CloseSquare: () => ky,
+	Closet: () => No,
+	Closet2: () => Mo,
+	Cloud: () => Ww,
+	CloudBolt: () => pw,
+	CloudBoltMinimalistic: () => uw,
+	CloudBoltMinimlistic: () => dw,
+	CloudCheck: () => hw,
+	CloudCross: () => _w,
+	CloudDownload: () => yw,
+	CloudFile: () => _a,
+	CloudMinus: () => xw,
+	CloudPlus: () => Cw,
+	CloudRain: () => Tw,
+	CloudSnowfall: () => Aw,
+	CloudSnowfallMinimalistic: () => Dw,
+	CloudSnowfallMinimlistic: () => Ow,
+	CloudStorage: () => br,
+	CloudStorm: () => Mw,
+	CloudSun: () => Iw,
+	CloudSun2: () => Pw,
+	CloudUpload: () => Rw,
+	CloudWaterdrop: () => Bw,
+	CloudWaterdrops: () => Hw,
+	Clouds: () => Kw,
+	CloudyMoon: () => Jw,
+	Clound: () => Gw,
+	CloundBolt: () => mw,
+	CloundBoltMinimalistic: () => fw,
+	CloundCheck: () => gw,
+	CloundCross: () => vw,
+	CloundDownload: () => bw,
+	CloundFile: () => va,
+	CloundMinus: () => Sw,
+	CloundPlus: () => ww,
+	CloundRain: () => Ew,
+	CloundSnowfall: () => jw,
+	CloundSnowfallMinimalistic: () => kw,
+	CloundStorage: () => xr,
+	CloundStorm: () => Nw,
+	CloundSun: () => Lw,
+	CloundSun2: () => Fw,
+	CloundUpload: () => zw,
+	CloundWaterdrop: () => Vw,
+	CloundWaterdrops: () => Uw,
+	Clounds: () => qw,
+	CloundyMoon: () => Yw,
+	Code: () => ps,
+	Code2: () => us,
+	CodeCircle: () => ds,
+	CodeFile: () => ya,
+	CodeScan: () => xm,
+	CodeSquare: () => fs,
+	ColourTuneing: () => kv,
+	ColourTuning: () => Ov,
+	Command: () => ms,
+	Compass: () => nl,
+	CompassBig: () => el,
+	CompassSquare: () => tl,
+	Condicioner: () => Lo,
+	Condicioner2: () => Fo,
+	Conditioner: () => Io,
+	Conditioner2: () => Po,
+	Confetti: () => My,
+	ConfettiMinimalistic: () => Ay,
+	ConfettiMinimlistic: () => jy,
+	ConfoundedCircle: () => Xi,
+	ConfoundedSquare: () => Zi,
+	Copy: () => Ny,
+	Copyright: () => Py,
+	Corkscrew: () => $a,
+	Cosmetic: () => Fy,
+	CourseDown: () => yn,
+	CourseUp: () => bn,
+	Cpu: () => Cr,
+	CpuBolt: () => Sr,
+	CreativeCommons: () => Iy,
+	Crop: () => Mv,
+	CropMinimalistic: () => Av,
+	CropMinimlistic: () => jv,
+	Crown: () => Vy,
+	CrownLine: () => Ly,
+	CrownMinimalistic: () => Ry,
+	CrownMinimlistic: () => zy,
+	CrownStar: () => By,
+	Cup: () => Gy,
+	CupFirst: () => Hy,
+	CupHot: () => eo,
+	CupMusic: () => Uy,
+	CupPaper: () => to,
+	CupStar: () => Wy,
+	Cursor: () => qy,
+	CursorSquare: () => Ky,
+	Danger: () => Zy,
+	DangerCircle: () => Jy,
+	DangerSquare: () => Yy,
+	DangerTriangle: () => Xy,
+	Database: () => Qy,
+	Delivery: () => $y,
+	Devices: () => wr,
+	DiagramDown: () => xn,
+	DiagramUp: () => Sn,
+	Dialog: () => Iu,
+	Dialog2: () => Fu,
+	Diploma: () => jp,
+	DiplomaVerified: () => Ap,
+	Diskette: () => Tr,
+	Dislike: () => Gs,
+	Display: () => Er,
+	Dna: () => Ul,
+	Document: () => wf,
+	Document2: () => Mp,
+	DocumentAdd: () => xf,
+	DocumentMedicine: () => Sf,
+	DocumentText: () => Cf,
+	Documents: () => Df,
+	DocumentsMinimalistic: () => Tf,
+	DocumentsMinimlistic: () => Ef,
+	Dollar: () => Dd,
+	DollarMinimalistic: () => Td,
+	DollarMinimlistic: () => Ed,
+	Donut: () => ro,
+	DonutBitten: () => no,
+	DoubleAltArrowDown: () => d,
+	DoubleAltArrowLeft: () => f,
+	DoubleAltArrowRight: () => p,
+	DoubleAltArrowUp: () => m,
+	Download: () => De,
+	DownloadMinimalistic: () => Ce,
+	DownloadMinimlistic: () => we,
+	DownloadSquare: () => Te,
+	DownloadTwiceSquare: () => Ee,
+	Dropper: () => Xl,
+	Dropper2: () => Wl,
+	Dropper3: () => Gl,
+	DropperMinimalistic: () => Jl,
+	DropperMinimalistic2: () => Kl,
+	DropperMinimlistic: () => Yl,
+	DropperMinimlistic2: () => ql,
+	Dumbbell: () => Ag,
+	DumbbellLarge: () => Og,
+	DumbbellLargeMinimalistic: () => Eg,
+	DumbbellLargeMinimlistic: () => Dg,
+	DumbbellSmall: () => kg,
+	Dumbbells: () => Mg,
+	Dumbbells2: () => jg,
+	Earth: () => At,
+	ElectricRefueling: () => Vf,
+	EmojiFunnyCircle: () => Qi,
+	EmojiFunnySquare: () => $i,
+	EndCall: () => Un,
+	EndCallRounded: () => Hn,
+	Eraser: () => d_,
+	EraserCircle: () => l_,
+	EraserSquare: () => u_,
+	Euro: () => Od,
+	Exit: () => Oe,
+	Explicit: () => eb,
+	Export: () => ke,
+	ExpressionlessCircle: () => ea,
+	ExpressionlessSquare: () => ta,
+	Eye: () => wm,
+	EyeClosed: () => Sm,
+	EyeScan: () => Cm,
+	FaceScanCircle: () => na,
+	FaceScanSquare: () => ra,
+	FacemaskCircle: () => ia,
+	FacemaskSquare: () => aa,
+	Feed: () => tb,
+	FerrisWheel: () => nb,
+	Figma: () => rb,
+	FigmaFile: () => ba,
+	File: () => ja,
+	FileCheck: () => xa,
+	FileCorrupted: () => Sa,
+	FileDownload: () => Ca,
+	FileFavourite: () => wa,
+	FileLeft: () => Ta,
+	FileRemove: () => Ea,
+	FileRight: () => Da,
+	FileSend: () => Oa,
+	FileSmile: () => ka,
+	FileText: () => Aa,
+	Filter: () => ib,
+	Filters: () => Nv,
+	Fire: () => Zd,
+	FireMinimalistic: () => Jd,
+	FireMinimlistic: () => Yd,
+	FireSquare: () => Xd,
+	Flag: () => ob,
+	Flag2: () => ab,
+	Flame: () => Qd,
+	FlashDrive: () => Dr,
+	Flashlight: () => cb,
+	FlashlightOn: () => sb,
+	FlipHorizontal: () => Pv,
+	FlipVertical: () => Fv,
+	FloorLamp: () => Bo,
+	FloorLampMinimalistic: () => Ro,
+	FloorLampMinimlistic: () => zo,
+	Fog: () => Xw,
+	Folder: () => Ga,
+	Folder2: () => Pa,
+	FolderCheck: () => Fa,
+	FolderCloud: () => Ia,
+	FolderClound: () => La,
+	FolderError: () => Ra,
+	FolderFavouriteBookmark: () => za,
+	FolderFavouriteStar: () => Ba,
+	FolderOpen: () => Va,
+	FolderPathConnect: () => Ha,
+	FolderSecurity: () => Ua,
+	FolderWithFiles: () => Wa,
+	Football: () => Ng,
+	Forbidden: () => ub,
+	ForbiddenCircle: () => lb,
+	Forward: () => je,
+	Forward2: () => Ae,
+	ForwardRight: () => Lu,
+	FourK: () => db,
+	Fridge: () => Vo,
+	Fuel: () => fb,
+	FullScreen: () => DS,
+	FullScreenCircle: () => TS,
+	FullScreenSquare: () => ES,
+	Gallery: () => BS,
+	GalleryAdd: () => OS,
+	GalleryCheck: () => kS,
+	GalleryCircle: () => AS,
+	GalleryDownload: () => jS,
+	GalleryEdit: () => MS,
+	GalleryFavourite: () => NS,
+	GalleryMinimalistic: () => PS,
+	GalleryMinimlistic: () => FS,
+	GalleryRemove: () => IS,
+	GalleryRound: () => LS,
+	GallerySend: () => RS,
+	GalleryWide: () => zS,
+	Gameboy: () => Or,
+	Gamepad: () => Pr,
+	GamepadCharge: () => kr,
+	GamepadMinimalistic: () => Ar,
+	GamepadMinimlistic: () => jr,
+	GamepadNoCharge: () => Mr,
+	GamepadOld: () => Nr,
+	Garage: () => fn,
+	GasStation: () => Hf,
+	Ghost: () => mb,
+	GhostSmile: () => pb,
+	Gift: () => hb,
+	Glasses: () => gb,
+	Global: () => rl,
+	Globus: () => il,
+	Golf: () => Pg,
+	Gps: () => al,
+	Graph: () => On,
+	GraphDown: () => wn,
+	GraphDownNew: () => Cn,
+	GraphNew: () => En,
+	GraphNewUp: () => Tn,
+	GraphUp: () => Dn,
+	HamburgerMenu: () => _b,
+	HandHeart: () => ho,
+	HandMoney: () => go,
+	HandPills: () => _o,
+	HandShake: () => vo,
+	HandStars: () => yo,
+	Hanger: () => yb,
+	Hanger2: () => vb,
+	Hashtag: () => vs,
+	HashtagChat: () => hs,
+	HashtagCircle: () => gs,
+	HashtagSquare: () => _s,
+	HeadphonesRound: () => Ir,
+	HeadphonesRoundSound: () => Fr,
+	HeadphonesSquare: () => Rr,
+	HeadphonesSquareSound: () => Lr,
+	Health: () => Zl,
+	Heart: () => Zs,
+	HeartAngle: () => Ks,
+	HeartBroken: () => qs,
+	HeartLock: () => Js,
+	HeartPulse: () => $l,
+	HeartPulse2: () => Ql,
+	HeartShine: () => Ys,
+	HeartUnlock: () => Xs,
+	Hearts: () => Qs,
+	Help: () => bb,
+	HighDefinition: () => xb,
+	HighQuality: () => Sb,
+	Hiking: () => Rg,
+	HikingMinimalistic: () => Fg,
+	HikingMinimlistic: () => Ig,
+	HikingRound: () => Lg,
+	History: () => cv,
+	History2: () => ov,
+	History3: () => sv,
+	Home: () => Mb,
+	Home2: () => Cb,
+	HomeAdd: () => Tb,
+	HomeAddAngle: () => wb,
+	HomeAngle: () => Db,
+	HomeAngle2: () => Eb,
+	HomeSmile: () => kb,
+	HomeSmileAngle: () => Ob,
+	HomeWiFi: () => jb,
+	HomeWiFiAngle: () => Ab,
+	Hospital: () => pn,
+	Hourglass: () => uv,
+	HourglassLine: () => lv,
+	House: () => mn,
+	IPhone: () => zr,
+	Import: () => Me,
+	Inbox: () => Uu,
+	InboxArchive: () => Ru,
+	InboxIn: () => zu,
+	InboxLine: () => Bu,
+	InboxOut: () => Vu,
+	InboxUnread: () => Hu,
+	Incognito: () => Tm,
+	IncomingCall: () => Gn,
+	IncomingCallRounded: () => Wn,
+	Infinite: () => jt,
+	Infinity: () => Mt,
+	InfoCircle: () => Nb,
+	InfoSquare: () => Pb,
+	JarOfPills: () => tu,
+	JarOfPills2: () => eu,
+	Key: () => Rm,
+	KeyMinimalistic: () => Pm,
+	KeyMinimalistic2: () => Em,
+	KeyMinimalisticSquare: () => Mm,
+	KeyMinimalisticSquare2: () => Om,
+	KeyMinimalisticSquare3: () => Am,
+	KeyMinimlistic: () => Fm,
+	KeyMinimlistic2: () => Dm,
+	KeyMinimlisticSquare: () => Nm,
+	KeyMinimlisticSquare2: () => km,
+	KeyMinimlisticSquare3: () => jm,
+	KeySquare: () => Lm,
+	KeySquare2: () => Im,
+	Keyboard: () => Br,
+	KickScooter: () => Uf,
+	Ladle: () => io,
+	Lamp: () => Ho,
+	Laptop: () => Gr,
+	Laptop2: () => Vr,
+	Laptop3: () => Hr,
+	LaptopMinimalistic: () => Ur,
+	LaptopMinimlistic: () => Wr,
+	Layers: () => Rv,
+	LayersMinimalistic: () => Iv,
+	LayersMinimlistic: () => Lv,
+	Leaf: () => $d,
+	Letter: () => Ku,
+	LetterOpened: () => Wu,
+	LetterUnread: () => Gu,
+	Library: () => VS,
+	Lightbulb: () => Yr,
+	LightbulbBolt: () => Kr,
+	LightbulbMinimalistic: () => qr,
+	LightbulbMinimlistic: () => Jr,
+	Lightning: () => Xr,
+	Like: () => $s,
+	Link: () => C_,
+	LinkBroken: () => m_,
+	LinkBrokenMinimalistic: () => f_,
+	LinkBrokenMinimlistic: () => p_,
+	LinkCircle: () => h_,
+	LinkMinimalistic: () => v_,
+	LinkMinimalistic2: () => g_,
+	LinkMinimlistic: () => y_,
+	LinkMinimlistic2: () => __,
+	LinkRound: () => x_,
+	LinkRoundAngle: () => b_,
+	LinkSquare: () => S_,
+	List: () => Pc,
+	ListArrowDown: () => mc,
+	ListArrowDownMinimalistic: () => fc,
+	ListArrowDownMinimlistic: () => pc,
+	ListArrowUp: () => _c,
+	ListArrowUpMinimalistic: () => hc,
+	ListArrowUpMinimlistic: () => gc,
+	ListCheck: () => bc,
+	ListCheckMinimalistic: () => vc,
+	ListCheckMinimlistic: () => yc,
+	ListCross: () => Cc,
+	ListCrossMinimalistic: () => xc,
+	ListCrossMinimlistic: () => Sc,
+	ListDown: () => Ec,
+	ListDownMinimalistic: () => wc,
+	ListDownMinimlistic: () => Tc,
+	ListHeart: () => kc,
+	ListHeartMinimalistic: () => Dc,
+	ListHeartMinimlistic: () => Oc,
+	ListUp: () => Mc,
+	ListUpMinimalistic: () => Ac,
+	ListUpMinimlistic: () => jc,
+	ListVertical: () => Nc,
+	Lock: () => Jm,
+	LockKeyhole: () => Wm,
+	LockKeyholeMinimalistic: () => Vm,
+	LockKeyholeMinimalisticUnlocked: () => zm,
+	LockKeyholeMinimlistic: () => Hm,
+	LockKeyholeMinimlisticUnlocked: () => Bm,
+	LockKeyholeUnlocked: () => Um,
+	LockPassword: () => Km,
+	LockPasswordUnlocked: () => Gm,
+	LockUnlocked: () => qm,
+	Login: () => Fe,
+	Login2: () => Ne,
+	Login3: () => Pe,
+	Logout: () => Re,
+	Logout2: () => Ie,
+	Logout3: () => Le,
+	MagicStick: () => Lb,
+	MagicStick2: () => Fb,
+	MagicStick3: () => Ib,
+	Magnet: () => zb,
+	MagnetWave: () => Rb,
+	Magnifer: () => Zp,
+	MagniferBug: () => Gp,
+	MagniferZoomIn: () => qp,
+	MagniferZoomOut: () => Yp,
+	Magnifier: () => Xp,
+	MagnifierBug: () => Wp,
+	MagnifierZoomIn: () => Kp,
+	MagnifierZoomOut: () => Jp,
+	Mailbox: () => qu,
+	Map: () => bl,
+	MapArrowDown: () => ol,
+	MapArrowLeft: () => sl,
+	MapArrowRight: () => cl,
+	MapArrowSquare: () => ll,
+	MapArrowUp: () => ul,
+	MapPoint: () => yl,
+	MapPointAdd: () => dl,
+	MapPointFavourite: () => fl,
+	MapPointHospital: () => pl,
+	MapPointRemove: () => ml,
+	MapPointRotate: () => hl,
+	MapPointSchool: () => gl,
+	MapPointSearch: () => _l,
+	MapPointWave: () => vl,
+	MaskHapply: () => Vb,
+	MaskHappy: () => Bb,
+	MaskSad: () => Hb,
+	Masks: () => Ub,
+	Maximize: () => We,
+	MaximizeSquare: () => Ue,
+	MaximizeSquare2: () => ze,
+	MaximizeSquare3: () => Be,
+	MaximizeSquareMinimalistic: () => Ve,
+	MaximizeSquareMinimlistic: () => He,
+	MedalRibbon: () => tc,
+	MedalRibbonStar: () => ec,
+	MedalRibbonsStar: () => nc,
+	MedalStar: () => ac,
+	MedalStarCircle: () => rc,
+	MedalStarSquare: () => ic,
+	MedicalKit: () => nu,
+	Meditation: () => Bg,
+	MeditationRound: () => zg,
+	Men: () => Nt,
+	MentionCircle: () => Wb,
+	MentionSquare: () => Gb,
+	MenuDots: () => Jb,
+	MenuDotsCircle: () => Kb,
+	MenuDotsSquare: () => qb,
+	Microphone: () => GS,
+	Microphone2: () => HS,
+	Microphone3: () => US,
+	MicrophoneLarge: () => WS,
+	MinimalisticMagnifer: () => sm,
+	MinimalisticMagniferBug: () => Qp,
+	MinimalisticMagniferZoomIn: () => tm,
+	MinimalisticMagniferZoomOut: () => im,
+	MinimalisticMagnifier: () => om,
+	MinimalisticMagnifierBug: () => $,
+	MinimalisticMagnifierZoomIn: () => em,
+	MinimalisticMagnifierZoomOut: () => rm,
+	Minimize: () => Xe,
+	MinimizeSquare: () => Ye,
+	MinimizeSquare2: () => Ge,
+	MinimizeSquare3: () => Ke,
+	MinimizeSquareMinimalistic: () => qe,
+	MinimizeSquareMinimlistic: () => Je,
+	MinimlisticMagnifier: () => cm,
+	MinimlisticMagnifierBug: () => $p,
+	MinimlisticMagnifierZoomIn: () => nm,
+	MinimlisticMagnifierZoomOut: () => am,
+	MinusCircle: () => Yb,
+	MinusSquare: () => Xb,
+	Mirror: () => Uo,
+	Mirror2: () => Zb,
+	MirrorLeft: () => zv,
+	MirrorRight: () => Bv,
+	MoneyBag: () => kd,
+	Monitor: () => $r,
+	MonitorCamera: () => Zr,
+	MonitorSmartphone: () => Qr,
+	Moon: () => eT,
+	MoonFog: () => Zw,
+	MoonSleep: () => Qw,
+	MoonStars: () => $w,
+	Mouse: () => ri,
+	MouseCircle: () => ei,
+	MouseMinimalistic: () => ti,
+	MouseMinimlistic: () => ni,
+	MoveToFolder: () => Ka,
+	Mug: () => ao,
+	MultipleForwardLeft: () => Ju,
+	MultipleForwardRight: () => Yu,
+	MusicLibrary: () => qS,
+	MusicLibrary2: () => KS,
+	MusicNote: () => $S,
+	MusicNote2: () => JS,
+	MusicNote3: () => YS,
+	MusicNote4: () => XS,
+	MusicNoteSlider: () => QS,
+	MusicNoteSlider2: () => ZS,
+	MusicNotes: () => eC,
+	Muted: () => tC,
+	Notebook: () => Of,
+	Notebook2: () => Np,
+	NotebookBookmark: () => Pp,
+	NotebookMinimalistic: () => Fp,
+	NotebookMinimlistic: () => Ip,
+	NotebookSquare: () => Lp,
+	Notes: () => jf,
+	NotesMinimalistic: () => kf,
+	NotesMinimlistic: () => Af,
+	NotificationLinesRemove: () => Ff,
+	NotificationRemove: () => If,
+	NotificationUnread: () => Rf,
+	NotificationUnreadLines: () => Lf,
+	ObjectScan: () => Ym,
+	OutgoingCall: () => qn,
+	OutgoingCallRounded: () => Kn,
+	OvenMitts: () => co,
+	OvenMittsMinimalistic: () => oo,
+	OvenMittsMinimlistic: () => so,
+	PaintRoller: () => Vv,
+	Palette: () => Kv,
+	Palette2: () => Hv,
+	PaletteRound: () => Wv,
+	Pallete: () => qv,
+	Pallete2: () => Uv,
+	PalleteRound: () => Gv,
+	Panorama: () => nC,
+	PaperBin: () => Qb,
+	Paperclip: () => $u,
+	Paperclip2: () => Xu,
+	PaperclipRounded: () => Qu,
+	PaperclipRounded2: () => Zu,
+	ParagraphSpacing: () => w_,
+	Passport: () => Bp,
+	PassportMinimalistic: () => Rp,
+	PassportMinimlistic: () => zp,
+	Password: () => eh,
+	PasswordMinimalistic: () => Qm,
+	PasswordMinimalisticInput: () => Xm,
+	PasswordMinimlistic: () => $m,
+	PasswordMinimlisticInput: () => Zm,
+	Pause: () => iC,
+	PauseCircle: () => rC,
+	Paw: () => $b,
+	Pen: () => rd,
+	Pen2: () => ed,
+	PenNewRound: () => td,
+	PenNewSquare: () => nd,
+	PeopleNearby: () => xl,
+	Perfume: () => ex,
+	Phone: () => Zn,
+	PhoneCalling: () => Yn,
+	PhoneCallingRounded: () => Jn,
+	PhoneRounded: () => Xn,
+	PieChart: () => jn,
+	PieChart2: () => kn,
+	PieChart3: () => An,
+	Pill: () => ru,
+	Pills: () => ou,
+	Pills2: () => iu,
+	Pills3: () => au,
+	Pin: () => rx,
+	PinCircle: () => tx,
+	PinList: () => nx,
+	Pip: () => oC,
+	Pip2: () => aC,
+	Pipette: () => Jv,
+	Plaaylist: () => qc,
+	Plaaylist2: () => Ic,
+	PlaaylistMinimalistic: () => Wc,
+	PlaaylistMinimalistic2: () => Rc,
+	PlaaylistMinimalistic3: () => Vc,
+	Plain: () => od,
+	Plain2: () => id,
+	Plain3: () => ad,
+	Planet: () => Lt,
+	Planet2: () => Pt,
+	Planet3: () => Ft,
+	Planet4: () => It,
+	Plate: () => ix,
+	Play: () => lC,
+	PlayCircle: () => sC,
+	PlayStream: () => cC,
+	PlaybackSpeed: () => uC,
+	Playlist: () => Kc,
+	Playlist2: () => Fc,
+	PlaylistMinimalistic: () => Uc,
+	PlaylistMinimalistic2: () => Lc,
+	PlaylistMinimalistic3: () => Bc,
+	PlaylistMinimlistic: () => Gc,
+	PlaylistMinimlistic2: () => zc,
+	PlaylistMinimlistic3: () => Hc,
+	PlugCircle: () => ii,
+	PlusMinus: () => Vp,
+	Podcast: () => dC,
+	PointOnMap: () => Cl,
+	PointOnMapPerspective: () => Sl,
+	PostsCarouselHorizontal: () => ax,
+	PostsCarouselVertical: () => ox,
+	Power: () => sx,
+	PresentationGraph: () => Mn,
+	Printer: () => ci,
+	Printer2: () => ai,
+	PrinterMinimalistic: () => oi,
+	PrinterMinimlistic: () => si,
+	Programming: () => ys,
+	Projector: () => li,
+	Pulse: () => cu,
+	Pulse2: () => su,
+	QrCode: () => th,
+	QuestionCircle: () => cx,
+	QuestionSquare: () => lx,
+	QuitFullScreen: () => mC,
+	QuitFullScreenCircle: () => fC,
+	QuitFullScreenSquare: () => pC,
+	QuitPip: () => hC,
+	Radar: () => Tl,
+	Radar2: () => wl,
+	RadialBlur: () => Yv,
+	Radio: () => fi,
+	RadioMinimalistic: () => ui,
+	RadioMinimlistic: () => di,
+	Ranking: () => Vg,
+	ReceiveSquare: () => Ze,
+	ReceiveTwiceSquare: () => $e,
+	ReciveSquare: () => Qe,
+	ReciveTwiceSquare: () => et,
+	Record: () => _C,
+	RecordAudioCircle: () => gC,
+	RecordCircle: () => Qn,
+	RecordMinimalistic: () => $n,
+	RecordMinimlistic: () => er,
+	RecordSquare: () => tr,
+	Reel: () => yC,
+	Reel2: () => vC,
+	Refresh: () => _,
+	RefreshCircle: () => h,
+	RefreshSquare: () => g,
+	RemoteController: () => qo,
+	RemoteController2: () => Wo,
+	RemoteControllerMinimalistic: () => Go,
+	RemoteControllerMinimlistic: () => Ko,
+	RemoveFolder: () => qa,
+	Reorder: () => ux,
+	Reorder2: () => tt,
+	Repeat: () => CC,
+	RepeatOne: () => SC,
+	RepeatOneMinimalistic: () => bC,
+	RepeatOneMinimlistic: () => xC,
+	Reply: () => rt,
+	Reply2: () => nt,
+	Restart: () => b,
+	RestartCircle: () => v,
+	RestartSquare: () => y,
+	Revote: () => dx,
+	Rewind10SecondsBack: () => wC,
+	Rewind10SecondsForward: () => TC,
+	Rewind15SecondsBack: () => EC,
+	Rewind15SecondsForward: () => DC,
+	Rewind5SecondsBack: () => OC,
+	Rewind5SecondsForward: () => kC,
+	RewindBack: () => jC,
+	RewindBackCircle: () => AC,
+	RewindForward: () => NC,
+	RewindForwardCircle: () => MC,
+	Rocket: () => zt,
+	Rocket2: () => Rt,
+	RollingPin: () => lo,
+	RoundAltArrowDown: () => x,
+	RoundAltArrowLeft: () => S,
+	RoundAltArrowRight: () => C,
+	RoundAltArrowUp: () => w,
+	RoundArrowDown: () => T,
+	RoundArrowLeft: () => O,
+	RoundArrowLeftDown: () => E,
+	RoundArrowLeftUp: () => D,
+	RoundArrowRight: () => j,
+	RoundArrowRightDown: () => k,
+	RoundArrowRightUp: () => A,
+	RoundArrowUp: () => M,
+	RoundDoubleAltArrowDown: () => N,
+	RoundDoubleAltArrowLeft: () => P,
+	RoundDoubleAltArrowRight: () => F,
+	RoundDoubleAltArrowUp: () => I,
+	RoundGraph: () => Nn,
+	RoundSortHorizontal: () => L,
+	RoundSortVertical: () => R,
+	RoundTransferDiagonal: () => z,
+	RoundTransferHorizontal: () => B,
+	RoundTransferVertical: () => V,
+	RoundedMagnifer: () => gm,
+	RoundedMagniferBug: () => um,
+	RoundedMagniferZoomIn: () => fm,
+	RoundedMagniferZoomOut: () => mm,
+	RoundedMagnifier: () => hm,
+	RoundedMagnifierBug: () => lm,
+	RoundedMagnifierZoomIn: () => dm,
+	RoundedMagnifierZoomOut: () => pm,
+	Route: () => El,
+	Routing: () => kl,
+	Routing2: () => Dl,
+	Routing3: () => Ol,
+	Ruble: () => Ad,
+	Rugby: () => Hg,
+	Ruler: () => $v,
+	RulerAngular: () => Xv,
+	RulerCrossPen: () => Zv,
+	RulerPen: () => Qv,
+	Running: () => Gg,
+	Running2: () => Ug,
+	RunningRound: () => Wg,
+	SadCircle: () => oa,
+	SadSquare: () => sa,
+	Safe2: () => jd,
+	SafeCircle: () => Md,
+	SafeSquare: () => Nd,
+	Sale: () => Fd,
+	SaleSquare: () => Pd,
+	Satellite: () => Bt,
+	Scale: () => it,
+	Scanner: () => rh,
+	Scanner2: () => nh,
+	Scissors: () => px,
+	ScissorsSquare: () => fx,
+	Scooter: () => Wf,
+	ScreenShare: () => at,
+	Screencast: () => xs,
+	Screencast2: () => bs,
+	SdCard: () => pi,
+	SendSquare: () => ot,
+	SendTwiceSquare: () => st,
+	Server: () => Si,
+	Server2: () => mi,
+	ServerMinimalistic: () => hi,
+	ServerMinimlistic: () => gi,
+	ServerPath: () => _i,
+	ServerSquare: () => xi,
+	ServerSquareCloud: () => vi,
+	ServerSquareClound: () => yi,
+	ServerSquareUpdate: () => bi,
+	Settings: () => Ch,
+	SettingsMinimalistic: () => xh,
+	SettingsMinimlistic: () => Sh,
+	Share: () => hx,
+	ShareCircle: () => mx,
+	Shield: () => vh,
+	ShieldCheck: () => ih,
+	ShieldCross: () => ah,
+	ShieldKeyhole: () => ch,
+	ShieldKeyholeMinimalistic: () => oh,
+	ShieldKeyholeMinimlistic: () => sh,
+	ShieldMinimalistic: () => lh,
+	ShieldMinimlistic: () => uh,
+	ShieldMinus: () => dh,
+	ShieldNetwork: () => fh,
+	ShieldPlus: () => ph,
+	ShieldStar: () => mh,
+	ShieldUp: () => hh,
+	ShieldUser: () => gh,
+	ShieldWarning: () => _h,
+	ShockAbsorber: () => Gf,
+	Shop: () => _g,
+	Shop2: () => mg,
+	ShopMinimalistic: () => hg,
+	ShopMinimlistic: () => gg,
+	Shuffle: () => PC,
+	Sidebar: () => Ds,
+	SidebarCode: () => Ss,
+	SidebarMinimalistic: () => ws,
+	SidebarMinimlistic: () => Es,
+	Siderbar: () => Os,
+	SiderbarCode: () => Cs,
+	SiderbarMinimalistic: () => Ts,
+	Signpost: () => jl,
+	Signpost2: () => Al,
+	SimCard: () => Ti,
+	SimCardMinimalistic: () => Ci,
+	SimCardMinimlistic: () => wi,
+	SimCards: () => Ei,
+	Siren: () => bh,
+	SirenRounded: () => yh,
+	Skateboard: () => Kg,
+	Skateboarding: () => Jg,
+	SkateboardingRound: () => qg,
+	SkipNext: () => FC,
+	SkipPrevious: () => IC,
+	Skirt: () => gx,
+	SlashCircle: () => ks,
+	SlashSquare: () => As,
+	Sledgehammer: () => _x,
+	Sleeping: () => vx,
+	SleepingCircle: () => ca,
+	SleepingSquare: () => la,
+	SliderHorizontal: () => yx,
+	SliderMinimalisticHorizontal: () => bx,
+	SliderMinimlisticHorizontal: () => xx,
+	SliderVertical: () => wx,
+	SliderVerticalMinimalistic: () => Sx,
+	SliderVerticalMinimlistic: () => Cx,
+	SmartHome: () => Ex,
+	SmartHomeAngle: () => Tx,
+	SmartSpeaker: () => Ai,
+	SmartSpeaker2: () => Di,
+	SmartSpeakerMinimalistic: () => Oi,
+	SmartSpeakerMinimlistic: () => ki,
+	SmartVacuumCleaner: () => Yo,
+	SmartVacuumCleaner2: () => Jo,
+	Smartphone: () => Li,
+	Smartphone2: () => ji,
+	SmartphoneRotate2: () => Mi,
+	SmartphoneRotateAngle: () => Ni,
+	SmartphoneRotateOrientation: () => Pi,
+	SmartphoneUpdate: () => Fi,
+	SmartphoneVibration: () => Ii,
+	SmileCircle: () => ua,
+	SmileSquare: () => da,
+	Snowflake: () => tT,
+	Socket: () => Ri,
+	Sofa: () => Qo,
+	Sofa2: () => Xo,
+	Sofa3: () => Zo,
+	Sort: () => Dx,
+	SortByAlphabet: () => Jc,
+	SortByTime: () => Yc,
+	SortFromBottomToTop: () => Xc,
+	SortFromTopToBottom: () => Zc,
+	SortHorizontal: () => H,
+	SortVertical: () => U,
+	Soundwave: () => zC,
+	SoundwaveCircle: () => LC,
+	SoundwaveSquare: () => RC,
+	Speaker: () => ts,
+	SpeakerMinimalistic: () => $o,
+	SpeakerMinimlistic: () => es,
+	SpecialEffects: () => Ox,
+	SpedometerLow: () => qf,
+	SpedometerMax: () => Yf,
+	SpedometerMiddle: () => Zf,
+	SpeedometerLow: () => Kf,
+	SpeedometerMax: () => Jf,
+	SpeedometerMiddle: () => Xf,
+	SquareAcademicCap: () => Up,
+	SquareAcademicCap2: () => Hp,
+	SquareAltArrowDown: () => W,
+	SquareAltArrowLeft: () => G,
+	SquareAltArrowRight: () => K,
+	SquareAltArrowUp: () => q,
+	SquareArrowDown: () => J,
+	SquareArrowLeft: () => Z,
+	SquareArrowLeftDown: () => Y,
+	SquareArrowLeftUp: () => X,
+	SquareArrowRight: () => re,
+	SquareArrowRightDown: () => Q,
+	SquareArrowRightUp: () => ne,
+	SquareArrowUp: () => ie,
+	SquareBottomDown: () => ct,
+	SquareBottomUp: () => lt,
+	SquareDoubleAltArrowDown: () => ae,
+	SquareDoubleAltArrowLeft: () => oe,
+	SquareDoubleAltArrowRight: () => se,
+	SquareDoubleAltArrowUp: () => ce,
+	SquareForward: () => sd,
+	SquareShareLine: () => cd,
+	SquareSortHorizontal: () => le,
+	SquareSortVertical: () => ue,
+	SquareTopDown: () => ut,
+	SquareTopUp: () => dt,
+	SquareTransferHorizontal: () => de,
+	SquareTransferVertical: () => fe,
+	SsdRound: () => zi,
+	SsdSquare: () => Bi,
+	Star: () => sc,
+	Star2: () => Vt,
+	StarAngle: () => Ht,
+	StarCircle: () => Ut,
+	StarFall: () => Yt,
+	StarFall2: () => Wt,
+	StarFallMinimalistic: () => qt,
+	StarFallMinimalistic2: () => Gt,
+	StarFallMinimlistic: () => Jt,
+	StarFallMinimlistic2: () => Kt,
+	StarRainbow: () => Xt,
+	StarRing: () => Zt,
+	StarRings: () => Qt,
+	StarShine: () => oc,
+	Stars: () => nT,
+	Stars2: () => $t,
+	StarsLine: () => en,
+	StarsMinimalistic: () => tn,
+	StarsMinimlistic: () => nn,
+	Station: () => Ns,
+	StationMinimalistic: () => js,
+	StationMinimlistic: () => Ms,
+	Stethoscope: () => lu,
+	StickerCircle: () => fa,
+	StickerSmileCircle: () => ma,
+	StickerSmileCircle2: () => pa,
+	StickerSmileSquare: () => ha,
+	StickerSquare: () => ga,
+	Stop: () => VC,
+	StopCircle: () => BC,
+	Stopwatch: () => pv,
+	StopwatchPause: () => dv,
+	StopwatchPlay: () => fv,
+	Stream: () => HC,
+	Streets: () => Pl,
+	StreetsMapPoint: () => Ml,
+	StreetsNavigation: () => Nl,
+	Stretching: () => Xg,
+	StretchingRound: () => Yg,
+	Structure: () => Ps,
+	Subtitles: () => kx,
+	Suitcase: () => nf,
+	SuitcaseLines: () => ef,
+	SuitcaseTag: () => tf,
+	Sun: () => aT,
+	Sun2: () => rT,
+	SunFog: () => iT,
+	Sunrise: () => oT,
+	Sunset: () => sT,
+	Suspension: () => ep,
+	SuspensionBolt: () => Qf,
+	SuspensionCross: () => $f,
+	Swimming: () => Zg,
+	Syringe: () => uu,
+	TShirt: () => Ax,
+	Tablet: () => Vi,
+	Tag: () => Rd,
+	TagHorizontal: () => Id,
+	TagPrice: () => Ld,
+	Target: () => jx,
+	TeaCup: () => uo,
+	Telescope: () => Hi,
+	Temperature: () => cT,
+	Tennis: () => $g,
+	Tennis2: () => Qg,
+	TestTube: () => pu,
+	TestTubeMinimalistic: () => du,
+	TestTubeMinimlistic: () => fu,
+	Text: () => U_,
+	TextBold: () => D_,
+	TextBoldCircle: () => T_,
+	TextBoldSquare: () => E_,
+	TextCircle: () => O_,
+	TextCross: () => j_,
+	TextCrossCircle: () => k_,
+	TextCrossSquare: () => A_,
+	TextField: () => N_,
+	TextFieldFocus: () => M_,
+	TextItalic: () => I_,
+	TextItalicCircle: () => P_,
+	TextItalicSquare: () => F_,
+	TextSelection: () => L_,
+	TextSquare: () => z_,
+	TextSquare2: () => R_,
+	TextUnderline: () => H_,
+	TextUnderlineCircle: () => B_,
+	TextUnderlineCross: () => V_,
+	Thermometer: () => mu,
+	ThreeSquares: () => ey,
+	TickerStar: () => zd,
+	Ticket: () => Vd,
+	TicketSale: () => Bd,
+	ToPip: () => UC,
+	Tornado: () => uT,
+	TornadoSmall: () => lT,
+	Traffic: () => Nx,
+	TrafficEconomy: () => Mx,
+	Tram: () => tp,
+	TransferHorizontal: () => pe,
+	TransferVertical: () => me,
+	Translation: () => Is,
+	Translation2: () => Fs,
+	Transmission: () => ip,
+	TransmissionCircle: () => np,
+	TransmissionSquare: () => rp,
+	TrashBin2: () => Px,
+	TrashBinMinimalistic: () => Lx,
+	TrashBinMinimalistic2: () => Fx,
+	TrashBinMinimlistic: () => Rx,
+	TrashBinMinimlistic2: () => Ix,
+	TrashBinTrash: () => zx,
+	Treadmill: () => t_,
+	TreadmillRound: () => e_,
+	Trellis: () => ns,
+	Tuneing: () => Fh,
+	Tuneing2: () => Th,
+	Tuneing3: () => Dh,
+	Tuneing4: () => kh,
+	TuneingSquare: () => Nh,
+	TuneingSquare2: () => jh,
+	Tuning: () => Ph,
+	Tuning2: () => wh,
+	Tuning3: () => Eh,
+	Tuning4: () => Oh,
+	TuningSquare: () => Mh,
+	TuningSquare2: () => Ah,
+	Turntable: () => Ki,
+	TurntableMinimalistic: () => Ui,
+	TurntableMinimlistic: () => Wi,
+	TurntableMusicNote: () => Gi,
+	Tv: () => qi,
+	Ufo: () => on,
+	Ufo2: () => rn,
+	Ufo3: () => an,
+	Umbrella: () => Bx,
+	UndoLeft: () => ht,
+	UndoLeftRound: () => pt,
+	UndoLeftRoundSquare: () => ft,
+	UndoLeftSquare: () => mt,
+	UndoRight: () => yt,
+	UndoRightRound: () => _t,
+	UndoRightRoundSquare: () => gt,
+	UndoRightSquare: () => vt,
+	Unread: () => ld,
+	Upload: () => wt,
+	UploadMinimalistic: () => bt,
+	UploadMinimlistic: () => xt,
+	UploadSquare: () => St,
+	UploadTrack: () => GC,
+	UploadTrack2: () => WC,
+	UploadTwiceSquare: () => Ct,
+	Usb: () => zs,
+	UsbCircle: () => Ls,
+	UsbSquare: () => Rs,
+	User: () => lS,
+	UserBlock: () => Gx,
+	UserBlockRounded: () => Wx,
+	UserCheck: () => qx,
+	UserCheckRounded: () => Kx,
+	UserCircle: () => Jx,
+	UserCross: () => Xx,
+	UserCrossRounded: () => Yx,
+	UserHandUp: () => Zx,
+	UserHands: () => Qx,
+	UserHeart: () => eS,
+	UserHeartRounded: () => $x,
+	UserId: () => tS,
+	UserMinus: () => rS,
+	UserMinusRounded: () => nS,
+	UserPlus: () => aS,
+	UserPlusRounded: () => iS,
+	UserRounded: () => oS,
+	UserSpeak: () => cS,
+	UserSpeakRounded: () => sS,
+	UsersGroupRounded: () => uS,
+	UsersGroupTwoRounded: () => dS,
+	VerifiedCheck: () => Hd,
+	VideoFrame: () => QC,
+	VideoFrame2: () => KC,
+	VideoFrameCut: () => JC,
+	VideoFrameCut2: () => qC,
+	VideoFramePlayHorizontal: () => YC,
+	VideoFramePlayVertical: () => XC,
+	VideoFrameReplace: () => ZC,
+	VideoLibrary: () => $C,
+	Videocamera: () => nw,
+	VideocameraAdd: () => ew,
+	VideocameraRecord: () => tw,
+	Vinyl: () => iw,
+	VinylRecord: () => rw,
+	Virus: () => hu,
+	Volleyball: () => r_,
+	Volleyball2: () => n_,
+	Volume: () => cw,
+	VolumeCross: () => aw,
+	VolumeKnob: () => rs,
+	VolumeLoud: () => ow,
+	VolumeSmall: () => sw,
+	WadOfMoney: () => Ud,
+	Walking: () => a_,
+	WalkingRound: () => i_,
+	Wallet: () => Kd,
+	Wallet2: () => Wd,
+	WalletMoney: () => Gd,
+	Wallpaper: () => lw,
+	WashingMachine: () => os,
+	WashingMachineMinimalistic: () => is,
+	WashingMachineMinimlistic: () => as,
+	WatchRound: () => mv,
+	WatchSquare: () => yv,
+	WatchSquareMinimalistic: () => _v,
+	WatchSquareMinimalisticCharge: () => hv,
+	WatchSquareMinimlistic: () => vv,
+	WatchSquareMinimlisticCharge: () => gv,
+	Water: () => s_,
+	WaterSun: () => o_,
+	Waterdrop: () => Vx,
+	Waterdrops: () => dT,
+	Weigher: () => Ji,
+	Wheel: () => op,
+	WheelAngle: () => ap,
+	Whisk: () => fo,
+	WiFiRouter: () => Us,
+	WiFiRouterMinimalistic: () => Bs,
+	WiFiRouterMinimlistic: () => Vs,
+	WiFiRouterRound: () => Hs,
+	Widget: () => Hh,
+	Widget2: () => Ih,
+	Widget3: () => Lh,
+	Widget4: () => Rh,
+	Widget5: () => zh,
+	Widget6: () => Bh,
+	WidgetAdd: () => Vh,
+	WinRar: () => Hx,
+	Wind: () => fT,
+	WindowFrame: () => Ws,
+	Wineglass: () => mo,
+	WineglassTriangle: () => po,
+	WirelessCharge: () => Yi,
+	Women: () => sn,
+	Xxx: () => Ux,
+	ZipFile: () => Ma,
+	category: () => pT
+});
+//#endregion
+export { ty as Accessibility, zf as Accumulator, ny as AddCircle, Na as AddFolder, ry as AddSquare, Il as AdhesivePlaster, Fl as AdhesivePlaster2, fr as Airbuds, or as AirbudsCase, nr as AirbudsCaseCharge, rr as AirbudsCaseMinimalistic, ir as AirbudsCaseMinimlistic, ar as AirbudsCaseOpen, sr as AirbudsCharge, cr as AirbudsCheck, lr as AirbudsLeft, ur as AirbudsRemove, dr as AirbudsRight, X_ as Alarm, W_ as AlarmAdd, G_ as AlarmPause, K_ as AlarmPlay, q_ as AlarmRemove, J_ as AlarmSleep, Y_ as AlarmTurnOff, fS as Album, bv as AlignBottom, xv as AlignHorizontalCenter, Sv as AlignHorizontalSpacing, Cv as AlignLeft, wv as AlignRight, Tv as AlignTop, Ev as AlignVerticalCenter, Dv as AlignVerticalSpacing, te as AltArrowDown, e as AltArrowLeft, t as AltArrowRight, n as AltArrowUp, pf as Archive, rf as ArchiveCheck, sf as ArchiveDown, af as ArchiveDownMinimalistic, of as ArchiveDownMinimlistic, cf as ArchiveMinimalistic, lf as ArchiveMinimlistic, ff as ArchiveUp, uf as ArchiveUpMinimalistic, df as ArchiveUpMinimlistic, xo as Armchair, bo as Armchair2, r as ArrowDown, o as ArrowLeft, i as ArrowLeftDown, a as ArrowLeftUp, l as ArrowRight, s as ArrowRightDown, c as ArrowRightUp, he as ArrowToDownLeft, ge as ArrowToDownRight, _e as ArrowToTopLeft, ve as ArrowToTopRight, u as ArrowUp, Tt as Asteroid, Et as Atom, iy as AugmentedReality, sp as Backpack, c_ as Backspace, Ll as Bacteria, $h as Bag, Uh as Bag2, Wh as Bag3, Gh as Bag4, Kh as Bag5, qh as BagCheck, Jh as BagCross, Yh as BagHeart, Zh as BagMusic, Xh as BagMusic2, Qh as BagSmile, ay as Balloon, vg as Balls, dd as Banknote, ud as Banknote2, So as BarChair, yg as Basketball, Co as Bath, cy as BatteryCharge, oy as BatteryChargeMinimalistic, sy as BatteryChargeMinimlistic, dy as BatteryFull, ly as BatteryFullMinimalistic, uy as BatteryFullMinimlistic, my as BatteryHalf, fy as BatteryHalfMinimalistic, py as BatteryHalfMinimlistic, _y as BatteryLow, hy as BatteryLowMinimalistic, gy as BatteryLowMinimlistic, wo as Bed, Oo as BedsideTable, To as BedsideTable2, Eo as BedsideTable3, Do as BedsideTable4, Pf as Bell, Mf as BellBing, Nf as BellOff, Rl as BenzeneRing, xg as Bicycling, bg as BicyclingRound, hd as Bill, cc as Bill2, fd as BillCheck, pd as BillCross, md as BillList, kt as BlackHole, Dt as BlackHole2, Ot as BlackHole3, gr as Bluetooth, pr as BluetoothCircle, mr as BluetoothSquare, hr as BluetoothWave, vy as Body, wg as BodyShape, Sg as BodyShapeMinimalistic, Cg as BodyShapeMinimlistic, by as Bolt, yy as BoltCircle, bm as Bomb, _m as BombEmoji, vm as BombMinimalistic, ym as BombMinimlistic, Vl as Bone, zl as BoneBroken, Bl as BoneCrack, Hl as Bones, qd as Bonfire, mp as Book, cp as Book2, dp as BookBookmark, lp as BookBookmarkMinimalistic, up as BookBookmarkMinimlistic, fp as BookMinimalistic, pp as BookMinimlistic, bp as Bookmark, hp as BookmarkCircle, gp as BookmarkOpened, yp as BookmarkSquare, _p as BookmarkSquareMinimalistic, vp as BookmarkSquareMinimlistic, _r as Boombox, Ja as Bottle, Tg as Bowling, Cy as Box, xy as BoxMinimalistic, Sy as BoxMinimlistic, Qc as BranchingPathsDown, $c as BranchingPathsUp, wy as Broom, ls as Bug, ss as BugMinimalistic, cs as BugMinimlistic, un as Buildings, cn as Buildings2, ln as Buildings3, Bf as Bus, Cp as Calculator, xp as CalculatorMinimalistic, Sp as CalculatorMinimlistic, rv as Calendar, Z_ as CalendarAdd, Q_ as CalendarDate, $_ as CalendarMark, ev as CalendarMinimalistic, tv as CalendarMinimlistic, nv as CalendarSearch, Fn as CallCancel, Pn as CallCancelRounded, Ln as CallChat, In as CallChatRounded, zn as CallDropped, Rn as CallDroppedRounded, Vn as CallMedicine, Bn as CallMedicineRounded, vS as Camera, pS as CameraAdd, mS as CameraMinimalistic, hS as CameraMinimlistic, gS as CameraRotate, _S as CameraSquare, Sd as Card, gd as Card2, _d as CardReceive, vd as CardRecive, yd as CardSearch, bd as CardSend, xd as CardTransfer, Cd as Cardholder, pg as Cart, eg as Cart2, tg as Cart3, ng as Cart4, rg as Cart5, ig as CartCheck, ag as CartCross, dg as CartLarge, og as CartLarge2, sg as CartLarge3, cg as CartLarge4, lg as CartLargeMinimalistic, ug as CartLargeMinimlistic, fg as CartPlus, kp as Case, wp as CaseMinimalistic, Tp as CaseMinimlistic, Op as CaseRound, Ep as CaseRoundMinimalistic, Dp as CaseRoundMinimlistic, wd as CashOut, yr as Cassette, vr as Cassette2, Ty as Cat, Ao as Chair, ko as Chair2, jo as Chandelier, _n as Chart, hn as Chart2, gn as ChartSquare, gu as ChatDots, _u as ChatLine, Eu as ChatRound, vu as ChatRoundCall, yu as ChatRoundCheck, bu as ChatRoundDots, xu as ChatRoundLike, Su as ChatRoundLine, Cu as ChatRoundMoney, wu as ChatRoundUnread, Tu as ChatRoundVideo, Mu as ChatSquare, vn as ChatSquare2, Du as ChatSquareArrow, Ou as ChatSquareCall, ku as ChatSquareCheck, Au as ChatSquareCode, ju as ChatSquareLike, Nu as ChatUnread, Ey as CheckCircle, Pu as CheckRead, Dy as CheckSquare, dc as Checklist, lc as ChecklistMinimalistic, uc as ChecklistMinimlistic, Qa as ChefHat, Ya as ChefHatHeart, Xa as ChefHatMinimalistic, Za as ChefHatMinimlistic, ye as CircleBottomDown, be as CircleBottomUp, xe as CircleTopDown, Se as CircleTopUp, dn as City, wS as Clapperboard, yS as ClapperboardEdit, xS as ClapperboardOpen, bS as ClapperboardOpenPlay, SS as ClapperboardPlay, CS as ClapperboardText, bf as Clipboard, mf as ClipboardAdd, hf as ClipboardCheck, gf as ClipboardHeart, _f as ClipboardList, vf as ClipboardRemove, yf as ClipboardText, iv as ClockCircle, av as ClockSquare, Oy as CloseCircle, ky as CloseSquare, No as Closet, Mo as Closet2, Ww as Cloud, pw as CloudBolt, uw as CloudBoltMinimalistic, dw as CloudBoltMinimlistic, hw as CloudCheck, _w as CloudCross, yw as CloudDownload, _a as CloudFile, xw as CloudMinus, Cw as CloudPlus, Tw as CloudRain, Aw as CloudSnowfall, Dw as CloudSnowfallMinimalistic, Ow as CloudSnowfallMinimlistic, br as CloudStorage, Mw as CloudStorm, Iw as CloudSun, Pw as CloudSun2, Rw as CloudUpload, Bw as CloudWaterdrop, Hw as CloudWaterdrops, Kw as Clouds, Jw as CloudyMoon, Gw as Clound, mw as CloundBolt, fw as CloundBoltMinimalistic, gw as CloundCheck, vw as CloundCross, bw as CloundDownload, va as CloundFile, Sw as CloundMinus, ww as CloundPlus, Ew as CloundRain, jw as CloundSnowfall, kw as CloundSnowfallMinimalistic, xr as CloundStorage, Nw as CloundStorm, Lw as CloundSun, Fw as CloundSun2, zw as CloundUpload, Vw as CloundWaterdrop, Uw as CloundWaterdrops, qw as Clounds, Yw as CloundyMoon, ps as Code, us as Code2, ds as CodeCircle, ya as CodeFile, xm as CodeScan, fs as CodeSquare, kv as ColourTuneing, Ov as ColourTuning, ms as Command, nl as Compass, el as CompassBig, tl as CompassSquare, Lo as Condicioner, Fo as Condicioner2, Io as Conditioner, Po as Conditioner2, My as Confetti, Ay as ConfettiMinimalistic, jy as ConfettiMinimlistic, Xi as ConfoundedCircle, Zi as ConfoundedSquare, Ny as Copy, Py as Copyright, $a as Corkscrew, Fy as Cosmetic, yn as CourseDown, bn as CourseUp, Cr as Cpu, Sr as CpuBolt, Iy as CreativeCommons, Mv as Crop, Av as CropMinimalistic, jv as CropMinimlistic, Vy as Crown, Ly as CrownLine, Ry as CrownMinimalistic, zy as CrownMinimlistic, By as CrownStar, Gy as Cup, Hy as CupFirst, eo as CupHot, Uy as CupMusic, to as CupPaper, Wy as CupStar, qy as Cursor, Ky as CursorSquare, Zy as Danger, Jy as DangerCircle, Yy as DangerSquare, Xy as DangerTriangle, Qy as Database, $y as Delivery, wr as Devices, xn as DiagramDown, Sn as DiagramUp, Iu as Dialog, Fu as Dialog2, jp as Diploma, Ap as DiplomaVerified, Tr as Diskette, Gs as Dislike, Er as Display, Ul as Dna, wf as Document, Mp as Document2, xf as DocumentAdd, Sf as DocumentMedicine, Cf as DocumentText, Df as Documents, Tf as DocumentsMinimalistic, Ef as DocumentsMinimlistic, Dd as Dollar, Td as DollarMinimalistic, Ed as DollarMinimlistic, ro as Donut, no as DonutBitten, d as DoubleAltArrowDown, f as DoubleAltArrowLeft, p as DoubleAltArrowRight, m as DoubleAltArrowUp, De as Download, Ce as DownloadMinimalistic, we as DownloadMinimlistic, Te as DownloadSquare, Ee as DownloadTwiceSquare, Xl as Dropper, Wl as Dropper2, Gl as Dropper3, Jl as DropperMinimalistic, Kl as DropperMinimalistic2, Yl as DropperMinimlistic, ql as DropperMinimlistic2, Ag as Dumbbell, Og as DumbbellLarge, Eg as DumbbellLargeMinimalistic, Dg as DumbbellLargeMinimlistic, kg as DumbbellSmall, Mg as Dumbbells, jg as Dumbbells2, At as Earth, Vf as ElectricRefueling, Qi as EmojiFunnyCircle, $i as EmojiFunnySquare, Un as EndCall, Hn as EndCallRounded, d_ as Eraser, l_ as EraserCircle, u_ as EraserSquare, Od as Euro, Oe as Exit, eb as Explicit, ke as Export, ea as ExpressionlessCircle, ta as ExpressionlessSquare, wm as Eye, Sm as EyeClosed, Cm as EyeScan, na as FaceScanCircle, ra as FaceScanSquare, ia as FacemaskCircle, aa as FacemaskSquare, tb as Feed, nb as FerrisWheel, rb as Figma, ba as FigmaFile, ja as File, xa as FileCheck, Sa as FileCorrupted, Ca as FileDownload, wa as FileFavourite, Ta as FileLeft, Ea as FileRemove, Da as FileRight, Oa as FileSend, ka as FileSmile, Aa as FileText, ib as Filter, Nv as Filters, Zd as Fire, Jd as FireMinimalistic, Yd as FireMinimlistic, Xd as FireSquare, ob as Flag, ab as Flag2, Qd as Flame, Dr as FlashDrive, cb as Flashlight, sb as FlashlightOn, Pv as FlipHorizontal, Fv as FlipVertical, Bo as FloorLamp, Ro as FloorLampMinimalistic, zo as FloorLampMinimlistic, Xw as Fog, Ga as Folder, Pa as Folder2, Fa as FolderCheck, Ia as FolderCloud, La as FolderClound, Ra as FolderError, za as FolderFavouriteBookmark, Ba as FolderFavouriteStar, Va as FolderOpen, Ha as FolderPathConnect, Ua as FolderSecurity, Wa as FolderWithFiles, Ng as Football, ub as Forbidden, lb as ForbiddenCircle, je as Forward, Ae as Forward2, Lu as ForwardRight, db as FourK, Vo as Fridge, fb as Fuel, DS as FullScreen, TS as FullScreenCircle, ES as FullScreenSquare, BS as Gallery, OS as GalleryAdd, kS as GalleryCheck, AS as GalleryCircle, jS as GalleryDownload, MS as GalleryEdit, NS as GalleryFavourite, PS as GalleryMinimalistic, FS as GalleryMinimlistic, IS as GalleryRemove, LS as GalleryRound, RS as GallerySend, zS as GalleryWide, Or as Gameboy, Pr as Gamepad, kr as GamepadCharge, Ar as GamepadMinimalistic, jr as GamepadMinimlistic, Mr as GamepadNoCharge, Nr as GamepadOld, fn as Garage, Hf as GasStation, mb as Ghost, pb as GhostSmile, hb as Gift, gb as Glasses, rl as Global, il as Globus, Pg as Golf, al as Gps, On as Graph, wn as GraphDown, Cn as GraphDownNew, En as GraphNew, Tn as GraphNewUp, Dn as GraphUp, _b as HamburgerMenu, ho as HandHeart, go as HandMoney, _o as HandPills, vo as HandShake, yo as HandStars, yb as Hanger, vb as Hanger2, vs as Hashtag, hs as HashtagChat, gs as HashtagCircle, _s as HashtagSquare, Ir as HeadphonesRound, Fr as HeadphonesRoundSound, Rr as HeadphonesSquare, Lr as HeadphonesSquareSound, Zl as Health, Zs as Heart, Ks as HeartAngle, qs as HeartBroken, Js as HeartLock, $l as HeartPulse, Ql as HeartPulse2, Ys as HeartShine, Xs as HeartUnlock, Qs as Hearts, bb as Help, xb as HighDefinition, Sb as HighQuality, Rg as Hiking, Fg as HikingMinimalistic, Ig as HikingMinimlistic, Lg as HikingRound, cv as History, ov as History2, sv as History3, Mb as Home, Cb as Home2, Tb as HomeAdd, wb as HomeAddAngle, Db as HomeAngle, Eb as HomeAngle2, kb as HomeSmile, Ob as HomeSmileAngle, jb as HomeWiFi, Ab as HomeWiFiAngle, pn as Hospital, uv as Hourglass, lv as HourglassLine, mn as House, zr as IPhone, Me as Import, Uu as Inbox, Ru as InboxArchive, zu as InboxIn, Bu as InboxLine, Vu as InboxOut, Hu as InboxUnread, Tm as Incognito, Gn as IncomingCall, Wn as IncomingCallRounded, jt as Infinite, Mt as Infinity, Nb as InfoCircle, Pb as InfoSquare, tu as JarOfPills, eu as JarOfPills2, Rm as Key, Pm as KeyMinimalistic, Em as KeyMinimalistic2, Mm as KeyMinimalisticSquare, Om as KeyMinimalisticSquare2, Am as KeyMinimalisticSquare3, Fm as KeyMinimlistic, Dm as KeyMinimlistic2, Nm as KeyMinimlisticSquare, km as KeyMinimlisticSquare2, jm as KeyMinimlisticSquare3, Lm as KeySquare, Im as KeySquare2, Br as Keyboard, Uf as KickScooter, io as Ladle, Ho as Lamp, Gr as Laptop, Vr as Laptop2, Hr as Laptop3, Ur as LaptopMinimalistic, Wr as LaptopMinimlistic, Rv as Layers, Iv as LayersMinimalistic, Lv as LayersMinimlistic, $d as Leaf, Ku as Letter, Wu as LetterOpened, Gu as LetterUnread, VS as Library, Yr as Lightbulb, Kr as LightbulbBolt, qr as LightbulbMinimalistic, Jr as LightbulbMinimlistic, Xr as Lightning, $s as Like, C_ as Link, m_ as LinkBroken, f_ as LinkBrokenMinimalistic, p_ as LinkBrokenMinimlistic, h_ as LinkCircle, v_ as LinkMinimalistic, g_ as LinkMinimalistic2, y_ as LinkMinimlistic, __ as LinkMinimlistic2, x_ as LinkRound, b_ as LinkRoundAngle, S_ as LinkSquare, Pc as List, mc as ListArrowDown, fc as ListArrowDownMinimalistic, pc as ListArrowDownMinimlistic, _c as ListArrowUp, hc as ListArrowUpMinimalistic, gc as ListArrowUpMinimlistic, bc as ListCheck, vc as ListCheckMinimalistic, yc as ListCheckMinimlistic, Cc as ListCross, xc as ListCrossMinimalistic, Sc as ListCrossMinimlistic, Ec as ListDown, wc as ListDownMinimalistic, Tc as ListDownMinimlistic, kc as ListHeart, Dc as ListHeartMinimalistic, Oc as ListHeartMinimlistic, Mc as ListUp, Ac as ListUpMinimalistic, jc as ListUpMinimlistic, Nc as ListVertical, Jm as Lock, Wm as LockKeyhole, Vm as LockKeyholeMinimalistic, zm as LockKeyholeMinimalisticUnlocked, Hm as LockKeyholeMinimlistic, Bm as LockKeyholeMinimlisticUnlocked, Um as LockKeyholeUnlocked, Km as LockPassword, Gm as LockPasswordUnlocked, qm as LockUnlocked, Fe as Login, Ne as Login2, Pe as Login3, Re as Logout, Ie as Logout2, Le as Logout3, Lb as MagicStick, Fb as MagicStick2, Ib as MagicStick3, zb as Magnet, Rb as MagnetWave, Zp as Magnifer, Gp as MagniferBug, qp as MagniferZoomIn, Yp as MagniferZoomOut, Xp as Magnifier, Wp as MagnifierBug, Kp as MagnifierZoomIn, Jp as MagnifierZoomOut, qu as Mailbox, bl as Map, ol as MapArrowDown, sl as MapArrowLeft, cl as MapArrowRight, ll as MapArrowSquare, ul as MapArrowUp, yl as MapPoint, dl as MapPointAdd, fl as MapPointFavourite, pl as MapPointHospital, ml as MapPointRemove, hl as MapPointRotate, gl as MapPointSchool, _l as MapPointSearch, vl as MapPointWave, Vb as MaskHapply, Bb as MaskHappy, Hb as MaskSad, Ub as Masks, We as Maximize, Ue as MaximizeSquare, ze as MaximizeSquare2, Be as MaximizeSquare3, Ve as MaximizeSquareMinimalistic, He as MaximizeSquareMinimlistic, tc as MedalRibbon, ec as MedalRibbonStar, nc as MedalRibbonsStar, ac as MedalStar, rc as MedalStarCircle, ic as MedalStarSquare, nu as MedicalKit, Bg as Meditation, zg as MeditationRound, Nt as Men, Wb as MentionCircle, Gb as MentionSquare, Jb as MenuDots, Kb as MenuDotsCircle, qb as MenuDotsSquare, GS as Microphone, HS as Microphone2, US as Microphone3, WS as MicrophoneLarge, sm as MinimalisticMagnifer, Qp as MinimalisticMagniferBug, tm as MinimalisticMagniferZoomIn, im as MinimalisticMagniferZoomOut, om as MinimalisticMagnifier, $ as MinimalisticMagnifierBug, em as MinimalisticMagnifierZoomIn, rm as MinimalisticMagnifierZoomOut, Xe as Minimize, Ye as MinimizeSquare, Ge as MinimizeSquare2, Ke as MinimizeSquare3, qe as MinimizeSquareMinimalistic, Je as MinimizeSquareMinimlistic, cm as MinimlisticMagnifier, $p as MinimlisticMagnifierBug, nm as MinimlisticMagnifierZoomIn, am as MinimlisticMagnifierZoomOut, Yb as MinusCircle, Xb as MinusSquare, Uo as Mirror, Zb as Mirror2, zv as MirrorLeft, Bv as MirrorRight, kd as MoneyBag, $r as Monitor, Zr as MonitorCamera, Qr as MonitorSmartphone, eT as Moon, Zw as MoonFog, Qw as MoonSleep, $w as MoonStars, ri as Mouse, ei as MouseCircle, ti as MouseMinimalistic, ni as MouseMinimlistic, Ka as MoveToFolder, ao as Mug, Ju as MultipleForwardLeft, Yu as MultipleForwardRight, qS as MusicLibrary, KS as MusicLibrary2, $S as MusicNote, JS as MusicNote2, YS as MusicNote3, XS as MusicNote4, QS as MusicNoteSlider, ZS as MusicNoteSlider2, eC as MusicNotes, tC as Muted, Of as Notebook, Np as Notebook2, Pp as NotebookBookmark, Fp as NotebookMinimalistic, Ip as NotebookMinimlistic, Lp as NotebookSquare, jf as Notes, kf as NotesMinimalistic, Af as NotesMinimlistic, Ff as NotificationLinesRemove, If as NotificationRemove, Rf as NotificationUnread, Lf as NotificationUnreadLines, Ym as ObjectScan, qn as OutgoingCall, Kn as OutgoingCallRounded, co as OvenMitts, oo as OvenMittsMinimalistic, so as OvenMittsMinimlistic, Vv as PaintRoller, Kv as Palette, Hv as Palette2, Wv as PaletteRound, qv as Pallete, Uv as Pallete2, Gv as PalleteRound, nC as Panorama, Qb as PaperBin, $u as Paperclip, Xu as Paperclip2, Qu as PaperclipRounded, Zu as PaperclipRounded2, w_ as ParagraphSpacing, Bp as Passport, Rp as PassportMinimalistic, zp as PassportMinimlistic, eh as Password, Qm as PasswordMinimalistic, Xm as PasswordMinimalisticInput, $m as PasswordMinimlistic, Zm as PasswordMinimlisticInput, iC as Pause, rC as PauseCircle, $b as Paw, rd as Pen, ed as Pen2, td as PenNewRound, nd as PenNewSquare, xl as PeopleNearby, ex as Perfume, Zn as Phone, Yn as PhoneCalling, Jn as PhoneCallingRounded, Xn as PhoneRounded, jn as PieChart, kn as PieChart2, An as PieChart3, ru as Pill, ou as Pills, iu as Pills2, au as Pills3, rx as Pin, tx as PinCircle, nx as PinList, oC as Pip, aC as Pip2, Jv as Pipette, qc as Plaaylist, Ic as Plaaylist2, Wc as PlaaylistMinimalistic, Rc as PlaaylistMinimalistic2, Vc as PlaaylistMinimalistic3, od as Plain, id as Plain2, ad as Plain3, Lt as Planet, Pt as Planet2, Ft as Planet3, It as Planet4, ix as Plate, lC as Play, sC as PlayCircle, cC as PlayStream, uC as PlaybackSpeed, Kc as Playlist, Fc as Playlist2, Uc as PlaylistMinimalistic, Lc as PlaylistMinimalistic2, Bc as PlaylistMinimalistic3, Gc as PlaylistMinimlistic, zc as PlaylistMinimlistic2, Hc as PlaylistMinimlistic3, ii as PlugCircle, Vp as PlusMinus, dC as Podcast, Cl as PointOnMap, Sl as PointOnMapPerspective, ax as PostsCarouselHorizontal, ox as PostsCarouselVertical, sx as Power, Mn as PresentationGraph, ci as Printer, ai as Printer2, oi as PrinterMinimalistic, si as PrinterMinimlistic, ys as Programming, li as Projector, cu as Pulse, su as Pulse2, th as QrCode, cx as QuestionCircle, lx as QuestionSquare, mC as QuitFullScreen, fC as QuitFullScreenCircle, pC as QuitFullScreenSquare, hC as QuitPip, Tl as Radar, wl as Radar2, Yv as RadialBlur, fi as Radio, ui as RadioMinimalistic, di as RadioMinimlistic, Vg as Ranking, Ze as ReceiveSquare, $e as ReceiveTwiceSquare, Qe as ReciveSquare, et as ReciveTwiceSquare, _C as Record, gC as RecordAudioCircle, Qn as RecordCircle, $n as RecordMinimalistic, er as RecordMinimlistic, tr as RecordSquare, yC as Reel, vC as Reel2, _ as Refresh, h as RefreshCircle, g as RefreshSquare, qo as RemoteController, Wo as RemoteController2, Go as RemoteControllerMinimalistic, Ko as RemoteControllerMinimlistic, qa as RemoveFolder, ux as Reorder, tt as Reorder2, CC as Repeat, SC as RepeatOne, bC as RepeatOneMinimalistic, xC as RepeatOneMinimlistic, rt as Reply, nt as Reply2, b as Restart, v as RestartCircle, y as RestartSquare, dx as Revote, wC as Rewind10SecondsBack, TC as Rewind10SecondsForward, EC as Rewind15SecondsBack, DC as Rewind15SecondsForward, OC as Rewind5SecondsBack, kC as Rewind5SecondsForward, jC as RewindBack, AC as RewindBackCircle, NC as RewindForward, MC as RewindForwardCircle, zt as Rocket, Rt as Rocket2, lo as RollingPin, x as RoundAltArrowDown, S as RoundAltArrowLeft, C as RoundAltArrowRight, w as RoundAltArrowUp, T as RoundArrowDown, O as RoundArrowLeft, E as RoundArrowLeftDown, D as RoundArrowLeftUp, j as RoundArrowRight, k as RoundArrowRightDown, A as RoundArrowRightUp, M as RoundArrowUp, N as RoundDoubleAltArrowDown, P as RoundDoubleAltArrowLeft, F as RoundDoubleAltArrowRight, I as RoundDoubleAltArrowUp, Nn as RoundGraph, L as RoundSortHorizontal, R as RoundSortVertical, z as RoundTransferDiagonal, B as RoundTransferHorizontal, V as RoundTransferVertical, gm as RoundedMagnifer, um as RoundedMagniferBug, fm as RoundedMagniferZoomIn, mm as RoundedMagniferZoomOut, hm as RoundedMagnifier, lm as RoundedMagnifierBug, dm as RoundedMagnifierZoomIn, pm as RoundedMagnifierZoomOut, El as Route, kl as Routing, Dl as Routing2, Ol as Routing3, Ad as Ruble, Hg as Rugby, $v as Ruler, Xv as RulerAngular, Zv as RulerCrossPen, Qv as RulerPen, Gg as Running, Ug as Running2, Wg as RunningRound, oa as SadCircle, sa as SadSquare, jd as Safe2, Md as SafeCircle, Nd as SafeSquare, Fd as Sale, Pd as SaleSquare, Bt as Satellite, it as Scale, rh as Scanner, nh as Scanner2, px as Scissors, fx as ScissorsSquare, Wf as Scooter, at as ScreenShare, xs as Screencast, bs as Screencast2, pi as SdCard, ot as SendSquare, st as SendTwiceSquare, Si as Server, mi as Server2, hi as ServerMinimalistic, gi as ServerMinimlistic, _i as ServerPath, xi as ServerSquare, vi as ServerSquareCloud, yi as ServerSquareClound, bi as ServerSquareUpdate, Ch as Settings, xh as SettingsMinimalistic, Sh as SettingsMinimlistic, hx as Share, mx as ShareCircle, vh as Shield, ih as ShieldCheck, ah as ShieldCross, ch as ShieldKeyhole, oh as ShieldKeyholeMinimalistic, sh as ShieldKeyholeMinimlistic, lh as ShieldMinimalistic, uh as ShieldMinimlistic, dh as ShieldMinus, fh as ShieldNetwork, ph as ShieldPlus, mh as ShieldStar, hh as ShieldUp, gh as ShieldUser, _h as ShieldWarning, Gf as ShockAbsorber, _g as Shop, mg as Shop2, hg as ShopMinimalistic, gg as ShopMinimlistic, PC as Shuffle, Ds as Sidebar, Ss as SidebarCode, ws as SidebarMinimalistic, Es as SidebarMinimlistic, Os as Siderbar, Cs as SiderbarCode, Ts as SiderbarMinimalistic, jl as Signpost, Al as Signpost2, Ti as SimCard, Ci as SimCardMinimalistic, wi as SimCardMinimlistic, Ei as SimCards, bh as Siren, yh as SirenRounded, Kg as Skateboard, Jg as Skateboarding, qg as SkateboardingRound, FC as SkipNext, IC as SkipPrevious, gx as Skirt, ks as SlashCircle, As as SlashSquare, _x as Sledgehammer, vx as Sleeping, ca as SleepingCircle, la as SleepingSquare, yx as SliderHorizontal, bx as SliderMinimalisticHorizontal, xx as SliderMinimlisticHorizontal, wx as SliderVertical, Sx as SliderVerticalMinimalistic, Cx as SliderVerticalMinimlistic, Ex as SmartHome, Tx as SmartHomeAngle, Ai as SmartSpeaker, Di as SmartSpeaker2, Oi as SmartSpeakerMinimalistic, ki as SmartSpeakerMinimlistic, Yo as SmartVacuumCleaner, Jo as SmartVacuumCleaner2, Li as Smartphone, ji as Smartphone2, Mi as SmartphoneRotate2, Ni as SmartphoneRotateAngle, Pi as SmartphoneRotateOrientation, Fi as SmartphoneUpdate, Ii as SmartphoneVibration, ua as SmileCircle, da as SmileSquare, tT as Snowflake, Ri as Socket, Qo as Sofa, Xo as Sofa2, Zo as Sofa3, Dx as Sort, Jc as SortByAlphabet, Yc as SortByTime, Xc as SortFromBottomToTop, Zc as SortFromTopToBottom, H as SortHorizontal, U as SortVertical, zC as Soundwave, LC as SoundwaveCircle, RC as SoundwaveSquare, ts as Speaker, $o as SpeakerMinimalistic, es as SpeakerMinimlistic, Ox as SpecialEffects, qf as SpedometerLow, Yf as SpedometerMax, Zf as SpedometerMiddle, Kf as SpeedometerLow, Jf as SpeedometerMax, Xf as SpeedometerMiddle, Up as SquareAcademicCap, Hp as SquareAcademicCap2, W as SquareAltArrowDown, G as SquareAltArrowLeft, K as SquareAltArrowRight, q as SquareAltArrowUp, J as SquareArrowDown, Z as SquareArrowLeft, Y as SquareArrowLeftDown, X as SquareArrowLeftUp, re as SquareArrowRight, Q as SquareArrowRightDown, ne as SquareArrowRightUp, ie as SquareArrowUp, ct as SquareBottomDown, lt as SquareBottomUp, ae as SquareDoubleAltArrowDown, oe as SquareDoubleAltArrowLeft, se as SquareDoubleAltArrowRight, ce as SquareDoubleAltArrowUp, sd as SquareForward, cd as SquareShareLine, le as SquareSortHorizontal, ue as SquareSortVertical, ut as SquareTopDown, dt as SquareTopUp, de as SquareTransferHorizontal, fe as SquareTransferVertical, zi as SsdRound, Bi as SsdSquare, sc as Star, Vt as Star2, Ht as StarAngle, Ut as StarCircle, Yt as StarFall, Wt as StarFall2, qt as StarFallMinimalistic, Gt as StarFallMinimalistic2, Jt as StarFallMinimlistic, Kt as StarFallMinimlistic2, Xt as StarRainbow, Zt as StarRing, Qt as StarRings, oc as StarShine, nT as Stars, $t as Stars2, en as StarsLine, tn as StarsMinimalistic, nn as StarsMinimlistic, Ns as Station, js as StationMinimalistic, Ms as StationMinimlistic, lu as Stethoscope, fa as StickerCircle, ma as StickerSmileCircle, pa as StickerSmileCircle2, ha as StickerSmileSquare, ga as StickerSquare, VC as Stop, BC as StopCircle, pv as Stopwatch, dv as StopwatchPause, fv as StopwatchPlay, HC as Stream, Pl as Streets, Ml as StreetsMapPoint, Nl as StreetsNavigation, Xg as Stretching, Yg as StretchingRound, Ps as Structure, kx as Subtitles, nf as Suitcase, ef as SuitcaseLines, tf as SuitcaseTag, aT as Sun, rT as Sun2, iT as SunFog, oT as Sunrise, sT as Sunset, ep as Suspension, Qf as SuspensionBolt, $f as SuspensionCross, Zg as Swimming, uu as Syringe, Ax as TShirt, Vi as Tablet, Rd as Tag, Id as TagHorizontal, Ld as TagPrice, jx as Target, uo as TeaCup, Hi as Telescope, cT as Temperature, $g as Tennis, Qg as Tennis2, pu as TestTube, du as TestTubeMinimalistic, fu as TestTubeMinimlistic, U_ as Text, D_ as TextBold, T_ as TextBoldCircle, E_ as TextBoldSquare, O_ as TextCircle, j_ as TextCross, k_ as TextCrossCircle, A_ as TextCrossSquare, N_ as TextField, M_ as TextFieldFocus, I_ as TextItalic, P_ as TextItalicCircle, F_ as TextItalicSquare, L_ as TextSelection, z_ as TextSquare, R_ as TextSquare2, H_ as TextUnderline, B_ as TextUnderlineCircle, V_ as TextUnderlineCross, mu as Thermometer, ey as ThreeSquares, zd as TickerStar, Vd as Ticket, Bd as TicketSale, UC as ToPip, uT as Tornado, lT as TornadoSmall, Nx as Traffic, Mx as TrafficEconomy, tp as Tram, pe as TransferHorizontal, me as TransferVertical, Is as Translation, Fs as Translation2, ip as Transmission, np as TransmissionCircle, rp as TransmissionSquare, Px as TrashBin2, Lx as TrashBinMinimalistic, Fx as TrashBinMinimalistic2, Rx as TrashBinMinimlistic, Ix as TrashBinMinimlistic2, zx as TrashBinTrash, t_ as Treadmill, e_ as TreadmillRound, ns as Trellis, Fh as Tuneing, Th as Tuneing2, Dh as Tuneing3, kh as Tuneing4, Nh as TuneingSquare, jh as TuneingSquare2, Ph as Tuning, wh as Tuning2, Eh as Tuning3, Oh as Tuning4, Mh as TuningSquare, Ah as TuningSquare2, Ki as Turntable, Ui as TurntableMinimalistic, Wi as TurntableMinimlistic, Gi as TurntableMusicNote, qi as Tv, on as Ufo, rn as Ufo2, an as Ufo3, Bx as Umbrella, ht as UndoLeft, pt as UndoLeftRound, ft as UndoLeftRoundSquare, mt as UndoLeftSquare, yt as UndoRight, _t as UndoRightRound, gt as UndoRightRoundSquare, vt as UndoRightSquare, ld as Unread, wt as Upload, bt as UploadMinimalistic, xt as UploadMinimlistic, St as UploadSquare, GC as UploadTrack, WC as UploadTrack2, Ct as UploadTwiceSquare, zs as Usb, Ls as UsbCircle, Rs as UsbSquare, lS as User, Gx as UserBlock, Wx as UserBlockRounded, qx as UserCheck, Kx as UserCheckRounded, Jx as UserCircle, Xx as UserCross, Yx as UserCrossRounded, Zx as UserHandUp, Qx as UserHands, eS as UserHeart, $x as UserHeartRounded, tS as UserId, rS as UserMinus, nS as UserMinusRounded, aS as UserPlus, iS as UserPlusRounded, oS as UserRounded, cS as UserSpeak, sS as UserSpeakRounded, uS as UsersGroupRounded, dS as UsersGroupTwoRounded, Hd as VerifiedCheck, QC as VideoFrame, KC as VideoFrame2, JC as VideoFrameCut, qC as VideoFrameCut2, YC as VideoFramePlayHorizontal, XC as VideoFramePlayVertical, ZC as VideoFrameReplace, $C as VideoLibrary, nw as Videocamera, ew as VideocameraAdd, tw as VideocameraRecord, iw as Vinyl, rw as VinylRecord, hu as Virus, r_ as Volleyball, n_ as Volleyball2, cw as Volume, aw as VolumeCross, rs as VolumeKnob, ow as VolumeLoud, sw as VolumeSmall, Ud as WadOfMoney, a_ as Walking, i_ as WalkingRound, Kd as Wallet, Wd as Wallet2, Gd as WalletMoney, lw as Wallpaper, os as WashingMachine, is as WashingMachineMinimalistic, as as WashingMachineMinimlistic, mv as WatchRound, yv as WatchSquare, _v as WatchSquareMinimalistic, hv as WatchSquareMinimalisticCharge, vv as WatchSquareMinimlistic, gv as WatchSquareMinimlisticCharge, s_ as Water, o_ as WaterSun, Vx as Waterdrop, dT as Waterdrops, Ji as Weigher, op as Wheel, ap as WheelAngle, fo as Whisk, Us as WiFiRouter, Bs as WiFiRouterMinimalistic, Vs as WiFiRouterMinimlistic, Hs as WiFiRouterRound, Hh as Widget, Ih as Widget2, Lh as Widget3, Rh as Widget4, zh as Widget5, Bh as Widget6, Vh as WidgetAdd, Hx as WinRar, fT as Wind, Ws as WindowFrame, mo as Wineglass, po as WineglassTriangle, Yi as WirelessCharge, sn as Women, Ux as Xxx, Ma as ZipFile, pT as category, mT as ssr_exports };

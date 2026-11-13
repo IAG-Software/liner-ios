@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FolderOpenLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FolderOpenFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=folder-open.d.ts.map

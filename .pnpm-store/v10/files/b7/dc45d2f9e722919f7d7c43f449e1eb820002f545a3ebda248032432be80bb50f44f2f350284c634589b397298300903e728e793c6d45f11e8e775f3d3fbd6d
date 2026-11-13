@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const RefundCnyLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const RefundCnyFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=refund-cny.d.ts.map

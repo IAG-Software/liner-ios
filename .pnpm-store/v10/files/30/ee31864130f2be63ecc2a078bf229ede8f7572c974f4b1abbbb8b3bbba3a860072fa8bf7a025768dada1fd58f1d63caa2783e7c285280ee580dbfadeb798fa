@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudBolt instead
+ */
+declare const CloundBolt: import("../../lib").Icon;
+export default CloundBolt;

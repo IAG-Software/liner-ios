@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ThreeQuartersCircleDashLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ThreeQuartersCircleDashFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=three-quarters-circle-dash.d.ts.map

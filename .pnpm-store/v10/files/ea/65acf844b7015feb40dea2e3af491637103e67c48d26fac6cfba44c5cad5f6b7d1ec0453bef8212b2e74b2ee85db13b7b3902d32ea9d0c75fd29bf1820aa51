@@ -1,0 +1,32 @@
+import type { AnimationConfig } from "./animationConfig.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export type LineScrollSide = "above" | "active" | "below";
+export interface LineScrollTiming {
+    durationMs: number;
+    startEasing: string;
+    endEasing: string;
+}
+export interface StyledScrollLine {
+    lineElement: HTMLElement;
+    side: LineScrollSide;
+}
+interface SizedScrollLine extends StyledScrollLine {
+    heightPx: number;
+}
+export interface ScrollVariables {
+    index: number;
+    activeIndex: number;
+    relativeIndex: number;
+    side: LineScrollSide;
+    deltaPx: number;
+}
+export declare function themeOverridesScrollTranslate(): boolean;
+export declare function writeScrollVariables(lineElement: HTMLElement, variables: ScrollVariables): void;
+export declare function clearScrollVariables(lineElement: HTMLElement): void;
+export declare function resolveScrollTimings(engine: AnimationEngineInstance, lines: StyledScrollLine[], { lineScroll }: AnimationConfig): LineScrollTiming[];
+export declare function resolveThemedTranslates(engine: AnimationEngineInstance, lines: SizedScrollLine[], { lineScroll }: AnimationConfig): {
+    start: (number | null)[];
+    end: (number | null)[];
+};
+export declare function translateYPx(translate: string, heightPx: number): number | null;
+export {};

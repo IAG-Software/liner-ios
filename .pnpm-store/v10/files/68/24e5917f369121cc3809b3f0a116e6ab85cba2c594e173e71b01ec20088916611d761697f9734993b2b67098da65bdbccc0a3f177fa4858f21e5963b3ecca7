@@ -1,0 +1,5 @@
+import e from "./Sidebar.mjs";
+//#region src/csr/it/Siderbar.ts
+var t = e;
+//#endregion
+export { t as default };

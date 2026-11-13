@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ViberMessengerLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ViberMessengerFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=viber-messenger.d.ts.map

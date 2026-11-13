@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BracketsAngleLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BracketsAngleFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=brackets-angle.d.ts.map

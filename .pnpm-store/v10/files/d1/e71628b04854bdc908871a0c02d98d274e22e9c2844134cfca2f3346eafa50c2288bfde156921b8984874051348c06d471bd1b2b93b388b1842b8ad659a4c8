@@ -1,0 +1,5 @@
+import e from "./PaletteRound.mjs";
+//#region src/csr/tools/PalleteRound.ts
+var t = e;
+//#endregion
+export { t as default };

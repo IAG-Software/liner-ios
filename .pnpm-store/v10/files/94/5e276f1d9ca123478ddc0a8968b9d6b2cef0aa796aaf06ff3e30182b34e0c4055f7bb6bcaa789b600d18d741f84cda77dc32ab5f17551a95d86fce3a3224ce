@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FolderMinusLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FolderMinusFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=folder-minus.d.ts.map

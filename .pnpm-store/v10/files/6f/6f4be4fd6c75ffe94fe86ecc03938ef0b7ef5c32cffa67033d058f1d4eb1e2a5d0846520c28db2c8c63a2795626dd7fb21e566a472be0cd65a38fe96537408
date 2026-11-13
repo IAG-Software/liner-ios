@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use PassportMinimalistic instead
+ */
+declare const PassportMinimlistic: import("../../lib").Icon;
+export default PassportMinimlistic;

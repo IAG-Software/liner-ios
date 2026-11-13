@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const DiamondSquareLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const DiamondSquareFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=diamond-square.d.ts.map

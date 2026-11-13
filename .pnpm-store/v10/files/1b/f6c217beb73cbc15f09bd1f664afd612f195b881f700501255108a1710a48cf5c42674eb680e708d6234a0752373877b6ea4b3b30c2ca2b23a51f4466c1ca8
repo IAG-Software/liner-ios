@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CardReceive instead
+ */
+declare const CardRecive: import("../../lib").Icon;
+export default CardRecive;

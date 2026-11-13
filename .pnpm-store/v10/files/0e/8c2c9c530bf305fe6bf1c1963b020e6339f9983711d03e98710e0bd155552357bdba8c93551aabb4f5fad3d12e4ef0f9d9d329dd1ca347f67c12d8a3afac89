@@ -1,0 +1,5 @@
+export declare function detectFormat(input: string): LyricFormat;
+
+export declare type LyricFormat = "ttml" | "lrc" | "srt" | "qrc" | "plain";
+
+export { }

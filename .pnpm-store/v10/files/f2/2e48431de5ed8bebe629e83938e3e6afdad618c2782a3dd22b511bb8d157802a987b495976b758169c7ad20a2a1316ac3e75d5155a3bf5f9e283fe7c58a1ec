@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const MarinaBaySandLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const MarinaBaySandFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=marina-bay-sand.d.ts.map

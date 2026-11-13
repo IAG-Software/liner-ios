@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const EraserAiLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const EraserAiFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=eraser-ai.d.ts.map

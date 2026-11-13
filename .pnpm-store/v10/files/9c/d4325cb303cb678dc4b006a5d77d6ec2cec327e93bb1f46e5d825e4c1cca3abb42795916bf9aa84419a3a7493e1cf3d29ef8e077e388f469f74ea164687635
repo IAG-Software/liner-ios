@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const DotsVerticalLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const DotsVerticalFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=dots-vertical.d.ts.map

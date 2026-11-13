@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const WechatMiniprogramLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const WechatMiniprogramFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=wechat-miniprogram.d.ts.map

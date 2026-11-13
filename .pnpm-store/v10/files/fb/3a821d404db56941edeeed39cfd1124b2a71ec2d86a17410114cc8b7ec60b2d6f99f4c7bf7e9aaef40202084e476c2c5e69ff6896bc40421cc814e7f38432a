@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use TrashBinMinimalistic instead
+ */
+declare const TrashBinMinimlistic: import("../../lib").Icon;
+export default TrashBinMinimlistic;

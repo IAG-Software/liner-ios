@@ -1,0 +1,5 @@
+import e from "./LockKeyholeMinimalistic.mjs";
+//#region src/csr/security/LockKeyholeMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

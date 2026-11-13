@@ -1,0 +1,5 @@
+import e from "./ChefHatMinimalistic.mjs";
+//#region src/ssr/food/ChefHatMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

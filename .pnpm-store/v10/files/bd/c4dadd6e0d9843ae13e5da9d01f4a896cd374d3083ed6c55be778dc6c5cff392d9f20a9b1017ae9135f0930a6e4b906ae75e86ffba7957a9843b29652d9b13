@@ -1,0 +1,5 @@
+import e from "./MaskHappy.mjs";
+//#region src/ssr/ui/MaskHapply.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,5 @@
+import e from "./TuningSquare.mjs";
+//#region src/ssr/settings/TuneingSquare.ts
+var t = e;
+//#endregion
+export { t as default };

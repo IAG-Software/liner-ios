@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FolderDeleteLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FolderDeleteFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=folder-delete.d.ts.map

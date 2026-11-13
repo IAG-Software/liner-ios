@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const LifebuoyLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const LifebuoyFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=lifebuoy.d.ts.map

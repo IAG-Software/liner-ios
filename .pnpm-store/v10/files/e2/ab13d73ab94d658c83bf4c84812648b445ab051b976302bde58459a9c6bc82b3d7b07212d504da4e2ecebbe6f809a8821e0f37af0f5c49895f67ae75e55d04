@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ServerMinimalistic instead
+ */
+declare const ServerMinimlistic: import("../../lib").Icon;
+export default ServerMinimlistic;

@@ -1,0 +1,12 @@
+import type { AnimationConfig } from "./animationConfig.js";
+import type { Playhead } from "./clock.js";
+import type { AnimationEngineInstance } from "./instance.js";
+interface LineTick {
+    engine: AnimationEngineInstance;
+    lyricTimeS: number;
+    playhead: Playhead;
+    config: AnimationConfig;
+    now: number;
+}
+export declare function driveLineAnimations(tick: LineTick): void;
+export {};

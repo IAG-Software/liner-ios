@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use LaptopMinimalistic instead
+ */
+declare const LaptopMinimlistic: import("../../lib").Icon;
+export default LaptopMinimlistic;

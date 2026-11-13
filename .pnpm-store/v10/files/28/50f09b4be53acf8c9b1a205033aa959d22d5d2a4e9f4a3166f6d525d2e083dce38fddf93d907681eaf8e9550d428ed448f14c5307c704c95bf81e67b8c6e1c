@@ -1,0 +1,11 @@
+"use client";
+import { _objectSpread2 as e } from "../../_virtual/_@oxc-project_runtime@0.130.0/helpers/objectSpread2.mjs";
+import t from "../../lib/IconBase.mjs";
+import n from "../../defs/home/Mirror.mjs";
+import { forwardRef as r } from "react";
+import { jsx as i } from "react/jsx-runtime";
+//#region src/csr/home/Mirror.tsx
+var a = r((r, a) => /* @__PURE__ */ i(t, e(e({ ref: a }, r), {}, { weights: n })));
+a.displayName = "Mirror";
+//#endregion
+export { a as default };

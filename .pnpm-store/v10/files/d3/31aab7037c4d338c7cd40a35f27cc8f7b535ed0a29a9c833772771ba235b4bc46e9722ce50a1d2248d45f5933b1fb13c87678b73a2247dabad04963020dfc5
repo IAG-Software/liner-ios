@@ -1,0 +1,10 @@
+import { jsx, jsxs } from 'react/jsx-runtime';
+import { forwardRef } from 'react';
+import { Icon } from '../Icon.js';
+
+const TextLine = forwardRef((props, ref) => (jsx(Icon, { ref: ref, ...props, children: jsxs("g", { fill: "none", children: [jsx("path", { d: "M0 0h24v24H0z" }), jsx("path", { fill: "currentColor", d: "M5 4a1 1 0 0 0 0 2h6v14a1 1 0 1 0 2 0V6h6a1 1 0 1 0 0-2z" })] }) })));
+TextLine.displayName = 'TextLine';
+const TextFill = forwardRef((props, ref) => (jsx(Icon, { ref: ref, ...props, children: jsxs("g", { fill: "none", children: [jsx("path", { d: "M0 0h24v24H0z" }), jsx("path", { fill: "currentColor", d: "M5 3.5a1.5 1.5 0 1 0 0 3h5.5V20a1.5 1.5 0 0 0 3 0V6.5H19a1.5 1.5 0 0 0 0-3z" })] }) })));
+TextFill.displayName = 'TextFill';
+
+export { TextFill, TextLine };

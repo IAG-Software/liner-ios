@@ -1,0 +1,5 @@
+import e from "./WashingMachineMinimalistic.mjs";
+//#region src/ssr/home/WashingMachineMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

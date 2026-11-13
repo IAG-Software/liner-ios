@@ -1,0 +1,5 @@
+import e from "./WatchSquareMinimalistic.mjs";
+//#region src/csr/time/WatchSquareMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

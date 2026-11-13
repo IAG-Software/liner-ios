@@ -1,0 +1,94 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Balls.mjs";
+import n from "./Basketball.mjs";
+import r from "./BicyclingRound.mjs";
+import i from "./Bicycling.mjs";
+import a from "./BodyShapeMinimalistic.mjs";
+import o from "./BodyShapeMinimlistic.mjs";
+import s from "./BodyShape.mjs";
+import c from "./Bowling.mjs";
+import l from "./DumbbellLargeMinimalistic.mjs";
+import u from "./DumbbellLargeMinimlistic.mjs";
+import d from "./DumbbellLarge.mjs";
+import f from "./DumbbellSmall.mjs";
+import p from "./Dumbbell.mjs";
+import m from "./Dumbbells2.mjs";
+import h from "./Dumbbells.mjs";
+import g from "./Football.mjs";
+import _ from "./Golf.mjs";
+import v from "./HikingMinimalistic.mjs";
+import y from "./HikingMinimlistic.mjs";
+import b from "./HikingRound.mjs";
+import x from "./Hiking.mjs";
+import S from "./MeditationRound.mjs";
+import C from "./Meditation.mjs";
+import w from "./Ranking.mjs";
+import T from "./Rugby.mjs";
+import E from "./Running2.mjs";
+import D from "./RunningRound.mjs";
+import O from "./Running.mjs";
+import k from "./Skateboard.mjs";
+import A from "./SkateboardingRound.mjs";
+import j from "./Skateboarding.mjs";
+import M from "./StretchingRound.mjs";
+import N from "./Stretching.mjs";
+import P from "./Swimming.mjs";
+import F from "./Tennis2.mjs";
+import I from "./Tennis.mjs";
+import L from "./TreadmillRound.mjs";
+import R from "./Treadmill.mjs";
+import z from "./Volleyball2.mjs";
+import B from "./Volleyball.mjs";
+import V from "./WalkingRound.mjs";
+import H from "./Walking.mjs";
+import U from "./WaterSun.mjs";
+import W from "./Water.mjs";
+//#region src/csr/sports/index.ts
+var G = /* @__PURE__ */ e({
+	Balls: () => t,
+	Basketball: () => n,
+	Bicycling: () => i,
+	BicyclingRound: () => r,
+	BodyShape: () => s,
+	BodyShapeMinimalistic: () => a,
+	BodyShapeMinimlistic: () => o,
+	Bowling: () => c,
+	Dumbbell: () => p,
+	DumbbellLarge: () => d,
+	DumbbellLargeMinimalistic: () => l,
+	DumbbellLargeMinimlistic: () => u,
+	DumbbellSmall: () => f,
+	Dumbbells: () => h,
+	Dumbbells2: () => m,
+	Football: () => g,
+	Golf: () => _,
+	Hiking: () => x,
+	HikingMinimalistic: () => v,
+	HikingMinimlistic: () => y,
+	HikingRound: () => b,
+	Meditation: () => C,
+	MeditationRound: () => S,
+	Ranking: () => w,
+	Rugby: () => T,
+	Running: () => O,
+	Running2: () => E,
+	RunningRound: () => D,
+	Skateboard: () => k,
+	Skateboarding: () => j,
+	SkateboardingRound: () => A,
+	Stretching: () => N,
+	StretchingRound: () => M,
+	Swimming: () => P,
+	Tennis: () => I,
+	Tennis2: () => F,
+	Treadmill: () => R,
+	TreadmillRound: () => L,
+	Volleyball: () => B,
+	Volleyball2: () => z,
+	Walking: () => H,
+	WalkingRound: () => V,
+	Water: () => W,
+	WaterSun: () => U
+});
+//#endregion
+export { G as sports_exports };

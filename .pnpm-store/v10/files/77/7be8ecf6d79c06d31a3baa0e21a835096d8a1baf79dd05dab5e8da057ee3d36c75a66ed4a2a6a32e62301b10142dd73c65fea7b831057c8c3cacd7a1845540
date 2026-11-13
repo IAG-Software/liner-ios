@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BoxMinimalistic instead
+ */
+declare const BoxMinimlistic: import("../../lib").Icon;
+export default BoxMinimlistic;

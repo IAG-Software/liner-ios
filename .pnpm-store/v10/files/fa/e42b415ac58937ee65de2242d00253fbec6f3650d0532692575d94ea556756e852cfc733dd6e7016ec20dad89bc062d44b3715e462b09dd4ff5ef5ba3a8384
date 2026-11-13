@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Aiming2Line: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Aiming2Fill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=aiming-2.d.ts.map

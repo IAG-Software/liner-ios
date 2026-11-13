@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use NotesMinimalistic instead
+ */
+declare const NotesMinimlistic: import("../../lib").Icon;
+export default NotesMinimlistic;

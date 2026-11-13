@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const PlaygroundLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const PlaygroundFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=playground.d.ts.map

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+declare const SvgHomeAngle2: (props: SVGProps<SVGSVGElement>) => React.JSX.Element;
+export default SvgHomeAngle2;

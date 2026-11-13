@@ -1,0 +1,5 @@
+import e from "./ArchiveMinimalistic.mjs";
+//#region src/ssr/notes/ArchiveMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

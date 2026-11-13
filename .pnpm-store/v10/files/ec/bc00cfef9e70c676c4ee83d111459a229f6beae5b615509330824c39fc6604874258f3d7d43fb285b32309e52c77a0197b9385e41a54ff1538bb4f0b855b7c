@@ -1,0 +1,13 @@
+'use strict';
+
+var jsxRuntime = require('react/jsx-runtime');
+var react = require('react');
+var Icon = require('../Icon.js');
+
+const Layout4Line = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M0 0h24v24H0z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm0 2h-9v14h9zM8 5H5v14h3zm8 10a1 1 0 0 1 .117 1.993L16 17h-3a1 1 0 0 1-.117-1.993L13 15zm0-4a1 1 0 1 1 0 2h-3a1 1 0 1 1 0-2zm0-4a1 1 0 0 1 .117 1.993L16 9h-3a1 1 0 0 1-.117-1.993L13 7z" })] }) })));
+Layout4Line.displayName = 'Layout4Line';
+const Layout4Fill = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M8 3v18H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm11 0a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-9V3zm-2 12h-3a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2m0-4h-3a1 1 0 0 0-.117 1.993L14 13h3a1 1 0 1 0 0-2m0-4h-3a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2" })] }) })));
+Layout4Fill.displayName = 'Layout4Fill';
+
+exports.Layout4Fill = Layout4Fill;
+exports.Layout4Line = Layout4Line;

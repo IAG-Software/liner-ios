@@ -1,0 +1,5 @@
+import e from "./CloudStorage.mjs";
+//#region src/ssr/devices/CloundStorage.ts
+var t = e;
+//#endregion
+export { t as default };

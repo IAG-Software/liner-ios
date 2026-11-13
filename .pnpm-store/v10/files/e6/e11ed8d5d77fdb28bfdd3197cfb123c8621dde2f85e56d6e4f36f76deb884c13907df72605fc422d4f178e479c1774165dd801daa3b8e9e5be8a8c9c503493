@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use StarFallMinimalistic2 instead
+ */
+declare const StarFallMinimlistic2: import("../../lib").Icon;
+export default StarFallMinimlistic2;

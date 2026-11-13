@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const EscalatorUpLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const EscalatorUpFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=escalator-up.d.ts.map

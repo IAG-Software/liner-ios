@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Cloud instead
+ */
+declare const Clound: import("../../lib").Icon;
+export default Clound;

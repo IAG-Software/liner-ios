@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use AirbudsCaseMinimalistic instead
+ */
+declare const AirbudsCaseMinimlistic: import("../../lib").Icon;
+export default AirbudsCaseMinimlistic;

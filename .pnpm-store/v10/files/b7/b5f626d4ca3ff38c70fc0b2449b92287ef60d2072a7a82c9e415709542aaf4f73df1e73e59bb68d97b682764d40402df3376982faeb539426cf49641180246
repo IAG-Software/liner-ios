@@ -1,0 +1,90 @@
+import { Lyric } from '@braccato/types';
+import { LyricPart } from '@braccato/types';
+import { LyricSyncType } from '@braccato/types';
+
+export declare function detectFormat(input: string): LyricFormat;
+
+export declare function detectParser(input: string): LyricParser;
+
+declare interface InstrumentalBreakOptions {
+    /** Silence longer than this becomes an instrumental line. Defaults to 5000. */
+    instrumentalGapMs?: number;
+}
+
+export declare function lrcFixers(lyrics: Lyric[]): void;
+
+export declare const LRCParser: LyricParser;
+
+export { Lyric }
+
+export declare type LyricFormat = "ttml" | "lrc" | "srt" | "qrc" | "plain";
+
+/** Song-level credits a lyrics file carries alongside its lines. */
+export declare interface LyricMetadata {
+    songwriters: string[];
+}
+
+export declare interface LyricParser {
+    parse(input: string, duration?: number): Lyric[];
+    metadata(input: string): LyricMetadata;
+    detect(input: string): boolean;
+}
+
+export { LyricPart }
+
+declare interface ParsedTTML {
+    lyrics: Lyric[];
+    isWordSynced: boolean;
+    language?: string;
+}
+
+/**
+ * Parse an LRC document, plain or enhanced, into lines with optional word level parts.
+ *
+ * Timings are returned as the document states them. `LRCParser.parse` runs `lrcFixers` over the
+ * result afterwards, which is right for word-by-word LRC with paired timestamps and wrong for sources whose
+ * timings are already clean, so callers that know their source can stay on this function.
+ *
+ * Blank lines are not lyrics. Each one ends the line before it, and the silences that leaves, along
+ * with any before the first line or after a line's closing timestamp, become instrumental lines on
+ * the same terms as the TTML gap fill.
+ */
+export declare function parseLRC(lrcText: string, songDurationMs: number, options?: InstrumentalBreakOptions): Lyric[];
+
+/**
+ * Parse a QRC document, either the `<QrcInfos>` envelope QQ Music returns or a bare QRC body.
+ *
+ * `metadata` is optional and only used to drop opening lines that echo the song title or artist,
+ * which QQ Music routinely prepends to a lyric body.
+ */
+export declare function parseQRC(qrcXml: string, songDurationMs: number, metadata?: QrcMetadata): Lyric[];
+
+export declare function parseTTMLContent(xml: string, options?: ParseTTMLOptions): ParsedTTML;
+
+declare interface ParseTTMLOptions extends InstrumentalBreakOptions {
+    /** Used for the outro instrumental when the document's `<body>` carries no `dur`. */
+    songDurationMs?: number;
+}
+
+/**
+ * Parse time in hh:mm:ss.xx or offset-time with unit indicators "h", "m", "s", "ms" (e.g 432.25s)
+ */
+export declare function parseTTMLTime(timeStr: string | number | undefined): number;
+
+export declare const PlainParser: LyricParser;
+
+/** Song metadata, used to drop opening lines that only echo the title or the artist. */
+export declare interface QrcMetadata {
+    title?: string;
+    artist?: string;
+}
+
+export declare const QRCParser: LyricParser;
+
+export declare const SRTParser: LyricParser;
+
+export declare type SyncType = LyricSyncType;
+
+export declare const TTMLParser: LyricParser;
+
+export { }

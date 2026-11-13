@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FolderLockedLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FolderLockedFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=folder-locked.d.ts.map

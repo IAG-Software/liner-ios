@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudyMoon instead
+ */
+declare const CloundyMoon: import("../../lib").Icon;
+export default CloundyMoon;

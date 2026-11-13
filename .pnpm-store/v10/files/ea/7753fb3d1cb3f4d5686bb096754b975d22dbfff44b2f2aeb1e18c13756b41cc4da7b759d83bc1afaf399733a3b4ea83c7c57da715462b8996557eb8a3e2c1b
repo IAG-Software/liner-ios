@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const HemisphereLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const HemisphereFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=hemisphere.d.ts.map

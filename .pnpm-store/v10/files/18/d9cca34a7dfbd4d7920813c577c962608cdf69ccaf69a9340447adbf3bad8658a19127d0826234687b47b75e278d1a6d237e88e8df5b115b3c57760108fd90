@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const VideoCameraLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const VideoCameraFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=video-camera.d.ts.map

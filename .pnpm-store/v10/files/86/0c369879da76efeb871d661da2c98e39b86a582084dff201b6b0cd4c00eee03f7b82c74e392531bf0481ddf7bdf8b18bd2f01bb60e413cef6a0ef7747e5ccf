@@ -1,0 +1,5 @@
+import e from "./CloudSnowfallMinimalistic.mjs";
+//#region src/csr/weather/CloundSnowfallMinimalistic.ts
+var t = e;
+//#endregion
+export { t as default };

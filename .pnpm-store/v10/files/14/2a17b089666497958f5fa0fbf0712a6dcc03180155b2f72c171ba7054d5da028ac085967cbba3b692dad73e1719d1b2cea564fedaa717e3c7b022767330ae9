@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const MingcuteLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const MingcuteFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=mingcute.d.ts.map

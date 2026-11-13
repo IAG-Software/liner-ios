@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BankOfChinaTowerLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BankOfChinaTowerFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=bank-of-china-tower.d.ts.map

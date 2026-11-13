@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const YuanbaoLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const YuanbaoFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=yuanbao.d.ts.map

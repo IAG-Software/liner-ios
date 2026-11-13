@@ -1,0 +1,5 @@
+import e from "./MinimalisticMagnifier.mjs";
+//#region src/csr/search/MinimalisticMagnifer.ts
+var t = e;
+//#endregion
+export { t as default };

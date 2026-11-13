@@ -1,0 +1,5 @@
+import e from "./CameraMinimalistic.mjs";
+//#region src/csr/video/CameraMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,3 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export declare const liveEngines: Set<AnimationEngineInstance>;
+export declare function forEveryLiveView(runOperation: (engine: AnimationEngineInstance) => void): void;

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ClockwiseLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ClockwiseFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=clockwise.d.ts.map

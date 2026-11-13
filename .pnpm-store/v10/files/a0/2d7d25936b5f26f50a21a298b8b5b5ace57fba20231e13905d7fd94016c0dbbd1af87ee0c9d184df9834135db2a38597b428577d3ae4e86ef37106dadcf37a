@@ -1,0 +1,12 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export declare function resetScrollResume(engine: AnimationEngineInstance): void;
+/**
+ * Resume autoscroll immediately for every live view.
+ */
+export declare function resumeAllAutoscroll(): void;
+export declare function noteUserScroll(engine: AnimationEngineInstance, lyricsAreUnsynced: boolean): void;
+export declare function hasContainerResized(engine: AnimationEngineInstance, width: number, height: number): boolean;
+export declare function writeEngineScrollTop(engine: AnimationEngineInstance, scroller: HTMLElement, scrollTop: number, now: number): void;
+export declare function noteEngineScrollEvent(engine: AnimationEngineInstance, now: number): void;
+export declare function requestRescroll(engine: AnimationEngineInstance): void;
+export declare function decaySkipScrolls(engine: AnimationEngineInstance, now: number, keepsReserve: boolean): void;

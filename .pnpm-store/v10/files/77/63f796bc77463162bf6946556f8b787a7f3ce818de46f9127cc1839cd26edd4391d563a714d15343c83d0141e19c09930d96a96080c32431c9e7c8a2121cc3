@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const HightBeamHeadlightsLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const HightBeamHeadlightsFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=hight-beam-headlights.d.ts.map

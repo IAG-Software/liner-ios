@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FlexibilityLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FlexibilityFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=flexibility.d.ts.map

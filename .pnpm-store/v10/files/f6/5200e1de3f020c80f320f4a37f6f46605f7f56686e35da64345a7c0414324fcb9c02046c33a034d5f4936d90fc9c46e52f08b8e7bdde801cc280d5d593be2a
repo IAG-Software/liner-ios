@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Infinite instead
+ */
+declare const Infinity: import("../../lib").Icon;
+export default Infinity;

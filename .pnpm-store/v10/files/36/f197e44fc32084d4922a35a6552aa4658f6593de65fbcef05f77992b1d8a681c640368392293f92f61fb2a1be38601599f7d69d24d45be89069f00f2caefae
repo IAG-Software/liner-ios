@@ -1,0 +1,5 @@
+import e from "./LaptopMinimalistic.mjs";
+//#region src/csr/devices/LaptopMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

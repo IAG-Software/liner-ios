@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use MaximizeSquareMinimalistic instead
+ */
+declare const MaximizeSquareMinimlistic: import("../../lib").Icon;
+export default MaximizeSquareMinimlistic;

@@ -1,0 +1,6 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export declare const DECORATION_MIN_SHIFT_PX = 0.5;
+export declare function slideElementBy(engine: AnimationEngineInstance, element: HTMLElement, dy: number): void;
+export declare function decorationSlideAllowed(engine: AnimationEngineInstance, container: HTMLElement): boolean;
+export declare function lineDecorators(lineElement: HTMLElement): HTMLElement[];
+export declare function captureDecorationSlide(engine: AnimationEngineInstance): (() => void) | null;

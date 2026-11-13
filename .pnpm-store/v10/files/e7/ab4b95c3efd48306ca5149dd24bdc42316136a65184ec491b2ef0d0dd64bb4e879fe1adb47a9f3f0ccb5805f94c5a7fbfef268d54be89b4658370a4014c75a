@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use LockKeyholeMinimalistic instead
+ */
+declare const LockKeyholeMinimlistic: import("../../lib").Icon;
+export default LockKeyholeMinimlistic;

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const FingerRockLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const FingerRockFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=finger-rock.d.ts.map

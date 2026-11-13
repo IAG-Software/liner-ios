@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use PlaylistMinimalistic3 instead
+ */
+declare const PlaylistMinimlistic3: import("../../lib").Icon;
+export default PlaylistMinimlistic3;

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CloudStorage instead
+ */
+declare const CloundStorage: import("../../lib").Icon;
+export default CloundStorage;

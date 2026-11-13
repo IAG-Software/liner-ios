@@ -1,0 +1,5 @@
+import e from "./BookBookmarkMinimalistic.mjs";
+//#region src/csr/school/BookBookmarkMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

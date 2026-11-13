@@ -1,0 +1,5 @@
+import e from "./CardReceive.mjs";
+//#region src/csr/money/CardRecive.ts
+var t = e;
+//#endregion
+export { t as default };

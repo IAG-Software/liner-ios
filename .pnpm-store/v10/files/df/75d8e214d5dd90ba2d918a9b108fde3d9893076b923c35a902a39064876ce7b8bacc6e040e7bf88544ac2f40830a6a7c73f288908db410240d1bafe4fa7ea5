@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BookBookmarkMinimalistic instead
+ */
+declare const BookBookmarkMinimlistic: import("../../lib").Icon;
+export default BookBookmarkMinimlistic;

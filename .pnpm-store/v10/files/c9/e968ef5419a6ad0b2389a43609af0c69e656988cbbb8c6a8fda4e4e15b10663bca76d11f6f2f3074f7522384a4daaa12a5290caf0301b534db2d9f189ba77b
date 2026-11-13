@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Clouds instead
+ */
+declare const Clounds: import("../../lib").Icon;
+export default Clounds;

@@ -1,0 +1,38 @@
+import type { SwipeRamp } from "./letterPlans.js";
+/** Keyframes for a sweep cell's mask and for the text inside it, offsets in eased swipe progress. */
+export interface CellSweep {
+    mask: Keyframe[];
+    text: Keyframe[];
+}
+/**
+ * Where a cell's mask edge rests, in the cell's widths: half a cell past its end, so the halos inside
+ * the mask show whole once the cell is lit. `.blyrics-sweep-mask` in lyrics.css places its edge there.
+ */
+export declare const SWEEP_REST = 1.5;
+/** A cell's place along its word, as fractions of the word's width. */
+export interface CellSpan {
+    start: number;
+    width: number;
+}
+/**
+ * The swipe's soft edge in a cell's own widths. `.blyrics-sweep-mask` reads the same value as
+ * `--blyrics-sweep-fade`, so the two must agree.
+ */
+export declare function cellFade(swipe: SwipeRamp, span: CellSpan): number;
+/**
+ * How far through the swipe, in eased progress, its start stop reaches the start of a cell. Until then
+ * the cell's halo would show behind the edge before any of its text is lit, so its glow waits.
+ */
+export declare function cellReachedAt(swipe: SwipeRamp, span: CellSpan): number;
+/** How far through the swipe, in eased progress, its start stop reaches the end of a cell. */
+export declare function cellLitAt(swipe: SwipeRamp, span: CellSpan): number;
+/**
+ * Plans one cell of a sweep. In the cell's own widths the start stop runs from
+ * `(startFrom - span.start) / span.width` to `(startTo - span.start) / span.width`, and the cell only
+ * changes while that is between `-fade` (nothing lit yet) and `SWEEP_REST` (lit, with room for its
+ * halo), so the motion is clamped there. `.blyrics-sweep-mask` in lyrics.css is `3 + fade` cells wide,
+ * starting a cell before the cell, with its soft edge from `SWEEP_REST` to `fade` cells further. The
+ * start stop moves linearly in eased progress, so keyframes at the clamp points with the swipe's
+ * easing on the whole effect follow it exactly.
+ */
+export declare function planCellSweep(swipe: SwipeRamp, span: CellSpan, rtl: boolean): CellSweep | null;

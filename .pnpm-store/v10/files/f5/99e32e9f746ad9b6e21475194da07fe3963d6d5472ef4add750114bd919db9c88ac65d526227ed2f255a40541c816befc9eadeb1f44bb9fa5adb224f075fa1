@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ReceiveTwiceSquare instead
+ */
+declare const ReciveTwiceSquare: import("../../lib").Icon;
+export default ReciveTwiceSquare;

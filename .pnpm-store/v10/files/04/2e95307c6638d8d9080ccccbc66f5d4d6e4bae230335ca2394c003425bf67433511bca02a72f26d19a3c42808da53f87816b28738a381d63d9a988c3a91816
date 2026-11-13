@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use Playlist instead
+ */
+declare const Plaaylist: import("../../lib").Icon;
+export default Plaaylist;

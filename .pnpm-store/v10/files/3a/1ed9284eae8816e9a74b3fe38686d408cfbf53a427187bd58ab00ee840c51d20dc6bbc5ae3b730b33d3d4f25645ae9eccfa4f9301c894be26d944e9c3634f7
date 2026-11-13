@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CameraMinimalistic instead
+ */
+declare const CameraMinimlistic: import("../../lib").Icon;
+export default CameraMinimlistic;

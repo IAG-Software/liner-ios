@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AirBalloonLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AirBalloonFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=air-balloon.d.ts.map

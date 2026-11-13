@@ -1,0 +1,1 @@
+var e=require(`./BugMinimalistic.cjs`).default;exports.default=e;

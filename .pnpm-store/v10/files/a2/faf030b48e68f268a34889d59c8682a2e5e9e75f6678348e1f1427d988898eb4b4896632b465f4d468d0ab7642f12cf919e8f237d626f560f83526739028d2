@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use BombMinimalistic instead
+ */
+declare const BombMinimlistic: import("../../lib").Icon;
+export default BombMinimlistic;

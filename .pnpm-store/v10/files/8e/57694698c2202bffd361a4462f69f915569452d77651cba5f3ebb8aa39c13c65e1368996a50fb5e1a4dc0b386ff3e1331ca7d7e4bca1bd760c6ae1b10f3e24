@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const DanmakuOnLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const DanmakuOnFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=danmaku-on.d.ts.map

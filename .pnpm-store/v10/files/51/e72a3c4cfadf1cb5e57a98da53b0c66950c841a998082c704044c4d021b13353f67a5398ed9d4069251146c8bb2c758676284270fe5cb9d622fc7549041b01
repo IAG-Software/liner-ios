@@ -1,0 +1,5 @@
+import e from "./MinimalisticMagnifierBug.mjs";
+//#region src/ssr/search/MinimlisticMagnifierBug.ts
+var t = e;
+//#endregion
+export { t as default };

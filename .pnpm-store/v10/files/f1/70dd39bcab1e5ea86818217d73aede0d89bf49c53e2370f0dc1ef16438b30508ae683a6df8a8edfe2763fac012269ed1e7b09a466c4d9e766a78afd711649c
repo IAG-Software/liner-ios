@@ -1,0 +1,35 @@
+"use client";
+import { _objectSpread2 as e } from "../_virtual/_@oxc-project_runtime@0.130.0/helpers/objectSpread2.mjs";
+import { useSolar as t } from "./context.mjs";
+import { _objectWithoutProperties as n } from "../_virtual/_@oxc-project_runtime@0.130.0/helpers/objectWithoutProperties.mjs";
+import { forwardRef as r } from "react";
+import { jsx as i, jsxs as a } from "react/jsx-runtime";
+//#region src/lib/IconBase.tsx
+var o = [
+	"alt",
+	"color",
+	"size",
+	"weight",
+	"mirrored",
+	"children",
+	"weights"
+], s = r((r, s) => {
+	let { alt: c, color: l, size: u, weight: d, mirrored: f, children: p, weights: m } = r, h = n(r, o), { value: { color: g = "currentColor", size: _, weight: v = "Linear", mirrored: y = !1 }, svgProps: b } = t();
+	return /* @__PURE__ */ a("svg", e(e(e({
+		ref: s,
+		xmlns: "http://www.w3.org/2000/svg",
+		width: u == null ? _ : u,
+		height: u == null ? _ : u,
+		color: l == null ? g : l,
+		fill: "none",
+		viewBox: "0 0 24 24",
+		transform: f || y ? "scale(-1, 1)" : void 0
+	}, b), h), {}, { children: [
+		!!c && /* @__PURE__ */ i("title", { children: c }),
+		p,
+		m.get(d == null ? v : d)
+	] }));
+});
+s.displayName = "IconBase";
+//#endregion
+export { s as default };

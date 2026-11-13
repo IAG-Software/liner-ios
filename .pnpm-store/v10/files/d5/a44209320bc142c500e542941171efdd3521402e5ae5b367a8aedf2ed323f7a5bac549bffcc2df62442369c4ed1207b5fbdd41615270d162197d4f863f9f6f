@@ -1,0 +1,83 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export interface AnimationConfig {
+    enabled: {
+        lineScale: boolean;
+        wordWobble: boolean;
+        highlightSwipe: boolean;
+        highlightGlow: boolean;
+        highlightFade: boolean;
+        scroll: boolean;
+        instrumental: boolean;
+    };
+    line: {
+        durationMs: number;
+        enterEasing: string;
+        exitEasing: string;
+        enterFrom: string;
+        enterTo: string;
+        exitFrom: string;
+        exitTo: string;
+    };
+    highlight: {
+        fadeInDurationMs: number;
+        fadeOutDurationMs: number;
+        fadeInEasing: string;
+        fadeOutEasing: string;
+        swipeEasing: string;
+        swipeStartFrom: string;
+        swipeEndFrom: string;
+        swipeStartTo: string;
+        swipeEndTo: string;
+        glowTo: string;
+        glowDurationRatio: number;
+        glowMinDurationMs: number;
+        glowEasing: string;
+        glowContainerAlpha: number;
+        glowRestingInvisible: boolean;
+    };
+    word: {
+        wobbleDurationMs: number;
+        wobbleEasing: string;
+        wobblePeakEasing: string;
+        wobbleEndEasing: string;
+        wobbleFrom: string;
+        wobblePeak: string;
+        wobbleSettle: string;
+        wobbleTo: string;
+        wobblePeakOffset: number;
+        wobbleSettleOffset: number;
+    };
+    letterWave: {
+        transform: string;
+        settle: string;
+        emphasisScale: string;
+        durationMs: number;
+        riseEasing: string;
+        fallEasing: string;
+    };
+    instrumental: {
+        fillFadeDurationMs: number;
+        fillFadeEasing: string;
+        fillFrom: string;
+        fillTo: string;
+        fillEasing: string;
+        waveFrom: string;
+        waveTo: string;
+        waveEasing: string;
+        wavePathHigh: string;
+        wavePathLow: string;
+        waveOscillationDurationMs: number;
+        waveOscillationEasing: string;
+    };
+    lineScroll: {
+        easing: string;
+        differentialEffects: boolean;
+    };
+}
+export interface AnimationSettings {
+    config: AnimationConfig;
+    scrollTiming: {
+        earlyScrollConsiderS: number;
+    };
+}
+export declare function getAnimationSettings(engine: AnimationEngineInstance, lyricsElement: HTMLElement): AnimationSettings;

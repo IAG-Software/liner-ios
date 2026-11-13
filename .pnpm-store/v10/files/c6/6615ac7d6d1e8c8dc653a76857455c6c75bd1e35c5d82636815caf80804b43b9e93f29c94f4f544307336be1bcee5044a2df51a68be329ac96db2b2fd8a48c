@@ -1,0 +1,5 @@
+import e from "./LinkBrokenMinimalistic.mjs";
+//#region src/ssr/text-formatting/LinkBrokenMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

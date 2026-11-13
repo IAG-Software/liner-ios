@@ -1,0 +1,5 @@
+import e from "./CalendarMinimalistic.mjs";
+//#region src/csr/time/CalendarMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

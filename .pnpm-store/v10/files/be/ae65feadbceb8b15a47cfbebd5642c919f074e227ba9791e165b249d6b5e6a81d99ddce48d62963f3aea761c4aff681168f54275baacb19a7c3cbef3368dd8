@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ListHeartMinimalistic instead
+ */
+declare const ListHeartMinimlistic: import("../../lib").Icon;
+export default ListHeartMinimlistic;

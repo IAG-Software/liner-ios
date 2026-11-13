@@ -1,0 +1,38 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./CloudFile.mjs";
+import n from "./CloundFile.mjs";
+import r from "./CodeFile.mjs";
+import i from "./FigmaFile.mjs";
+import a from "./FileCheck.mjs";
+import o from "./FileCorrupted.mjs";
+import s from "./FileDownload.mjs";
+import c from "./FileFavourite.mjs";
+import l from "./FileLeft.mjs";
+import u from "./FileRemove.mjs";
+import d from "./FileRight.mjs";
+import f from "./FileSend.mjs";
+import p from "./FileSmile.mjs";
+import m from "./FileText.mjs";
+import h from "./File.mjs";
+import g from "./ZipFile.mjs";
+//#region src/csr/files/index.ts
+var _ = /* @__PURE__ */ e({
+	CloudFile: () => t,
+	CloundFile: () => n,
+	CodeFile: () => r,
+	FigmaFile: () => i,
+	File: () => h,
+	FileCheck: () => a,
+	FileCorrupted: () => o,
+	FileDownload: () => s,
+	FileFavourite: () => c,
+	FileLeft: () => l,
+	FileRemove: () => u,
+	FileRight: () => d,
+	FileSend: () => f,
+	FileSmile: () => p,
+	FileText: () => m,
+	ZipFile: () => g
+});
+//#endregion
+export { _ as files_exports };

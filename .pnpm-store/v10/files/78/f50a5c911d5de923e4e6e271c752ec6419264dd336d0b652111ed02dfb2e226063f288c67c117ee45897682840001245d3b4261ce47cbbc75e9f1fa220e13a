@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Numbers09SortDescendingLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Numbers09SortDescendingFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=numbers-09-sort-descending.d.ts.map

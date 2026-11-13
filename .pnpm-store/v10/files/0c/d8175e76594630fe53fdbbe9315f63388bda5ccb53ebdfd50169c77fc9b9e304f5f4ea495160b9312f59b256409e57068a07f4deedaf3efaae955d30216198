@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const GitPullRequestCloseLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const GitPullRequestCloseFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=git-pull-request-close.d.ts.map

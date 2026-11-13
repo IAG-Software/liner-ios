@@ -1,0 +1,7 @@
+import type { AnimationEngineInstance } from "./instance.js";
+export declare const waveAnimationPools: WeakMap<Animation, Animation[]>;
+export declare function acquireWaveAnimation(engine: AnimationEngineInstance, letterElement: HTMLElement, keyframes: Keyframe[], keyframeSignature: string, timing: {
+    duration: number;
+    delay: number;
+    fill: FillMode;
+}): Animation;

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use ChecklistMinimalistic instead
+ */
+declare const ChecklistMinimlistic: import("../../lib").Icon;
+export default ChecklistMinimlistic;

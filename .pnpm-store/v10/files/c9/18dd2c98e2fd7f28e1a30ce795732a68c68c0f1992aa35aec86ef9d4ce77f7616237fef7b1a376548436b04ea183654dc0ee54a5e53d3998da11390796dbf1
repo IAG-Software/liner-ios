@@ -1,0 +1,32 @@
+"use client";
+import { _objectSpread2 as e } from "../_virtual/_@oxc-project_runtime@0.130.0/helpers/objectSpread2.mjs";
+import { createContext as t, useContext as n, useState as r } from "react";
+import { jsx as i } from "react/jsx-runtime";
+//#region src/lib/context.tsx
+var a = {
+	color: "currentColor",
+	size: "1em",
+	weight: "Linear",
+	mirrored: !1
+}, o = t({
+	value: a,
+	setValue: () => {},
+	setSvgProps: () => {}
+}), s = ({ children: t, value: n = a, svgProps: s = {} }) => {
+	let [c, l] = r(e(e({}, a), n)), [u, d] = r(s);
+	return /* @__PURE__ */ i(o.Provider, {
+		value: {
+			value: c,
+			svgProps: u,
+			setValue: (t) => {
+				l((n) => e(e({}, n), t));
+			},
+			setSvgProps: (t) => {
+				d((n) => e(e({}, n), t));
+			}
+		},
+		children: t
+	});
+}, c = () => n(o);
+//#endregion
+export { s as SolarProvider, c as useSolar };

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const AmericanFootballLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const AmericanFootballFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=american-football.d.ts.map

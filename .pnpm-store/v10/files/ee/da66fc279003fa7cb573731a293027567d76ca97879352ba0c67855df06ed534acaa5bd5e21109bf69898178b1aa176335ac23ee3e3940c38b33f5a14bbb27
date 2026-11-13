@@ -1,0 +1,5 @@
+import e from "./FireMinimalistic.mjs";
+//#region src/ssr/nature/FireMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

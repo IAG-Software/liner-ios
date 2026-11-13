@@ -1,0 +1,5 @@
+import e from "./StarsMinimalistic.mjs";
+//#region src/csr/astronomy/StarsMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

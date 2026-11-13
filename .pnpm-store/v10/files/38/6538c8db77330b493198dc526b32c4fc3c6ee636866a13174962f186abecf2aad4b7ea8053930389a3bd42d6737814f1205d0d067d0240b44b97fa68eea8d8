@@ -1,0 +1,5 @@
+type EmojiProps = JSX.IntrinsicElements["img"] & {
+    name: string;
+};
+declare function Emoji({ name, ...props }: EmojiProps): import("react/jsx-runtime").JSX.Element;
+export default Emoji;

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use RepeatOneMinimalistic instead
+ */
+declare const RepeatOneMinimlistic: import("../../lib").Icon;
+export default RepeatOneMinimlistic;

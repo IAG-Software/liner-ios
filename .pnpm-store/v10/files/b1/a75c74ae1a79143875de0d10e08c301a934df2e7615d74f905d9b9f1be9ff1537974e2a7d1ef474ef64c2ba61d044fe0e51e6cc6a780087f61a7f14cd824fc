@@ -1,0 +1,62 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./ArchiveCheck.mjs";
+import n from "./ArchiveDownMinimalistic.mjs";
+import r from "./ArchiveDownMinimlistic.mjs";
+import i from "./ArchiveDown.mjs";
+import a from "./ArchiveMinimalistic.mjs";
+import o from "./ArchiveMinimlistic.mjs";
+import s from "./ArchiveUpMinimalistic.mjs";
+import c from "./ArchiveUpMinimlistic.mjs";
+import l from "./ArchiveUp.mjs";
+import u from "./Archive.mjs";
+import d from "./ClipboardAdd.mjs";
+import f from "./ClipboardCheck.mjs";
+import p from "./ClipboardHeart.mjs";
+import m from "./ClipboardList.mjs";
+import h from "./ClipboardRemove.mjs";
+import g from "./ClipboardText.mjs";
+import _ from "./Clipboard.mjs";
+import v from "./DocumentAdd.mjs";
+import y from "./DocumentMedicine.mjs";
+import b from "./DocumentText.mjs";
+import x from "./Document.mjs";
+import S from "./DocumentsMinimalistic.mjs";
+import C from "./DocumentsMinimlistic.mjs";
+import w from "./Documents.mjs";
+import T from "./Notebook.mjs";
+import E from "./NotesMinimalistic.mjs";
+import D from "./NotesMinimlistic.mjs";
+import O from "./Notes.mjs";
+//#region src/csr/notes/index.ts
+var k = /* @__PURE__ */ e({
+	Archive: () => u,
+	ArchiveCheck: () => t,
+	ArchiveDown: () => i,
+	ArchiveDownMinimalistic: () => n,
+	ArchiveDownMinimlistic: () => r,
+	ArchiveMinimalistic: () => a,
+	ArchiveMinimlistic: () => o,
+	ArchiveUp: () => l,
+	ArchiveUpMinimalistic: () => s,
+	ArchiveUpMinimlistic: () => c,
+	Clipboard: () => _,
+	ClipboardAdd: () => d,
+	ClipboardCheck: () => f,
+	ClipboardHeart: () => p,
+	ClipboardList: () => m,
+	ClipboardRemove: () => h,
+	ClipboardText: () => g,
+	Document: () => x,
+	DocumentAdd: () => v,
+	DocumentMedicine: () => y,
+	DocumentText: () => b,
+	Documents: () => w,
+	DocumentsMinimalistic: () => S,
+	DocumentsMinimlistic: () => C,
+	Notebook: () => T,
+	Notes: () => O,
+	NotesMinimalistic: () => E,
+	NotesMinimlistic: () => D
+});
+//#endregion
+export { k as notes_exports };

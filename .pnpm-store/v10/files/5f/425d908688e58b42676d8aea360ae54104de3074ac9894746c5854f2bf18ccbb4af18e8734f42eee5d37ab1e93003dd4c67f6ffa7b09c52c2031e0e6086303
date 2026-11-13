@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SliderVerticalMinimalistic instead
+ */
+declare const SliderVerticalMinimlistic: import("../../lib").Icon;
+export default SliderVerticalMinimlistic;

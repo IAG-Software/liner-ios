@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const CopperCoinLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const CopperCoinFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=copper-coin.d.ts.map

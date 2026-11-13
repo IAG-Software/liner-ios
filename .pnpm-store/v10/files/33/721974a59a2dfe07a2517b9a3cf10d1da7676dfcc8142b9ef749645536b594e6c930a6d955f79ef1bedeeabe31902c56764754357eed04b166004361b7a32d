@@ -1,0 +1,7 @@
+import type { LineData } from "../inject.js";
+import type { AnimationConfig } from "./animationConfig.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export declare function resolveGlowFilter(engine: AnimationEngineInstance, lyricsElement: HTMLElement, end: "from" | "to", defaultRadius: string): string;
+export declare function isGlowRestingInvisible(glowTo: string): boolean;
+export declare function suppressInvisibleWordGlows(engine: AnimationEngineInstance, line: LineData, config: AnimationConfig): void;
+export declare function parseColorAlpha(value: string): number | null;

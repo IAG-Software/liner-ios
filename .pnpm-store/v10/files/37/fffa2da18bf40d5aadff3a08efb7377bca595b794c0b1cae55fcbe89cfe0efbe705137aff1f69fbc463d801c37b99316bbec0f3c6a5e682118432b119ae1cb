@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SpeedometerLow instead
+ */
+declare const SpedometerLow: import("../../lib").Icon;
+export default SpedometerLow;

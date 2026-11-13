@@ -1,0 +1,7 @@
+import type { LineData } from "../inject.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export declare function applyStage(engine: AnimationEngineInstance, timeS: number, instant: boolean): void;
+export declare function measureStage(engine: AnimationEngineInstance): void;
+export declare function replaceStageElements(engine: AnimationEngineInstance, dropped: readonly LineData[], previousOf: ReadonlyMap<LineData, LineData>): void;
+export declare function resetStage(engine: AnimationEngineInstance): void;
+export declare function currentTranslateY(engine: AnimationEngineInstance, element: HTMLElement, fallback: number): number;

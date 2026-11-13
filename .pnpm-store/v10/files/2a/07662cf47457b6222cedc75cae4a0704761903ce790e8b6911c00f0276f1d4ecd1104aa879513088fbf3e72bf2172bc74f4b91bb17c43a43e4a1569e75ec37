@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BabyCarriageLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BabyCarriageFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=baby-carriage.d.ts.map

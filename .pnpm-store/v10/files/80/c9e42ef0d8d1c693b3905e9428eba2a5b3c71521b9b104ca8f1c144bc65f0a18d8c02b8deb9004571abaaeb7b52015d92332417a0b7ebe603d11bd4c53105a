@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CaseMinimalistic instead
+ */
+declare const CaseMinimlistic: import("../../lib").Icon;
+export default CaseMinimlistic;

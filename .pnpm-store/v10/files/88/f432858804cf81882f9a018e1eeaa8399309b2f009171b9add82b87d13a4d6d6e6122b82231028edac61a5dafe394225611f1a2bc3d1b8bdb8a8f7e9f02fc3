@@ -1,0 +1,5 @@
+import e from "./MinimizeSquareMinimalistic.mjs";
+//#region src/ssr/arrows-action/MinimizeSquareMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

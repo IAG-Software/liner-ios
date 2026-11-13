@@ -1,0 +1,5 @@
+import e from "./ServerMinimalistic.mjs";
+//#region src/csr/devices/ServerMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

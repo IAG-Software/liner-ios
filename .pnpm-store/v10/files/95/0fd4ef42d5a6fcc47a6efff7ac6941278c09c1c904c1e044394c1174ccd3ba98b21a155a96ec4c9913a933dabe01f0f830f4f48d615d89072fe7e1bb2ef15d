@@ -1,0 +1,5 @@
+import e from "./BoxMinimalistic.mjs";
+//#region src/csr/ui/BoxMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use MinimalisticMagnifierZoomIn instead
+ */
+declare const MinimalisticMagniferZoomIn: import("../../lib").Icon;
+export default MinimalisticMagniferZoomIn;

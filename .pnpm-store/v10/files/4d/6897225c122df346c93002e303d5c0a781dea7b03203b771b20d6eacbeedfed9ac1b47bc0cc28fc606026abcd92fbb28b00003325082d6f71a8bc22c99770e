@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const TyphoonLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const TyphoonFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=typhoon.d.ts.map

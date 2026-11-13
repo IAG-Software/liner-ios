@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const PhotoAlbumLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const PhotoAlbumFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=photo-album.d.ts.map

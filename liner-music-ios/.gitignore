@@ -1,0 +1,16 @@
+# dependencies / build output
+node_modules/
+dist/
+release/
+src-tauri/target/
+src-tauri/gen/
+
+# artefacts
+*.ipa
+Payload/
+build-ios/
+
+# editor / os
+.DS_Store
+Thumbs.db
+*.log

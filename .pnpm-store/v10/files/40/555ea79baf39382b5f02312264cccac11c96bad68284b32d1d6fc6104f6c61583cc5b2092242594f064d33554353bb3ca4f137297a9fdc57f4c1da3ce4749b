@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Asterisk2Line: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Asterisk2Fill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=asterisk-2.d.ts.map

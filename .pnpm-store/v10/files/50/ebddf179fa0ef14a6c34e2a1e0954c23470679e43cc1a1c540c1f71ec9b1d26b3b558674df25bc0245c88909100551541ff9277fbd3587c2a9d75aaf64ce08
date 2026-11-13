@@ -1,0 +1,5 @@
+import e from "./ArchiveUpMinimalistic.mjs";
+//#region src/csr/notes/ArchiveUpMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

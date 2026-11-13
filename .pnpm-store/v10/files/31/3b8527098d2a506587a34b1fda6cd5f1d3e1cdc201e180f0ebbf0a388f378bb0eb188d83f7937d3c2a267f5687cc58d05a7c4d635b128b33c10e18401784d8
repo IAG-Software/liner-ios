@@ -1,0 +1,5 @@
+import e from "./ListCheckMinimalistic.mjs";
+//#region src/csr/list/ListCheckMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use HikingMinimalistic instead
+ */
+declare const HikingMinimlistic: import("../../lib").Icon;
+export default HikingMinimlistic;

@@ -1,0 +1,13 @@
+'use strict';
+
+var jsxRuntime = require('react/jsx-runtime');
+var react = require('react');
+var Icon = require('../Icon.js');
+
+const DiscLine = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12m10-8a8 8 0 1 0 4 1.07V12a4 4 0 1 1-2-3.465V4.252A8 8 0 0 0 12 4m2 8a2 2 0 1 0-4 0 2 2 0 0 0 4 0" })] }) })));
+DiscLine.displayName = 'DiscLine';
+const DiscFill = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M12 2q.823 0 1.61.129L14 2.2v6.335a4 4 0 1 0 1.995 3.665L16 12V2.832C19.532 4.375 22 7.9 22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2m0 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4" })] }) })));
+DiscFill.displayName = 'DiscFill';
+
+exports.DiscFill = DiscFill;
+exports.DiscLine = DiscLine;

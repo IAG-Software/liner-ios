@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CalendarMinimalistic instead
+ */
+declare const CalendarMinimlistic: import("../../lib").Icon;
+export default CalendarMinimlistic;

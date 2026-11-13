@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use SpeedometerMax instead
+ */
+declare const SpedometerMax: import("../../lib").Icon;
+export default SpedometerMax;

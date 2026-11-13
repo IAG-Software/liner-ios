@@ -1,0 +1,5 @@
+import e from "./TestTubeMinimalistic.mjs";
+//#region src/csr/medicine/TestTubeMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

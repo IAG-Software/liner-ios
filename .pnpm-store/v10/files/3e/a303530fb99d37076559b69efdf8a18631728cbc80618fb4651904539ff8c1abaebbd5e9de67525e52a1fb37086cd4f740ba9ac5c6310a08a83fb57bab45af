@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const UmbrellaLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const UmbrellaFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=umbrella.d.ts.map

@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CartLargeMinimalistic instead
+ */
+declare const CartLargeMinimlistic: import("../../lib").Icon;
+export default CartLargeMinimlistic;

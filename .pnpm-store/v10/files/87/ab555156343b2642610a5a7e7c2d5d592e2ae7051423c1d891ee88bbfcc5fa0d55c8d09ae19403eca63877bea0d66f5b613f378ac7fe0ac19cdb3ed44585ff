@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const InstrumentLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const InstrumentFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=instrument.d.ts.map

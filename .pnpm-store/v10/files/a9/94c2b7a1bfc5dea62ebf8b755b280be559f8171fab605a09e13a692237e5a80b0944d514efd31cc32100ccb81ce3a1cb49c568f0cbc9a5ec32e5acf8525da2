@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use CalculatorMinimalistic instead
+ */
+declare const CalculatorMinimlistic: import("../../lib").Icon;
+export default CalculatorMinimlistic;

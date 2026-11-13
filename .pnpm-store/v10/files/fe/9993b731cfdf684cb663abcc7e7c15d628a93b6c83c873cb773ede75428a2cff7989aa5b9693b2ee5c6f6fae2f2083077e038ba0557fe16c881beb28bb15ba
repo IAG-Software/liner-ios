@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use MagnifierZoomOut instead
+ */
+declare const MagniferZoomOut: import("../../lib").Icon;
+export default MagniferZoomOut;

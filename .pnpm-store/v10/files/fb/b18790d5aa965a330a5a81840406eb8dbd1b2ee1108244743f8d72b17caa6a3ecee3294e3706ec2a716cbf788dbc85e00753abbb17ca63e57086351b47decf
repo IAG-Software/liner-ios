@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use DownloadMinimalistic instead
+ */
+declare const DownloadMinimlistic: import("../../lib").Icon;
+export default DownloadMinimlistic;

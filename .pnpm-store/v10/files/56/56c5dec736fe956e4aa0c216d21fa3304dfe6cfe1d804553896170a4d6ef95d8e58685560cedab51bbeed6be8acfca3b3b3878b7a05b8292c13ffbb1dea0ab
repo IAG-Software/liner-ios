@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use LayersMinimalistic instead
+ */
+declare const LayersMinimlistic: import("../../lib").Icon;
+export default LayersMinimlistic;

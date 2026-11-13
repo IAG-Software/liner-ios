@@ -1,0 +1,2 @@
+export declare function letterClusters(text: string): string[];
+export declare function joinLetterSegments(segments: Iterable<string>): string[];

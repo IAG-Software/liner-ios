@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use MinimalisticMagnifier instead
+ */
+declare const MinimalisticMagnifer: import("../../lib").Icon;
+export default MinimalisticMagnifer;

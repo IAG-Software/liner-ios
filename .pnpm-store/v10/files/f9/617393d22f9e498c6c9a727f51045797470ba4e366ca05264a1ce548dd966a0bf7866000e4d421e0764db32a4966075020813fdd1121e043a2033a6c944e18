@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const HomeWifiLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const HomeWifiFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=home-wifi.d.ts.map

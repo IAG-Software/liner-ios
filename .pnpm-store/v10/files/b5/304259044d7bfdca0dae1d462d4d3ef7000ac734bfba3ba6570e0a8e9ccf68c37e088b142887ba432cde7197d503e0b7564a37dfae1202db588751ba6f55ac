@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const UnfoldHorizontalLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const UnfoldHorizontalFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=unfold-horizontal.d.ts.map

@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const CornerUpLeftLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const CornerUpLeftFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=corner-up-left.d.ts.map

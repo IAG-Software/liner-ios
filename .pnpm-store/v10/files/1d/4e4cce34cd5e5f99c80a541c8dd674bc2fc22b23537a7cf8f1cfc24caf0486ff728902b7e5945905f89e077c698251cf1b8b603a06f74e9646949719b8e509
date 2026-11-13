@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use GamepadMinimalistic instead
+ */
+declare const GamepadMinimlistic: import("../../lib").Icon;
+export default GamepadMinimlistic;

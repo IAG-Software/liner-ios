@@ -1,0 +1,80 @@
+import { __exportAll as e } from "../../_virtual/_rolldown/runtime.mjs";
+import t from "./Backpack.mjs";
+import n from "./Book2.mjs";
+import r from "./BookBookmarkMinimalistic.mjs";
+import i from "./BookBookmarkMinimlistic.mjs";
+import a from "./BookBookmark.mjs";
+import o from "./BookMinimalistic.mjs";
+import s from "./BookMinimlistic.mjs";
+import c from "./Book.mjs";
+import l from "./BookmarkCircle.mjs";
+import u from "./BookmarkOpened.mjs";
+import d from "./BookmarkSquareMinimalistic.mjs";
+import f from "./BookmarkSquareMinimlistic.mjs";
+import p from "./BookmarkSquare.mjs";
+import m from "./Bookmark.mjs";
+import h from "./CalculatorMinimalistic.mjs";
+import g from "./CalculatorMinimlistic.mjs";
+import _ from "./Calculator.mjs";
+import v from "./CaseMinimalistic.mjs";
+import y from "./CaseMinimlistic.mjs";
+import b from "./CaseRoundMinimalistic.mjs";
+import x from "./CaseRoundMinimlistic.mjs";
+import S from "./CaseRound.mjs";
+import C from "./Case.mjs";
+import w from "./DiplomaVerified.mjs";
+import T from "./Diploma.mjs";
+import E from "./Document2.mjs";
+import D from "./Notebook2.mjs";
+import O from "./NotebookBookmark.mjs";
+import k from "./NotebookMinimalistic.mjs";
+import A from "./NotebookMinimlistic.mjs";
+import j from "./NotebookSquare.mjs";
+import M from "./PassportMinimalistic.mjs";
+import N from "./PassportMinimlistic.mjs";
+import P from "./Passport.mjs";
+import F from "./PlusMinus.mjs";
+import I from "./SquareAcademicCap2.mjs";
+import L from "./SquareAcademicCap.mjs";
+//#region src/ssr/school/index.ts
+var R = /* @__PURE__ */ e({
+	Backpack: () => t,
+	Book: () => c,
+	Book2: () => n,
+	BookBookmark: () => a,
+	BookBookmarkMinimalistic: () => r,
+	BookBookmarkMinimlistic: () => i,
+	BookMinimalistic: () => o,
+	BookMinimlistic: () => s,
+	Bookmark: () => m,
+	BookmarkCircle: () => l,
+	BookmarkOpened: () => u,
+	BookmarkSquare: () => p,
+	BookmarkSquareMinimalistic: () => d,
+	BookmarkSquareMinimlistic: () => f,
+	Calculator: () => _,
+	CalculatorMinimalistic: () => h,
+	CalculatorMinimlistic: () => g,
+	Case: () => C,
+	CaseMinimalistic: () => v,
+	CaseMinimlistic: () => y,
+	CaseRound: () => S,
+	CaseRoundMinimalistic: () => b,
+	CaseRoundMinimlistic: () => x,
+	Diploma: () => T,
+	DiplomaVerified: () => w,
+	Document2: () => E,
+	Notebook2: () => D,
+	NotebookBookmark: () => O,
+	NotebookMinimalistic: () => k,
+	NotebookMinimlistic: () => A,
+	NotebookSquare: () => j,
+	Passport: () => P,
+	PassportMinimalistic: () => M,
+	PassportMinimlistic: () => N,
+	PlusMinus: () => F,
+	SquareAcademicCap: () => L,
+	SquareAcademicCap2: () => I
+});
+//#endregion
+export { R as school_exports };

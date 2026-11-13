@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const Cube3dLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const Cube3dFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=cube-3d.d.ts.map

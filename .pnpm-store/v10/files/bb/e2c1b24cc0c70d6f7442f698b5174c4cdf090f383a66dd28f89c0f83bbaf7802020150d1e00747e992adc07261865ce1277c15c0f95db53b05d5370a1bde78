@@ -1,0 +1,13 @@
+'use strict';
+
+var jsxRuntime = require('react/jsx-runtime');
+var react = require('react');
+var Icon = require('../Icon.js');
+
+const Layout7Line = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", fillRule: "evenodd", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036q-.016-.004-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.016-.018m.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092q.019.005.029-.008l.004-.014-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M19 3a2 2 0 0 1 1.995 1.85L21 5v14a2 2 0 0 1-1.85 1.995L19 21H5a2 2 0 0 1-1.995-1.85L3 19V5a2 2 0 0 1 1.85-1.995L5 3zm-8 2H5v14h6zm8 11h-6v3h6zm0-6h-6v4h6zm0-5h-6v3h6z" })] }) })));
+Layout7Line.displayName = 'Layout7Line';
+const Layout7Fill = react.forwardRef((props, ref) => (jsxRuntime.jsx(Icon.Icon, { ref: ref, ...props, children: jsxRuntime.jsxs("g", { fill: "none", children: [jsxRuntime.jsx("path", { d: "M24 0v24H0V0zM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035q-.016-.005-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427q-.004-.016-.017-.018m.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093q.019.005.029-.008l.004-.014-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014-.034.614q.001.018.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01z" }), jsxRuntime.jsx("path", { fill: "currentColor", d: "M11 3v18H5a2 2 0 0 1-1.995-1.85L3 19V5a2 2 0 0 1 1.85-1.995L5 3zm10 13v3a2 2 0 0 1-1.85 1.995L19 21h-6v-5zm0-6v4h-8v-4zm-2-7a2 2 0 0 1 1.995 1.85L21 5v3h-8V3z" })] }) })));
+Layout7Fill.displayName = 'Layout7Fill';
+
+exports.Layout7Fill = Layout7Fill;
+exports.Layout7Line = Layout7Line;

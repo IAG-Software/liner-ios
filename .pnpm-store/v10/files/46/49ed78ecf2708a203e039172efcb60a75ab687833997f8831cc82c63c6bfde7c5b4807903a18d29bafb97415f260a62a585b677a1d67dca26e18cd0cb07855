@@ -1,0 +1,14 @@
+import type { LineData } from "../inject.js";
+import type { AnimationEngineInstance } from "./instance.js";
+export interface ScrollDebugFrame {
+    lyricsElement: HTMLElement;
+    scrollTop: number;
+    viewportHeight: number;
+    targetOffset: number;
+    followedLines: LineData[];
+    lineCenters: number[];
+    scrollTimeS: number;
+    endingThresholdS: number;
+}
+export declare function isDebugOverlayEnabled(): boolean;
+export declare function drawScrollDebugOverlay(engine: AnimationEngineInstance, frame: ScrollDebugFrame): void;

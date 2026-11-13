@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const BinanceCoinBNBLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const BinanceCoinBNBFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=binance-coin-bnb.d.ts.map

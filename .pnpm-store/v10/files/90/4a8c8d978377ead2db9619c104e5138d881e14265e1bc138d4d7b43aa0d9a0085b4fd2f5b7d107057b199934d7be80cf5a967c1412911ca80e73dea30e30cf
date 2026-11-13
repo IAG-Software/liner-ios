@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const ForkSpoonLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const ForkSpoonFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=fork-spoon.d.ts.map

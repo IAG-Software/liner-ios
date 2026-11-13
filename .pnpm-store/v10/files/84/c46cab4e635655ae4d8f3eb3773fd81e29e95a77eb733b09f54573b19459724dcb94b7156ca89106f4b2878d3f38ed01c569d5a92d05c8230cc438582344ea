@@ -1,0 +1,3 @@
+import type { EmojiData } from './types';
+declare const _default: import("react").Context<EmojiData>;
+export default _default;

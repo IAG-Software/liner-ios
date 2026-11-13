@@ -1,0 +1,5 @@
+/**
+ * @deprecated Use DocumentsMinimalistic instead
+ */
+declare const DocumentsMinimlistic: import("../../lib").Icon;
+export default DocumentsMinimlistic;

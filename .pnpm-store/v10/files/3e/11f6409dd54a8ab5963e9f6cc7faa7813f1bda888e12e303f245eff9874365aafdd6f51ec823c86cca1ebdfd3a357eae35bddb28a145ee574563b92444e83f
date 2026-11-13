@@ -1,0 +1,5 @@
+import e from "./PrinterMinimalistic.mjs";
+//#region src/ssr/devices/PrinterMinimlistic.ts
+var t = e;
+//#endregion
+export { t as default };

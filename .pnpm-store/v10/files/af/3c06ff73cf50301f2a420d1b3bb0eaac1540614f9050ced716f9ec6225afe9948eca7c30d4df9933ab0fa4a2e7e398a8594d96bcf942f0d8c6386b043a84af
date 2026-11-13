@@ -1,0 +1,4 @@
+import type { IconProps } from '../types';
+export declare const WastebasketLine: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const WastebasketFill: import("react").ForwardRefExoticComponent<Omit<IconProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+//# sourceMappingURL=wastebasket.d.ts.map

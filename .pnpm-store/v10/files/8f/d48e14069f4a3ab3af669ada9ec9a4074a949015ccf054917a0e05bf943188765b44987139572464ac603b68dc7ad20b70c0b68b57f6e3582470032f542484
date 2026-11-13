@@ -1,0 +1,5 @@
+import e from "./SpeedometerMiddle.mjs";
+//#region src/csr/parts/SpedometerMiddle.ts
+var t = e;
+//#endregion
+export { t as default };
